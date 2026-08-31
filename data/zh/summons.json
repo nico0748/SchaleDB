@@ -3,26 +3,27 @@
         "Id": 30000,
         "Skills": [
             {
-                "SkillType": "autoattack",
+                "Type": "Normal",
                 "Effects": [
                     {
-                        "Type": "DMGSingle",
+                        "Type": "Damage",
                         "Hits": [
                             10000
                         ],
                         "Scale": [
                             10000
                         ],
-                        "Frames": {
-                            "AttackEnterDuration": 72,
-                            "AttackStartDuration": 20,
-                            "AttackEndDuration": 20,
-                            "AttackBurstRoundOverDelay": 60,
-                            "AttackIngDuration": 40,
-                            "AttackReloadDuration": 60
-                        }
+                        "Block": 0
                     }
                 ],
+                "Frames": {
+                    "AttackEnterDuration": 72,
+                    "AttackStartDuration": 20,
+                    "AttackEndDuration": 20,
+                    "AttackBurstRoundOverDelay": 60,
+                    "AttackIngDuration": 40,
+                    "AttackReloadDuration": 60
+                },
                 "Radius": [
                     {
                         "Type": "Circle",
@@ -32,7 +33,7 @@
             },
             {
                 "Name": "2磅火炮，榴弹装填完毕！",
-                "Desc": "每20秒，对圆形范围内的敌方单位造成攻击力<?1>的伤害.",
+                "Desc": "<b>每20秒：</b>\n对圆形范围内的敌方单位造成以下效果：\n- 造成自身攻击力<?1>的伤害.",
                 "Parameters": [
                     [
                         "266%",
@@ -56,11 +57,16 @@
                     }
                 ],
                 "Icon": "COMMON_SKILLICON_CIRCLE",
-                "SkillType": "normal",
+                "Type": "Public",
                 "IsSummonSkill": true,
                 "Effects": [
                     {
-                        "Type": "DMGSingle",
+                        "Type": "Damage",
+                        "Block": 0,
+                        "Hits": [
+                            10000
+                        ],
+                        "DescParamId": 1,
                         "Scale": [
                             26600,
                             27930,
@@ -86,6 +92,8 @@
         "OutdoorBattleAdaptation": 2,
         "IndoorBattleAdaptation": 4,
         "WeaponType": "AR",
+        "Size": "Large",
+        "BodyRadius": 110,
         "StabilityPoint": 1164,
         "StabilityRate": 2000,
         "AttackPower1": 1423,
@@ -103,6 +111,7 @@
         "AmmoCount": 3,
         "AmmoCost": 1,
         "Range": 1100,
+        "SightPoint": 1250,
         "MoveSpeed": 180,
         "RegenCost": 0
     },
@@ -110,26 +119,27 @@
         "Id": 30001,
         "Skills": [
             {
-                "SkillType": "autoattack",
+                "Type": "Normal",
                 "Effects": [
                     {
-                        "Type": "DMGSingle",
+                        "Type": "Damage",
                         "Hits": [
                             10000
                         ],
                         "Scale": [
                             10000
                         ],
-                        "Frames": {
-                            "AttackEnterDuration": 62,
-                            "AttackStartDuration": 32,
-                            "AttackEndDuration": 19,
-                            "AttackBurstRoundOverDelay": 60,
-                            "AttackIngDuration": 36,
-                            "AttackReloadDuration": 80
-                        }
+                        "Block": 1
                     }
                 ],
+                "Frames": {
+                    "AttackEnterDuration": 62,
+                    "AttackStartDuration": 32,
+                    "AttackEndDuration": 19,
+                    "AttackBurstRoundOverDelay": 60,
+                    "AttackIngDuration": 36,
+                    "AttackReloadDuration": 80
+                },
                 "Radius": [
                     {
                         "Type": "Circle",
@@ -139,7 +149,7 @@
             },
             {
                 "Name": "全都给我打垮！",
-                "Desc": "自身每进行3次普通攻击，对1名敌方单位造成攻击力<?1>的伤害；对该目标及其后方扇形范围内的其他目标造成攻击力<?2>的伤害.",
+                "Desc": "<b>自身每进行3次普通攻击：</b>\n对1名敌方单位造成以下效果：\n- 造成自身攻击力<?1>的伤害.\n对上述单位及其后方扇形范围内的其他敌方单位造成以下效果：\n- 造成自身攻击力<?2>的伤害.",
                 "Parameters": [
                     [
                         "184%",
@@ -176,11 +186,16 @@
                     }
                 ],
                 "Icon": "COMMON_SKILLICON_FAN",
-                "SkillType": "normal",
+                "Type": "Public",
                 "IsSummonSkill": true,
                 "Effects": [
                     {
-                        "Type": "DMGSingle",
+                        "Type": "Damage",
+                        "Block": 3,
+                        "Hits": [
+                            10000
+                        ],
+                        "DescParamId": 1,
                         "Scale": [
                             18431,
                             18893,
@@ -195,7 +210,12 @@
                         ]
                     },
                     {
-                        "Type": "DMGSingle",
+                        "Type": "Damage",
+                        "Block": 3,
+                        "Hits": [
+                            10000
+                        ],
+                        "DescParamId": 2,
                         "Scale": [
                             27608,
                             28294,
@@ -221,6 +241,8 @@
         "OutdoorBattleAdaptation": 2,
         "IndoorBattleAdaptation": 0,
         "WeaponType": "HG",
+        "Size": "Large",
+        "BodyRadius": 150,
         "StabilityPoint": 1184,
         "StabilityRate": 2000,
         "AttackPower1": 1098,
@@ -238,6 +260,7 @@
         "AmmoCount": 6,
         "AmmoCost": 1,
         "Range": 1100,
+        "SightPoint": 1250,
         "MoveSpeed": 180,
         "RegenCost": 0
     },
@@ -245,26 +268,27 @@
         "Id": 30002,
         "Skills": [
             {
-                "SkillType": "autoattack",
+                "Type": "Normal",
                 "Effects": [
                     {
-                        "Type": "DMGSingle",
+                        "Type": "Damage",
                         "Hits": [
                             10000
                         ],
                         "Scale": [
                             10000
                         ],
-                        "Frames": {
-                            "AttackEnterDuration": 61,
-                            "AttackStartDuration": 22,
-                            "AttackIngDuration": 22,
-                            "AttackEndDuration": 17,
-                            "AttackBurstRoundOverDelay": 60,
-                            "AttackReloadDuration": 60
-                        }
+                        "Block": 0
                     }
                 ],
+                "Frames": {
+                    "AttackEnterDuration": 61,
+                    "AttackStartDuration": 22,
+                    "AttackIngDuration": 22,
+                    "AttackEndDuration": 17,
+                    "AttackBurstRoundOverDelay": 60,
+                    "AttackReloadDuration": 60
+                },
                 "Radius": [
                     {
                         "Type": "Circle",
@@ -274,7 +298,7 @@
             },
             {
                 "Name": "现场支援",
-                "Desc": "每10秒，令以自身为中心的圆形范围内除自身外的我方单位回复治愈力<?1>的生命值.",
+                "Desc": "<b>每10秒：</b>\n立即对以自身为中心的圆形范围内除自身外的我方单位造成以下效果：\n- 回复自身治愈力<?1>的生命值.",
                 "Parameters": [
                     [
                         "18.7%",
@@ -296,13 +320,13 @@
                     }
                 ],
                 "Icon": "COMMON_SKILLICON_WEAPONBUFF",
-                "SkillType": "passive",
+                "Type": "Passive",
                 "IsSummonSkill": true,
                 "Effects": []
             },
             {
                 "Name": "现场支援",
-                "Desc": "令以自身为中心的圆形范围(持续至自身退场)内除自身外的我方单位<b:ATK>增加<?1>増加.",
+                "Desc": "<b>战术入场时：</b>\n立即对以自身为中心的圆形范围(持续至退场)内除自身外的我方单位持续造成以下效果(范围内生效)：\n- <b:ATK>增加<?1>.\n※ 该范围为跟随场地效果.",
                 "Parameters": [
                     [
                         "17%",
@@ -324,11 +348,12 @@
                     }
                 ],
                 "Icon": "COMMON_SKILLICON_HEAL",
-                "SkillType": "passive",
+                "Type": "Passive",
                 "IsSummonSkill": true,
                 "Effects": [
                     {
                         "Type": "Heal",
+                        "Target": "Ally",
                         "Scale": [
                             1878,
                             1878,
@@ -354,6 +379,8 @@
         "OutdoorBattleAdaptation": 4,
         "IndoorBattleAdaptation": 0,
         "WeaponType": "GL",
+        "Size": "Large",
+        "BodyRadius": 60,
         "StabilityPoint": 1100,
         "StabilityRate": 2000,
         "AttackPower1": 319,
@@ -371,33 +398,36 @@
         "AmmoCount": 1,
         "AmmoCost": 1,
         "Range": 800,
+        "SightPoint": 1250,
         "MoveSpeed": 180,
         "RegenCost": 0
     },
     {
         "Id": 30003,
+        "TSAId": 16014,
         "Skills": [
             {
-                "SkillType": "autoattack",
+                "Type": "Normal",
                 "Effects": [
                     {
-                        "Type": "DMGSingle",
+                        "Type": "Damage",
                         "Hits": [
                             10000
                         ],
                         "Scale": [
                             10000
                         ],
-                        "Frames": {
-                            "AttackEnterDuration": 50,
-                            "AttackStartDuration": 20,
-                            "AttackEndDuration": 20,
-                            "AttackBurstRoundOverDelay": 60,
-                            "AttackIngDuration": 40,
-                            "AttackReloadDuration": 60
-                        }
+                        "Block": 1
                     }
                 ],
+                "Frames": {
+                    "AttackEnterDuration": 50,
+                    "AttackStartDuration": 20,
+                    "AttackEndDuration": 20,
+                    "AttackBurstRoundOverDelay": 60,
+                    "AttackIngDuration": 40,
+                    "AttackReloadDuration": 60
+                },
                 "Radius": [
                     {
                         "Type": "Circle",
@@ -407,7 +437,7 @@
             },
             {
                 "Name": "主炮瞄准，发射",
-                "Desc": "对1名敌方单位造成攻击力<?2>的伤害；\n随后炮弹分裂，对该目标附近最多2名其他目标造成相同效果(最多分裂2次).",
+                "Desc": "对1名敌方单位发射炮弹，造成以下效果：\n- 造成自身攻击力<?1>的伤害.\n&nbsp;&nbsp;※ 击中目标后炮弹分裂，对该目标附近最多2名其他目标造成相同效果，最多分裂2次.",
                 "Parameters": [
                     [
                         "279%",
@@ -431,11 +461,17 @@
                     }
                 ],
                 "Icon": "COMMON_SKILLICON_BOUNCEPROJECTILE",
-                "SkillType": "normal",
+                "Type": "Public",
                 "IsSummonSkill": true,
                 "Effects": [
                     {
-                        "Type": "DMGSingle",
+                        "Type": "Damage",
+                        "Group": 0,
+                        "Block": 0,
+                        "Hits": [
+                            10000
+                        ],
+                        "DescParamId": 1,
                         "Scale": [
                             27979,
                             29379,
@@ -448,8 +484,40 @@
                             47558,
                             53151
                         ]
+                    },
+                    {
+                        "Type": "Damage",
+                        "Group": 1,
+                        "Block": 0,
+                        "Hits": [
+                            10000
+                        ],
+                        "DescParamId": 2,
+                        "Scale": [
+                            41965,
+                            44065,
+                            46158,
+                            54551,
+                            56651,
+                            58751,
+                            67137,
+                            69237,
+                            71337,
+                            79730
+                        ]
                     }
-                ]
+                ],
+                "GroupLabel": {
+                    "0": {
+                        "Icon": "buff/Special_CH0156_GearPublic.webp",
+                        "LabelTranslated": "setting_off",
+                        "Disabled": true
+                    },
+                    "1": {
+                        "Icon": "buff/Special_CH0156_GearPublic.webp",
+                        "LabelTranslated": "setting_on"
+                    }
+                }
             }
         ],
         "Name": "载具-虎丸",
@@ -461,6 +529,8 @@
         "OutdoorBattleAdaptation": 2,
         "IndoorBattleAdaptation": 4,
         "WeaponType": "HG",
+        "Size": "Large",
+        "BodyRadius": 150,
         "StabilityPoint": 1188,
         "StabilityRate": 2000,
         "AttackPower1": 872,
@@ -478,6 +548,7 @@
         "AmmoCount": 6,
         "AmmoCost": 1,
         "Range": 1100,
+        "SightPoint": 1250,
         "MoveSpeed": 180,
         "RegenCost": 0
     },
@@ -486,7 +557,7 @@
         "Skills": [
             {
                 "Name": "特别的榴弹，心意满满！",
-                "Desc": "每13秒，对圆形范围内的敌方单位造成自身攻击力<?1>的伤害.",
+                "Desc": "<b>每13秒：</b>\n对圆形范围内的敌方单位造成以下效果：\n- 造成自身攻击力<?1>的伤害.",
                 "Parameters": [
                     [
                         "409%",
@@ -510,11 +581,16 @@
                     }
                 ],
                 "Icon": "COMMON_SKILLICON_CIRCLE",
-                "SkillType": "normal",
+                "Type": "Public",
                 "IsSummonSkill": true,
                 "Effects": [
                     {
-                        "Type": "DMGSingle",
+                        "Type": "Damage",
+                        "Block": 0,
+                        "Hits": [
+                            10000
+                        ],
+                        "DescParamId": 1,
                         "Scale": [
                             40978,
                             43022,
@@ -532,7 +608,7 @@
             },
             {
                 "Name": "因为我今天的心情就是这样？",
-                "Desc": "自身入场后，立即令以自身为中心的圆形范围(持续至自身退场)内的我方单位<b:AttackSpeed>增加<?1>，<b:EnhanceMysticRate>加算<?2>.",
+                "Desc": "<b>战术入场时：</b>\n立即对以自身为中心的圆形范围(持续至退场)内的我方单位持续造成以下效果(范围内生效)：\n- <b:AttackSpeed>增加<?1>.\n- <b:EnhanceMysticRate>加算<?2>.\n※ 该范围为跟随场地效果.",
                 "Parameters": [
                     [
                         "28.9%",
@@ -566,7 +642,7 @@
                     }
                 ],
                 "Icon": "COMMON_SKILLICON_BULLETTYPEBUFF",
-                "SkillType": "passive",
+                "Type": "Passive",
                 "IsSummonSkill": true,
                 "Effects": []
             }
@@ -580,6 +656,8 @@
         "OutdoorBattleAdaptation": 4,
         "IndoorBattleAdaptation": 0,
         "WeaponType": "AR",
+        "Size": "Large",
+        "BodyRadius": 100,
         "StabilityPoint": 1084,
         "StabilityRate": 2000,
         "AttackPower1": 642,
@@ -597,6 +675,150 @@
         "AmmoCount": 9999,
         "AmmoCost": 1,
         "Range": 550,
+        "SightPoint": 1250,
+        "MoveSpeed": 180,
+        "RegenCost": 0
+    },
+    {
+        "Id": 30005,
+        "Skills": [
+            {
+                "Type": "Normal",
+                "Effects": [
+                    {
+                        "Type": "Damage",
+                        "Hits": [
+                            1666,
+                            1666,
+                            1667,
+                            1667,
+                            1667,
+                            1667
+                        ],
+                        "Scale": [
+                            10000
+                        ],
+                        "Block": 1
+                    }
+                ],
+                "Frames": {
+                    "AttackEnterDuration": 40,
+                    "AttackStartDuration": 17,
+                    "AttackEndDuration": 35,
+                    "AttackBurstRoundOverDelay": 60,
+                    "AttackIngDuration": 22,
+                    "AttackReloadDuration": 64
+                }
+            },
+            {
+                "Name": "很危险哦？",
+                "Desc": "自身入场时触发该技能.\n\n对1名生命值上限最高的敌方单位造成以下效果：\n- 造成自身攻击力<?1>的伤害.\n- 目标防御属性为<b class='ba-col-pierce'>重型装甲</b>时：<d:ReduceWeakDamagedRate>加算<?2>(持续28秒).",
+                "Parameters": [
+                    [
+                        "263%",
+                        "277%",
+                        "290%",
+                        "316%",
+                        "329%",
+                        "343%",
+                        "369%",
+                        "382%",
+                        "395%",
+                        "422%"
+                    ],
+                    [
+                        "17.2%",
+                        "17.6%",
+                        "18%",
+                        "19.8%",
+                        "20.2%",
+                        "20.6%",
+                        "22.3%",
+                        "22.8%",
+                        "23.2%",
+                        "24.9%"
+                    ]
+                ],
+                "Duration": 106,
+                "Range": 1300,
+                "Icon": "COMMON_SKILLICON_STATDEBUFF",
+                "Type": "Public",
+                "IsSummonSkill": true,
+                "Effects": [
+                    {
+                        "Type": "Damage",
+                        "Block": 1,
+                        "Hits": [
+                            10000
+                        ],
+                        "DescParamId": 1,
+                        "Scale": [
+                            26390,
+                            27713,
+                            29029,
+                            31668,
+                            32991,
+                            34307,
+                            36946,
+                            38269,
+                            39585,
+                            42224
+                        ]
+                    }
+                ]
+            },
+            {
+                "Name": "起居照料员",
+                "Desc": "<b>每7秒：</b>\n对1名我方单位造成以下效果(持续12秒)：\n- <b:EnhancePierceRate>加算<?1>.\n\n※ 自身入场时，触发1次该技能的效果.\n※ 优先指定召唤者EX技能指定的目标.",
+                "Parameters": [
+                    [
+                        "56.5%",
+                        "59.3%",
+                        "62.1%",
+                        "73.4%",
+                        "76.3%",
+                        "79.1%",
+                        "90.4%",
+                        "93.2%",
+                        "96%",
+                        "107%"
+                    ]
+                ],
+                "Icon": "COMMON_SKILLICON_BULLETTYPEBUFF",
+                "Type": "Passive",
+                "IsSummonSkill": true,
+                "Effects": []
+            }
+        ],
+        "Name": "载具-室外用轮椅",
+        "DevName": "SM033201",
+        "Type": "Vehicle",
+        "BulletType": "Pierce",
+        "ArmorType": "ElasticArmor",
+        "StreetBattleAdaptation": 2,
+        "OutdoorBattleAdaptation": 0,
+        "IndoorBattleAdaptation": 4,
+        "WeaponType": "HG",
+        "Size": "Large",
+        "BodyRadius": 100,
+        "StabilityPoint": 1088,
+        "StabilityRate": 2000,
+        "AttackPower1": 179,
+        "AttackPower100": 1791,
+        "MaxHP1": 4498,
+        "MaxHP100": 26580,
+        "DefensePower1": 181,
+        "DefensePower100": 1090,
+        "HealPower1": 1818,
+        "HealPower100": 5455,
+        "DodgePoint": 181,
+        "AccuracyPoint": 109,
+        "CriticalPoint": 218,
+        "CriticalDamageRate": 20000,
+        "AmmoCount": 30,
+        "AmmoCost": 6,
+        "Range": 1100,
+        "SightPoint": 1250,
         "MoveSpeed": 180,
         "RegenCost": 0
     },
@@ -604,10 +826,10 @@
         "Id": 36001,
         "Skills": [
             {
-                "SkillType": "autoattack",
+                "Type": "Normal",
                 "Effects": [
                     {
-                        "Type": "DMGMulti",
+                        "Type": "Damage",
                         "Hits": [
                             1250,
                             1250,
@@ -621,20 +843,21 @@
                         "Scale": [
                             10000
                         ],
-                        "Frames": {
-                            "AttackEnterDuration": 32,
-                            "AttackStartDuration": 20,
-                            "AttackIngDuration": 38,
-                            "AttackEndDuration": 20,
-                            "AttackBurstRoundOverDelay": 40,
-                            "AttackReloadDuration": 40
-                        }
+                        "Block": 1
                     }
-                ]
+                ],
+                "Frames": {
+                    "AttackEnterDuration": 32,
+                    "AttackStartDuration": 20,
+                    "AttackIngDuration": 38,
+                    "AttackEndDuration": 20,
+                    "AttackBurstRoundOverDelay": 40,
+                    "AttackReloadDuration": 40
+                }
             },
             {
                 "Name": "豪雨导弹",
-                "Desc": "每12秒，对1名敌方单位造成攻击力<?1>的伤害(无视目标<?2>防御力).",
+                "Desc": "<b>每12秒：</b>\n对1名敌方单位造成以下效果：\n- 造成自身攻击力<?1>的伤害.\n&nbsp;&nbsp;※ 无视<?2>防御力.",
                 "Parameters": [
                     [
                         "297%",
@@ -664,18 +887,19 @@
                 "Duration": 76,
                 "Range": 1300,
                 "Icon": "COMMON_SKILLICON_TARGET",
-                "SkillType": "normal",
+                "Type": "Public",
                 "IsSummonSkill": true,
                 "Effects": [
                     {
-                        "Type": "DMGMulti",
+                        "Type": "Damage",
+                        "Block": 1,
                         "Hits": [
                             2500,
                             2500,
                             2500,
                             2500
                         ],
-                        "HitsParameter": 1,
+                        "DescParamId": 1,
                         "Scale": [
                             29757,
                             31241,
@@ -713,6 +937,8 @@
         "OutdoorBattleAdaptation": 3,
         "IndoorBattleAdaptation": 2,
         "WeaponType": "HG",
+        "Size": "Large",
+        "BodyRadius": 90,
         "StabilityPoint": 1184,
         "StabilityRate": 2000,
         "AttackPower1": 938,
@@ -730,6 +956,7 @@
         "AmmoCount": 80,
         "AmmoCost": 8,
         "Range": 1100,
+        "SightPoint": 1250,
         "MoveSpeed": 180,
         "RegenCost": 0
     },
@@ -738,7 +965,7 @@
         "Skills": [
             {
                 "Name": "帮帮我，佩洛洛大人！",
-                "Desc": "自身出现时，对以自身为中心的圆形范围内的敌方单位施加<c:Provoke>状态(持续<?1>)",
+                "Desc": "<b>战术入场时：</b>\n立即对以自身为中心的圆形范围内的敌方单位造成以下效果(持续<?1>)：\n- 施加<c:Provoke>.",
                 "Parameters": [
                     [
                         "3.4秒",
@@ -760,12 +987,12 @@
                     }
                 ],
                 "Icon": "COMMON_SKILLICON_PROVOKE",
-                "SkillType": "passive",
+                "Type": "Passive",
                 "IsSummonSkill": true,
                 "Effects": [
                     {
                         "Type": "CrowdControl",
-                        "Chance": "10000",
+                        "Chance": 10000,
                         "Icon": "Provoke",
                         "Scale": [
                             3400,
@@ -792,6 +1019,7 @@
         "OutdoorBattleAdaptation": 4,
         "IndoorBattleAdaptation": 2,
         "WeaponType": "AR",
+        "Size": null,
         "StabilityPoint": 300,
         "StabilityRate": 7500,
         "AttackPower1": 0,
@@ -809,6 +1037,7 @@
         "AmmoCount": 8,
         "AmmoCost": 1,
         "Range": 100,
+        "SightPoint": 100,
         "MoveSpeed": 200,
         "RegenCost": 0
     },
@@ -816,10 +1045,10 @@
         "Id": 40004,
         "Skills": [
             {
-                "SkillType": "autoattack",
+                "Type": "Normal",
                 "Effects": [
                     {
-                        "Type": "DMGMulti",
+                        "Type": "Damage",
                         "Hits": [
                             1666,
                             1666,
@@ -831,16 +1060,17 @@
                         "Scale": [
                             10000
                         ],
-                        "Frames": {
-                            "AttackEnterDuration": 0,
-                            "AttackStartDuration": 17,
-                            "AttackEndDuration": 14,
-                            "AttackBurstRoundOverDelay": 0,
-                            "AttackIngDuration": 60,
-                            "AttackReloadDuration": 48
-                        }
+                        "Block": 1
                     }
-                ]
+                ],
+                "Frames": {
+                    "AttackEnterDuration": 0,
+                    "AttackStartDuration": 17,
+                    "AttackEndDuration": 14,
+                    "AttackBurstRoundOverDelay": 0,
+                    "AttackIngDuration": 60,
+                    "AttackReloadDuration": 48
+                }
             }
         ],
         "Name": "召唤物-雷霆",
@@ -852,6 +1082,7 @@
         "OutdoorBattleAdaptation": 0,
         "IndoorBattleAdaptation": 3,
         "WeaponType": "SMG",
+        "Size": null,
         "StabilityPoint": 300,
         "StabilityRate": 2000,
         "AttackPower1": 0,
@@ -868,7 +1099,9 @@
         "CriticalDamageRate": 20000,
         "AmmoCount": 30,
         "AmmoCost": 6,
+        "IgnoreDelayCount": 5,
         "Range": 700,
+        "SightPoint": 700,
         "MoveSpeed": 200,
         "RegenCost": 0
     },
@@ -876,10 +1109,10 @@
         "Id": 40005,
         "Skills": [
             {
-                "SkillType": "autoattack",
+                "Type": "Normal",
                 "Effects": [
                     {
-                        "Type": "DMGMulti",
+                        "Type": "Damage",
                         "Hits": [
                             1666,
                             1666,
@@ -891,16 +1124,17 @@
                         "Scale": [
                             10000
                         ],
-                        "Frames": {
-                            "AttackEnterDuration": 0,
-                            "AttackStartDuration": 17,
-                            "AttackEndDuration": 14,
-                            "AttackBurstRoundOverDelay": 0,
-                            "AttackIngDuration": 60,
-                            "AttackReloadDuration": 48
-                        }
+                        "Block": 1
                     }
-                ]
+                ],
+                "Frames": {
+                    "AttackEnterDuration": 0,
+                    "AttackStartDuration": 17,
+                    "AttackEndDuration": 14,
+                    "AttackBurstRoundOverDelay": 0,
+                    "AttackIngDuration": 60,
+                    "AttackReloadDuration": 48
+                }
             }
         ],
         "Name": "召唤物-雷霆MK-II",
@@ -912,6 +1146,7 @@
         "OutdoorBattleAdaptation": 0,
         "IndoorBattleAdaptation": 3,
         "WeaponType": "SMG",
+        "Size": null,
         "StabilityPoint": 300,
         "StabilityRate": 2000,
         "AttackPower1": 0,
@@ -928,7 +1163,9 @@
         "CriticalDamageRate": 20000,
         "AmmoCount": 30,
         "AmmoCost": 6,
+        "IgnoreDelayCount": 5,
         "Range": 950,
+        "SightPoint": 950,
         "MoveSpeed": 200,
         "RegenCost": 0
     },
@@ -937,7 +1174,7 @@
         "Skills": [
             {
                 "Name": "我把料理带来了！",
-                "Desc": "每3秒，对以自身为中心的圆形范围内1名生命值百分比最低的我方单位投掷点心(持续至自身退场)回复生命值.\n温泉馒头：回复治愈力<?1>的生命值；\n味美棒：回复治愈力<?2>的生命值；\n牛奶：回复治愈力<?3>的生命值.",
+                "Desc": "<b>每3秒：</b>\n对以自身为中心的圆形范围内1名生命值百分比最低的我方单位投掷点心，造成以下效果中的1种：\n- 温泉馒头：回复自身治愈力<?1>的生命值.\n- 味美棒：回复自身治愈力<?2>的生命值.\n- 牛奶：回复自身治愈力<?3>的生命值.",
                 "Parameters": [
                     [
                         "20.3%",
@@ -964,11 +1201,12 @@
                 "Duration": 77,
                 "Range": 350,
                 "Icon": "COMMON_SKILLICON_HEAL",
-                "SkillType": "normal",
+                "Type": "Public",
                 "IsSummonSkill": true,
                 "Effects": [
                     {
                         "Type": "Heal",
+                        "Target": "Ally",
                         "Scale": [
                             2033,
                             2335,
@@ -984,6 +1222,7 @@
                     },
                     {
                         "Type": "Heal",
+                        "Target": "Ally",
                         "Scale": [
                             2483,
                             2855,
@@ -999,6 +1238,7 @@
                     },
                     {
                         "Type": "Heal",
+                        "Target": "Ally",
                         "Scale": [
                             2935,
                             3375,
@@ -1024,6 +1264,7 @@
         "OutdoorBattleAdaptation": 0,
         "IndoorBattleAdaptation": 4,
         "WeaponType": "SMG",
+        "Size": "Medium",
         "StabilityPoint": 0,
         "StabilityRate": 2000,
         "AttackPower1": 0,
@@ -1041,6 +1282,7 @@
         "AmmoCount": 15,
         "AmmoCost": 3,
         "Range": 1000,
+        "SightPoint": 1000,
         "MoveSpeed": 180,
         "RegenCost": 0
     },
@@ -1049,7 +1291,7 @@
         "Skills": [
             {
                 "Name": "发射……烟花！",
-                "Desc": "自身收到发射命令时，对1名敌方单位造成自身攻击力<?1>的伤害；技能结束时，解除自身收到的发射命令.",
+                "Desc": "<b>自身收到发射命令时：</b>\n对1名敌方单位造成以下效果：\n- 造成自身攻击力<?1>的伤害.\n\n<b>该技能结束时：</b>\n对自身造成以下效果：\n- 解除收到的发射命令.",
                 "Parameters": [
                     [
                         "2138%",
@@ -1067,11 +1309,12 @@
                 "Duration": 86,
                 "Range": 850,
                 "Icon": "COMMON_SKILLICON_TARGET",
-                "SkillType": "normal",
+                "Type": "Public",
                 "IsSummonSkill": true,
                 "Effects": [
                     {
-                        "Type": "DMGMulti",
+                        "Type": "Damage",
+                        "Block": 1,
                         "Hits": [
                             1250,
                             1250,
@@ -1082,7 +1325,7 @@
                             1250,
                             1250
                         ],
-                        "HitsParameter": 1,
+                        "DescParamId": 1,
                         "Scale": [
                             213871,
                             224563,
@@ -1099,7 +1342,7 @@
                 ]
             }
         ],
-        "Name": "烟花发射架",
+        "Name": "召唤物-烟花发射架",
         "DevName": "SM011001",
         "Type": "Summoned",
         "BulletType": "Mystic",
@@ -1108,6 +1351,7 @@
         "OutdoorBattleAdaptation": 4,
         "IndoorBattleAdaptation": 0,
         "WeaponType": "AR",
+        "Size": "Medium",
         "StabilityPoint": 349,
         "StabilityRate": 2000,
         "AttackPower1": 232,
@@ -1125,8 +1369,449 @@
         "AmmoCount": 15,
         "AmmoCost": 3,
         "Range": 650,
+        "SightPoint": 800,
         "MoveSpeed": 200,
         "RegenCost": 0
+    },
+    {
+        "Id": 40011,
+        "Skills": [],
+        "Name": "召唤物-吊床",
+        "DevName": "SM030001",
+        "Type": "Summoned",
+        "BulletType": "Sonic",
+        "ArmorType": "HeavyArmor",
+        "StreetBattleAdaptation": 4,
+        "OutdoorBattleAdaptation": 2,
+        "IndoorBattleAdaptation": 0,
+        "WeaponType": "SR",
+        "Size": "Medium",
+        "StabilityPoint": 300,
+        "StabilityRate": 2000,
+        "AttackPower1": 0,
+        "AttackPower100": 0,
+        "MaxHP1": 10,
+        "MaxHP100": 10,
+        "DefensePower1": 0,
+        "DefensePower100": 0,
+        "HealPower1": 0,
+        "HealPower100": 0,
+        "DodgePoint": 0,
+        "AccuracyPoint": 0,
+        "CriticalPoint": 0,
+        "CriticalDamageRate": 20000,
+        "AmmoCount": 1,
+        "AmmoCost": 1,
+        "Range": 1000,
+        "SightPoint": 1000,
+        "MoveSpeed": 180,
+        "RegenCost": 0
+    },
+    {
+        "Id": 40012,
+        "Skills": [
+            {
+                "Type": "Normal",
+                "Effects": [
+                    {
+                        "Type": "Damage",
+                        "Hits": [
+                            3334,
+                            3333,
+                            3333
+                        ],
+                        "Scale": [
+                            10000
+                        ],
+                        "Block": 1
+                    }
+                ],
+                "Frames": {
+                    "AttackEnterDuration": 40,
+                    "AttackStartDuration": 10,
+                    "AttackEndDuration": 15,
+                    "AttackBurstRoundOverDelay": 30,
+                    "AttackIngDuration": 25,
+                    "AttackReloadDuration": 60
+                }
+            }
+        ],
+        "Name": "头盔团成员(SG)",
+        "DevName": "SM016601",
+        "Type": "Summoned",
+        "BulletType": "Sonic",
+        "ArmorType": "Unarmed",
+        "StreetBattleAdaptation": 3,
+        "OutdoorBattleAdaptation": 2,
+        "IndoorBattleAdaptation": 1,
+        "WeaponType": "SG",
+        "Size": "Medium",
+        "StabilityPoint": 300,
+        "StabilityRate": 2000,
+        "AttackPower1": 0,
+        "AttackPower100": 0,
+        "MaxHP1": 10,
+        "MaxHP100": 10,
+        "DefensePower1": 0,
+        "DefensePower100": 0,
+        "HealPower1": 0,
+        "HealPower100": 0,
+        "DodgePoint": 0,
+        "AccuracyPoint": 0,
+        "CriticalPoint": 0,
+        "CriticalDamageRate": 20000,
+        "AmmoCount": 8,
+        "AmmoCost": 1,
+        "Range": 350,
+        "SightPoint": 800,
+        "MoveSpeed": 200,
+        "RegenCost": 0
+    },
+    {
+        "Id": 40013,
+        "Skills": [
+            {
+                "Type": "Normal",
+                "Effects": [
+                    {
+                        "Type": "Damage",
+                        "Hits": [
+                            10000
+                        ],
+                        "Scale": [
+                            10000
+                        ],
+                        "Block": 1
+                    }
+                ],
+                "Frames": {
+                    "AttackEnterDuration": 66,
+                    "AttackStartDuration": 22,
+                    "AttackEndDuration": 12,
+                    "AttackBurstRoundOverDelay": 40,
+                    "AttackIngDuration": 20,
+                    "AttackReloadDuration": 60
+                }
+            }
+        ],
+        "Name": "头盔团成员(AR)",
+        "DevName": "SM016602",
+        "Type": "Summoned",
+        "BulletType": "Sonic",
+        "ArmorType": "Unarmed",
+        "StreetBattleAdaptation": 3,
+        "OutdoorBattleAdaptation": 2,
+        "IndoorBattleAdaptation": 1,
+        "WeaponType": "AR",
+        "Size": "Medium",
+        "StabilityPoint": 300,
+        "StabilityRate": 2000,
+        "AttackPower1": 0,
+        "AttackPower100": 0,
+        "MaxHP1": 10,
+        "MaxHP100": 10,
+        "DefensePower1": 0,
+        "DefensePower100": 0,
+        "HealPower1": 0,
+        "HealPower100": 0,
+        "DodgePoint": 0,
+        "AccuracyPoint": 0,
+        "CriticalPoint": 0,
+        "CriticalDamageRate": 20000,
+        "AmmoCount": 20,
+        "AmmoCost": 1,
+        "IgnoreDelayCount": 3,
+        "Range": 550,
+        "SightPoint": 800,
+        "MoveSpeed": 200,
+        "RegenCost": 0
+    },
+    {
+        "Id": 40014,
+        "Skills": [
+            {
+                "Type": "Normal",
+                "Effects": [
+                    {
+                        "Type": "Damage",
+                        "Hits": [
+                            10000
+                        ],
+                        "Scale": [
+                            10000
+                        ],
+                        "Block": 1
+                    }
+                ],
+                "Frames": {
+                    "AttackEnterDuration": 45,
+                    "AttackStartDuration": 15,
+                    "AttackEndDuration": 16,
+                    "AttackBurstRoundOverDelay": 50,
+                    "AttackIngDuration": 42,
+                    "AttackReloadDuration": 70
+                }
+            }
+        ],
+        "Name": "头盔团成员(SR)",
+        "DevName": "SM016603",
+        "Type": "Summoned",
+        "BulletType": "Sonic",
+        "ArmorType": "Unarmed",
+        "StreetBattleAdaptation": 3,
+        "OutdoorBattleAdaptation": 2,
+        "IndoorBattleAdaptation": 1,
+        "WeaponType": "SR",
+        "Size": "Medium",
+        "StabilityPoint": 300,
+        "StabilityRate": 2000,
+        "AttackPower1": 0,
+        "AttackPower100": 0,
+        "MaxHP1": 10,
+        "MaxHP100": 10,
+        "DefensePower1": 0,
+        "DefensePower100": 0,
+        "HealPower1": 0,
+        "HealPower100": 0,
+        "DodgePoint": 0,
+        "AccuracyPoint": 0,
+        "CriticalPoint": 0,
+        "CriticalDamageRate": 20000,
+        "AmmoCount": 5,
+        "AmmoCost": 1,
+        "Range": 650,
+        "SightPoint": 800,
+        "MoveSpeed": 200,
+        "RegenCost": 0
+    },
+    {
+        "Id": 40015,
+        "Skills": [
+            {
+                "Name": "铝热剂重拳！",
+                "Desc": "<b>每8秒：</b>\n对1名敌方单位造成以下效果：\n- 造成自身攻击力<?1>的伤害.\n对自身造成以下效果：\n- 回复自身治愈力<?2>的生命值.",
+                "Parameters": [
+                    [
+                        "196%",
+                        "206%",
+                        "216%",
+                        "256%",
+                        "265%",
+                        "275%",
+                        "315%",
+                        "324%",
+                        "334%",
+                        "374%"
+                    ],
+                    [
+                        "40.4%",
+                        "42.4%",
+                        "44.4%",
+                        "52.5%",
+                        "54.5%",
+                        "56.6%",
+                        "64.6%",
+                        "66.7%",
+                        "68.7%",
+                        "76.8%"
+                    ]
+                ],
+                "Duration": 128,
+                "Range": 700,
+                "Icon": "COMMON_SKILLICON_TARGET",
+                "Type": "Public",
+                "IsSummonSkill": true,
+                "Effects": [
+                    {
+                        "Type": "Damage",
+                        "Block": 0,
+                        "Hits": [
+                            5000,
+                            5000
+                        ],
+                        "DescParamId": 1,
+                        "Scale": [
+                            19698,
+                            20681,
+                            21664,
+                            25604,
+                            26586,
+                            27569,
+                            31509,
+                            32492,
+                            33474,
+                            37414
+                        ]
+                    },
+                    {
+                        "Type": "Heal",
+                        "Target": "Self",
+                        "Scale": [
+                            4043,
+                            4245,
+                            4448,
+                            5255,
+                            5458,
+                            5660,
+                            6468,
+                            6670,
+                            6873,
+                            7680
+                        ]
+                    }
+                ]
+            },
+            {
+                "Name": "大家，要上了！",
+                "Desc": "<b>战术入场时：</b>\n立即对以自身为中心的圆形范围(持续至退场)内除自身外的我方单位持续造成以下效果(范围内生效)\n- <b:ATK>增加<?1>.\n- 每4秒：回复自身治愈力<?2>的生命值.\n※ 该范围为跟随场地效果.",
+                "Parameters": [
+                    [
+                        "16.5%",
+                        "17.3%",
+                        "18.2%",
+                        "21.5%",
+                        "22.3%",
+                        "23.1%",
+                        "26.5%",
+                        "27.3%",
+                        "28.1%",
+                        "31.4%"
+                    ],
+                    [
+                        "41.8%",
+                        "43.9%",
+                        "46%",
+                        "54.4%",
+                        "56.5%",
+                        "58.5%",
+                        "66.9%",
+                        "69%",
+                        "71.1%",
+                        "79.5%"
+                    ]
+                ],
+                "Icon": "COMMON_SKILLICON_HEAL",
+                "Type": "Passive",
+                "IsSummonSkill": true,
+                "Effects": [
+                    {
+                        "Type": "Heal",
+                        "Target": "Ally",
+                        "Scale": [
+                            4185,
+                            4395,
+                            4603,
+                            5440,
+                            5650,
+                            5858,
+                            6695,
+                            6905,
+                            7113,
+                            7950
+                        ]
+                    }
+                ]
+            },
+            {
+                "Name": "大家，请助我一臂之力！",
+                "Desc": "<b>自身每使用普通技能时：</b>\n对玲纱(魔法)造成以下效果：\n- 获得1层<s:CH0326_Public>\n&nbsp;&nbsp;※ 最多拥有5层.\n\n<b>玲纱(魔法)获得5层</b><s:CH0326_Public><b>时：</b>\n立即对玲纱(魔法)造成以下效果(EX技能使用1次后失效)：\n- <b:CostChange>减少3.",
+                "Parameters": [],
+                "Icon": "COMMON_SKILLICON_COSTDECREASE",
+                "Type": "ExtraPassive",
+                "IsSummonSkill": true,
+                "Effects": []
+            }
+        ],
+        "Name": "铝热剂粉红",
+        "DevName": "SM032601",
+        "Type": "Summoned",
+        "BulletType": "Sonic",
+        "ArmorType": "Unarmed",
+        "StreetBattleAdaptation": 4,
+        "OutdoorBattleAdaptation": 0,
+        "IndoorBattleAdaptation": 2,
+        "WeaponType": "SG",
+        "Size": "Medium",
+        "StabilityPoint": 300,
+        "StabilityRate": 2000,
+        "AttackPower1": 0,
+        "AttackPower100": 0,
+        "MaxHP1": 10,
+        "MaxHP100": 10,
+        "DefensePower1": 0,
+        "DefensePower100": 0,
+        "HealPower1": 0,
+        "HealPower100": 0,
+        "DodgePoint": 0,
+        "AccuracyPoint": 0,
+        "CriticalPoint": 0,
+        "CriticalDamageRate": 20000,
+        "AmmoCount": 1,
+        "AmmoCost": 1,
+        "Range": 1000,
+        "SightPoint": 1000,
+        "MoveSpeed": 180,
+        "RegenCost": 0
+    },
+    {
+        "Id": 99997,
+        "DevName": "CH0297_Cover",
+        "Type": "Obstacle",
+        "TacticRole": null,
+        "BulletType": "Normal",
+        "ArmorType": "LightArmor",
+        "WeaponType": null,
+        "StarBonus": false,
+        "StabilityPoint": 0,
+        "AttackPower1": 0,
+        "AttackPower100": 0,
+        "MaxHP1": 700,
+        "MaxHP100": 15000,
+        "DefensePower1": 0,
+        "DefensePower100": 0,
+        "HealPower1": 0,
+        "HealPower100": 0,
+        "DodgePoint": 0,
+        "AccuracyPoint": 0,
+        "CriticalPoint": 0,
+        "CriticalDamageRate": 0,
+        "AmmoCount": 0,
+        "AmmoCost": 0,
+        "Range": 0,
+        "MoveSpeed": 0,
+        "RegenCost": 0,
+        "Skills": [],
+        "Name": "掩体"
+    },
+    {
+        "Id": 99998,
+        "DevName": "CH0258_Shield",
+        "Type": "Obstacle",
+        "TacticRole": null,
+        "BulletType": "Normal",
+        "ArmorType": "HeavyArmor",
+        "WeaponType": null,
+        "StarBonus": false,
+        "StabilityPoint": 0,
+        "AttackPower1": 0,
+        "AttackPower100": 0,
+        "MaxHP1": 700,
+        "MaxHP100": 15000,
+        "DefensePower1": 0,
+        "DefensePower100": 0,
+        "HealPower1": 0,
+        "HealPower100": 0,
+        "DodgePoint": 0,
+        "AccuracyPoint": 0,
+        "CriticalPoint": 0,
+        "CriticalDamageRate": 0,
+        "AmmoCount": 0,
+        "AmmoCost": 0,
+        "Range": 0,
+        "MoveSpeed": 0,
+        "RegenCost": 0,
+        "Skills": [],
+        "Name": "盾"
     },
     {
         "Id": 99999,

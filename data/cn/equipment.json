@@ -1,5 +1,5 @@
-[
-    {
+{
+    "1": {
         "Id": 1,
         "Category": "Exp",
         "Rarity": "N",
@@ -23,7 +23,7 @@
                 "Released": [
                     true,
                     true,
-                    false
+                    true
                 ],
                 "Amount": 10,
                 "CostType": "Currency",
@@ -34,8 +34,8 @@
                 "ShopCategory": "General",
                 "Released": [
                     true,
-                    false,
-                    false
+                    true,
+                    true
                 ],
                 "Amount": 15,
                 "CostType": "Currency",
@@ -43,17 +43,19 @@
                 "CostAmount": 110000
             }
         ],
-        "Name": "中级强化珠",
+        "Name": "初级强化珠",
         "Desc": "可以强化装备的神秘珠子。",
         "IsReleased": [
             true,
             true,
             true
         ],
+        "MaxLevel": 0,
         "StatType": [],
-        "StatValue": []
+        "StatValue": [],
+        "LevelUpFeedExp": 90
     },
-    {
+    "2": {
         "Id": 2,
         "Category": "Exp",
         "Rarity": "R",
@@ -77,7 +79,7 @@
                 "Released": [
                     true,
                     true,
-                    false
+                    true
                 ],
                 "Amount": 10,
                 "CostType": "Currency",
@@ -88,8 +90,8 @@
                 "ShopCategory": "General",
                 "Released": [
                     true,
-                    false,
-                    false
+                    true,
+                    true
                 ],
                 "Amount": 10,
                 "CostType": "Currency",
@@ -100,8 +102,8 @@
                 "ShopCategory": "General",
                 "Released": [
                     true,
-                    false,
-                    false
+                    true,
+                    true
                 ],
                 "Amount": 10,
                 "CostType": "Currency",
@@ -112,8 +114,8 @@
                 "ShopCategory": "General",
                 "Released": [
                     true,
-                    false,
-                    false
+                    true,
+                    true
                 ],
                 "Amount": 10,
                 "CostType": "Currency",
@@ -121,17 +123,19 @@
                 "CostAmount": 496000
             }
         ],
-        "Name": "高级强化珠",
+        "Name": "中级强化珠",
         "Desc": "可以强化装备的神秘珠子。",
         "IsReleased": [
             true,
             true,
             true
         ],
+        "MaxLevel": 0,
         "StatType": [],
-        "StatValue": []
+        "StatValue": [],
+        "LevelUpFeedExp": 360
     },
-    {
+    "3": {
         "Id": 3,
         "Category": "Exp",
         "Rarity": "SR",
@@ -155,7 +159,7 @@
                 "Released": [
                     true,
                     true,
-                    false
+                    true
                 ],
                 "Amount": 6,
                 "CostType": "Currency",
@@ -166,8 +170,8 @@
                 "ShopCategory": "General",
                 "Released": [
                     true,
-                    false,
-                    false
+                    true,
+                    true
                 ],
                 "Amount": 5,
                 "CostType": "Currency",
@@ -178,8 +182,8 @@
                 "ShopCategory": "General",
                 "Released": [
                     true,
-                    false,
-                    false
+                    true,
+                    true
                 ],
                 "Amount": 4,
                 "CostType": "Currency",
@@ -190,8 +194,8 @@
                 "ShopCategory": "General",
                 "Released": [
                     true,
-                    false,
-                    false
+                    true,
+                    true
                 ],
                 "Amount": 5,
                 "CostType": "Currency",
@@ -199,17 +203,19 @@
                 "CostAmount": 496000
             }
         ],
-        "Name": "特级强化珠",
+        "Name": "高级强化珠",
         "Desc": "可以强化装备的神秘珠子。",
         "IsReleased": [
             true,
             true,
             true
         ],
+        "MaxLevel": 0,
         "StatType": [],
-        "StatValue": []
+        "StatValue": [],
+        "LevelUpFeedExp": 1440
     },
-    {
+    "4": {
         "Id": 4,
         "Category": "Exp",
         "Rarity": "SSR",
@@ -233,7 +239,7 @@
                 "Released": [
                     true,
                     true,
-                    false
+                    true
                 ],
                 "Amount": 2,
                 "CostType": "Currency",
@@ -244,8 +250,8 @@
                 "ShopCategory": "General",
                 "Released": [
                     true,
-                    false,
-                    false
+                    true,
+                    true
                 ],
                 "Amount": 2,
                 "CostType": "Currency",
@@ -256,8 +262,8 @@
                 "ShopCategory": "General",
                 "Released": [
                     true,
-                    false,
-                    false
+                    true,
+                    true
                 ],
                 "Amount": 2,
                 "CostType": "Currency",
@@ -265,17 +271,19 @@
                 "CostAmount": 496000
             }
         ],
-        "Name": "最高级强化珠",
-        "Desc": "用于强化装备的神秘球体。",
+        "Name": "特级强化珠",
+        "Desc": "可以强化装备的神秘珠子。",
         "IsReleased": [
             true,
             true,
             true
         ],
+        "MaxLevel": 0,
         "StatType": [],
-        "StatValue": []
+        "StatValue": [],
+        "LevelUpFeedExp": 5760
     },
-    {
+    "10": {
         "Id": 10,
         "Category": "WeaponExpGrowthA",
         "Rarity": "N",
@@ -289,10 +297,12 @@
             true,
             true
         ],
+        "MaxLevel": 0,
         "StatType": [],
-        "StatValue": []
+        "StatValue": [],
+        "LevelUpFeedExp": 10
     },
-    {
+    "11": {
         "Id": 11,
         "Category": "WeaponExpGrowthA",
         "Rarity": "R",
@@ -306,10 +316,12 @@
             true,
             true
         ],
+        "MaxLevel": 0,
         "StatType": [],
-        "StatValue": []
+        "StatValue": [],
+        "LevelUpFeedExp": 50
     },
-    {
+    "12": {
         "Id": 12,
         "Category": "WeaponExpGrowthA",
         "Rarity": "SR",
@@ -323,10 +335,12 @@
             true,
             true
         ],
+        "MaxLevel": 0,
         "StatType": [],
-        "StatValue": []
+        "StatValue": [],
+        "LevelUpFeedExp": 200
     },
-    {
+    "13": {
         "Id": 13,
         "Category": "WeaponExpGrowthA",
         "Rarity": "SSR",
@@ -340,10 +354,12 @@
             true,
             true
         ],
+        "MaxLevel": 0,
         "StatType": [],
-        "StatValue": []
+        "StatValue": [],
+        "LevelUpFeedExp": 1000
     },
-    {
+    "20": {
         "Id": 20,
         "Category": "WeaponExpGrowthB",
         "Rarity": "N",
@@ -357,10 +373,12 @@
             true,
             true
         ],
+        "MaxLevel": 0,
         "StatType": [],
-        "StatValue": []
+        "StatValue": [],
+        "LevelUpFeedExp": 10
     },
-    {
+    "21": {
         "Id": 21,
         "Category": "WeaponExpGrowthB",
         "Rarity": "R",
@@ -374,10 +392,12 @@
             true,
             true
         ],
+        "MaxLevel": 0,
         "StatType": [],
-        "StatValue": []
+        "StatValue": [],
+        "LevelUpFeedExp": 50
     },
-    {
+    "22": {
         "Id": 22,
         "Category": "WeaponExpGrowthB",
         "Rarity": "SR",
@@ -391,10 +411,12 @@
             true,
             true
         ],
+        "MaxLevel": 0,
         "StatType": [],
-        "StatValue": []
+        "StatValue": [],
+        "LevelUpFeedExp": 200
     },
-    {
+    "23": {
         "Id": 23,
         "Category": "WeaponExpGrowthB",
         "Rarity": "SSR",
@@ -408,10 +430,12 @@
             true,
             true
         ],
+        "MaxLevel": 0,
         "StatType": [],
-        "StatValue": []
+        "StatValue": [],
+        "LevelUpFeedExp": 1000
     },
-    {
+    "30": {
         "Id": 30,
         "Category": "WeaponExpGrowthC",
         "Rarity": "N",
@@ -425,10 +449,12 @@
             true,
             true
         ],
+        "MaxLevel": 0,
         "StatType": [],
-        "StatValue": []
+        "StatValue": [],
+        "LevelUpFeedExp": 10
     },
-    {
+    "31": {
         "Id": 31,
         "Category": "WeaponExpGrowthC",
         "Rarity": "R",
@@ -442,10 +468,12 @@
             true,
             true
         ],
+        "MaxLevel": 0,
         "StatType": [],
-        "StatValue": []
+        "StatValue": [],
+        "LevelUpFeedExp": 50
     },
-    {
+    "32": {
         "Id": 32,
         "Category": "WeaponExpGrowthC",
         "Rarity": "SR",
@@ -459,10 +487,12 @@
             true,
             true
         ],
+        "MaxLevel": 0,
         "StatType": [],
-        "StatValue": []
+        "StatValue": [],
+        "LevelUpFeedExp": 200
     },
-    {
+    "33": {
         "Id": 33,
         "Category": "WeaponExpGrowthC",
         "Rarity": "SSR",
@@ -476,10 +506,12 @@
             true,
             true
         ],
+        "MaxLevel": 0,
         "StatType": [],
-        "StatValue": []
+        "StatValue": [],
+        "LevelUpFeedExp": 1000
     },
-    {
+    "40": {
         "Id": 40,
         "Category": "WeaponExpGrowthZ",
         "Rarity": "N",
@@ -493,10 +525,12 @@
             true,
             true
         ],
+        "MaxLevel": 0,
         "StatType": [],
-        "StatValue": []
+        "StatValue": [],
+        "LevelUpFeedExp": 10
     },
-    {
+    "41": {
         "Id": 41,
         "Category": "WeaponExpGrowthZ",
         "Rarity": "R",
@@ -523,10 +557,12 @@
             true,
             true
         ],
+        "MaxLevel": 0,
         "StatType": [],
-        "StatValue": []
+        "StatValue": [],
+        "LevelUpFeedExp": 50
     },
-    {
+    "42": {
         "Id": 42,
         "Category": "WeaponExpGrowthZ",
         "Rarity": "SR",
@@ -553,10 +589,12 @@
             true,
             true
         ],
+        "MaxLevel": 0,
         "StatType": [],
-        "StatValue": []
+        "StatValue": [],
+        "LevelUpFeedExp": 200
     },
-    {
+    "43": {
         "Id": 43,
         "Category": "WeaponExpGrowthZ",
         "Rarity": "SSR",
@@ -583,10 +621,12 @@
             true,
             true
         ],
+        "MaxLevel": 0,
         "StatType": [],
-        "StatValue": []
+        "StatValue": [],
+        "LevelUpFeedExp": 1000
     },
-    {
+    "1000": {
         "Id": 1000,
         "Category": "Hat",
         "Rarity": "N",
@@ -600,6 +640,7 @@
             true,
             true
         ],
+        "MaxLevel": 10,
         "StatType": [
             "AttackPower_Coefficient"
         ],
@@ -610,7 +651,7 @@
             ]
         ]
     },
-    {
+    "1001": {
         "Id": 1001,
         "Category": "Hat",
         "Rarity": "N",
@@ -624,6 +665,7 @@
             true,
             true
         ],
+        "MaxLevel": 20,
         "StatType": [
             "AttackPower_Coefficient"
         ],
@@ -641,20 +683,21 @@
         ],
         "RecipeCost": 1500
     },
-    {
+    "1002": {
         "Id": 1002,
         "Category": "Hat",
         "Rarity": "N",
         "Tier": 3,
         "Icon": "equipment_icon_hat_tier3",
         "Shops": [],
-        "Name": "大块头礼帽",
-        "Desc": "帽子上有MomoFriends角色形象之一的大块头玩偶。听说戴上这顶帽子就可以感受到大块头的视线。",
+        "Name": "老大哥礼帽",
+        "Desc": "帽子上有MomoFriends角色形象之一的老大哥玩偶。听说戴上这顶帽子就可以感受到老大哥的视线。",
         "IsReleased": [
             true,
             true,
             true
         ],
+        "MaxLevel": 30,
         "StatType": [
             "AttackPower_Coefficient"
         ],
@@ -672,7 +715,7 @@
         ],
         "RecipeCost": 10000
     },
-    {
+    "1003": {
         "Id": 1003,
         "Category": "Hat",
         "Rarity": "N",
@@ -686,6 +729,7 @@
             true,
             true
         ],
+        "MaxLevel": 40,
         "StatType": [
             "AttackPower_Coefficient",
             "CriticalDamageRate_Base"
@@ -712,7 +756,7 @@
         ],
         "RecipeCost": 25000
     },
-    {
+    "1004": {
         "Id": 1004,
         "Category": "Hat",
         "Rarity": "N",
@@ -726,6 +770,7 @@
             true,
             true
         ],
+        "MaxLevel": 45,
         "StatType": [
             "AttackPower_Coefficient",
             "CriticalDamageRate_Base"
@@ -756,7 +801,7 @@
         ],
         "RecipeCost": 50000
     },
-    {
+    "1005": {
         "Id": 1005,
         "Category": "Hat",
         "Rarity": "N",
@@ -770,6 +815,7 @@
             true,
             true
         ],
+        "MaxLevel": 50,
         "StatType": [
             "AttackPower_Coefficient",
             "CriticalDamageRate_Base"
@@ -800,7 +846,7 @@
         ],
         "RecipeCost": 75000
     },
-    {
+    "1006": {
         "Id": 1006,
         "Category": "Hat",
         "Rarity": "N",
@@ -814,6 +860,7 @@
             true,
             true
         ],
+        "MaxLevel": 55,
         "StatType": [
             "AttackPower_Coefficient",
             "CriticalDamageRate_Base"
@@ -844,20 +891,21 @@
         ],
         "RecipeCost": 100000
     },
-    {
+    "1007": {
         "Id": 1007,
         "Category": "Hat",
         "Rarity": "N",
         "Tier": 8,
         "Icon": "equipment_icon_hat_tier8",
         "Shops": [],
-        "Name": "叶条软呢帽",
-        "Desc": "插有枝条状的叶片装饰的布料软呢帽。与度假村的流行款式很搭。",
+        "Name": "附有叶子的缎带礼帽",
+        "Desc": "将树叶插入缎带当作装饰的编织礼帽。非常适合度假穿搭。",
         "IsReleased": [
             true,
             true,
-            false
+            true
         ],
+        "MaxLevel": 60,
         "StatType": [
             "AttackPower_Coefficient",
             "CriticalDamageRate_Base"
@@ -888,7 +936,7 @@
         ],
         "RecipeCost": 125000
     },
-    {
+    "1008": {
         "Id": 1008,
         "Category": "Hat",
         "Rarity": "N",
@@ -896,12 +944,13 @@
         "Icon": "equipment_icon_hat_tier9",
         "Shops": [],
         "Name": "水手帽",
-        "Desc": "带有些许条纹的白色水手帽。奥德赛海洋高级中学将这一设计简约的帽子作为校帽使用。",
+        "Desc": "用条纹稍加点缀的白色水手帽。这款设计简约的帽子同时也是奥德赛海洋学院的校帽。",
         "IsReleased": [
             true,
             true,
-            false
+            true
         ],
+        "MaxLevel": 65,
         "StatType": [
             "AttackPower_Coefficient",
             "CriticalDamageRate_Base"
@@ -932,7 +981,52 @@
         ],
         "RecipeCost": 150000
     },
-    {
+    "1009": {
+        "Id": 1009,
+        "Category": "Hat",
+        "Rarity": "N",
+        "Tier": 10,
+        "Icon": "equipment_icon_hat_tier10",
+        "Shops": [],
+        "Name": "电竞头盔",
+        "Desc": "可装上饮料的帽子。附带吸管，因此在游戏中也能不用手就喝到饮料。",
+        "IsReleased": [
+            true,
+            true,
+            true
+        ],
+        "MaxLevel": 70,
+        "StatType": [
+            "AttackPower_Coefficient",
+            "CriticalDamageRate_Base"
+        ],
+        "StatValue": [
+            [
+                4900,
+                5000
+            ],
+            [
+                2000,
+                2000
+            ]
+        ],
+        "Recipe": [
+            [
+                101009,
+                60
+            ],
+            [
+                101007,
+                20
+            ],
+            [
+                101006,
+                10
+            ]
+        ],
+        "RecipeCost": 175000
+    },
+    "2000": {
         "Id": 2000,
         "Category": "Gloves",
         "Rarity": "N",
@@ -946,6 +1040,7 @@
             true,
             true
         ],
+        "MaxLevel": 10,
         "StatType": [
             "AttackPower_Coefficient"
         ],
@@ -956,7 +1051,7 @@
             ]
         ]
     },
-    {
+    "2001": {
         "Id": 2001,
         "Category": "Gloves",
         "Rarity": "N",
@@ -970,6 +1065,7 @@
             true,
             true
         ],
+        "MaxLevel": 20,
         "StatType": [
             "AttackPower_Coefficient"
         ],
@@ -987,7 +1083,7 @@
         ],
         "RecipeCost": 1500
     },
-    {
+    "2002": {
         "Id": 2002,
         "Category": "Gloves",
         "Rarity": "N",
@@ -1001,6 +1097,7 @@
             true,
             true
         ],
+        "MaxLevel": 30,
         "StatType": [
             "AttackPower_Coefficient"
         ],
@@ -1018,7 +1115,7 @@
         ],
         "RecipeCost": 10000
     },
-    {
+    "2003": {
         "Id": 2003,
         "Category": "Gloves",
         "Rarity": "N",
@@ -1032,6 +1129,7 @@
             true,
             true
         ],
+        "MaxLevel": 40,
         "StatType": [
             "AttackPower_Coefficient",
             "CriticalPoint_Base"
@@ -1058,7 +1156,7 @@
         ],
         "RecipeCost": 25000
     },
-    {
+    "2004": {
         "Id": 2004,
         "Category": "Gloves",
         "Rarity": "N",
@@ -1072,6 +1170,7 @@
             true,
             true
         ],
+        "MaxLevel": 45,
         "StatType": [
             "AttackPower_Coefficient",
             "CriticalPoint_Base"
@@ -1102,7 +1201,7 @@
         ],
         "RecipeCost": 50000
     },
-    {
+    "2005": {
         "Id": 2005,
         "Category": "Gloves",
         "Rarity": "N",
@@ -1116,6 +1215,7 @@
             true,
             true
         ],
+        "MaxLevel": 50,
         "StatType": [
             "AttackPower_Coefficient",
             "CriticalPoint_Base",
@@ -1151,7 +1251,7 @@
         ],
         "RecipeCost": 75000
     },
-    {
+    "2006": {
         "Id": 2006,
         "Category": "Gloves",
         "Rarity": "N",
@@ -1165,6 +1265,7 @@
             true,
             true
         ],
+        "MaxLevel": 55,
         "StatType": [
             "AttackPower_Coefficient",
             "CriticalPoint_Base",
@@ -1200,20 +1301,21 @@
         ],
         "RecipeCost": 100000
     },
-    {
+    "2007": {
         "Id": 2007,
         "Category": "Gloves",
         "Rarity": "N",
         "Tier": 8,
         "Icon": "equipment_icon_gloves_tier8",
         "Shops": [],
-        "Name": "珍珠纱线手套",
-        "Desc": "带有珍珠装饰的纱线手套。露出了手指部分，进行精细作业时也不会碍事。",
+        "Name": "珍珠毛线手套",
+        "Desc": "饰有珍珠的毛线手套。因为露出了手指的部分，所以做细致的工作也没问题。",
         "IsReleased": [
             true,
             true,
-            false
+            true
         ],
+        "MaxLevel": 60,
         "StatType": [
             "AttackPower_Coefficient",
             "CriticalPoint_Base",
@@ -1249,7 +1351,7 @@
         ],
         "RecipeCost": 125000
     },
-    {
+    "2008": {
         "Id": 2008,
         "Category": "Gloves",
         "Rarity": "N",
@@ -1257,12 +1359,13 @@
         "Icon": "equipment_icon_gloves_tier9",
         "Shops": [],
         "Name": "航海手套",
-        "Desc": "手心一侧加有内衬的无指手套。这一透气性良好的合成树脂制手套很适合航海之类的船舶作业。",
+        "Desc": "手掌处加了内衬的露指手套，是用透气性能良好的合成树脂制成，适合航海等船舶上的工作。",
         "IsReleased": [
             true,
             true,
-            false
+            true
         ],
+        "MaxLevel": 65,
         "StatType": [
             "AttackPower_Coefficient",
             "CriticalPoint_Base",
@@ -1298,7 +1401,57 @@
         ],
         "RecipeCost": 150000
     },
-    {
+    "2009": {
+        "Id": 2009,
+        "Category": "Gloves",
+        "Rarity": "N",
+        "Tier": 10,
+        "Icon": "equipment_icon_gloves_tier10",
+        "Shops": [],
+        "Name": "超级手套",
+        "Desc": "搭载了动作识别装置的游戏用手套。虽然性能并不出众，却给后世的游戏开发者们带来了巨大的灵感。",
+        "IsReleased": [
+            true,
+            true,
+            true
+        ],
+        "MaxLevel": 70,
+        "StatType": [
+            "AttackPower_Coefficient",
+            "CriticalPoint_Base",
+            "AccuracyPoint_Base"
+        ],
+        "StatValue": [
+            [
+                4700,
+                5000
+            ],
+            [
+                450,
+                500
+            ],
+            [
+                220,
+                220
+            ]
+        ],
+        "Recipe": [
+            [
+                102009,
+                60
+            ],
+            [
+                102007,
+                20
+            ],
+            [
+                102006,
+                10
+            ]
+        ],
+        "RecipeCost": 175000
+    },
+    "3000": {
         "Id": 3000,
         "Category": "Shoes",
         "Rarity": "N",
@@ -1312,6 +1465,7 @@
             true,
             true
         ],
+        "MaxLevel": 10,
         "StatType": [
             "AttackPower_Coefficient"
         ],
@@ -1322,7 +1476,7 @@
             ]
         ]
     },
-    {
+    "3001": {
         "Id": 3001,
         "Category": "Shoes",
         "Rarity": "N",
@@ -1336,6 +1490,7 @@
             true,
             true
         ],
+        "MaxLevel": 20,
         "StatType": [
             "AttackPower_Coefficient"
         ],
@@ -1353,7 +1508,7 @@
         ],
         "RecipeCost": 1500
     },
-    {
+    "3002": {
         "Id": 3002,
         "Category": "Shoes",
         "Rarity": "N",
@@ -1367,6 +1522,7 @@
             true,
             true
         ],
+        "MaxLevel": 30,
         "StatType": [
             "AttackPower_Coefficient"
         ],
@@ -1384,7 +1540,7 @@
         ],
         "RecipeCost": 10000
     },
-    {
+    "3003": {
         "Id": 3003,
         "Category": "Shoes",
         "Rarity": "N",
@@ -1398,6 +1554,7 @@
             true,
             true
         ],
+        "MaxLevel": 40,
         "StatType": [
             "AttackPower_Coefficient",
             "MaxHP_Coefficient"
@@ -1424,7 +1581,7 @@
         ],
         "RecipeCost": 25000
     },
-    {
+    "3004": {
         "Id": 3004,
         "Category": "Shoes",
         "Rarity": "N",
@@ -1438,6 +1595,7 @@
             true,
             true
         ],
+        "MaxLevel": 45,
         "StatType": [
             "AttackPower_Coefficient",
             "MaxHP_Coefficient"
@@ -1468,7 +1626,7 @@
         ],
         "RecipeCost": 50000
     },
-    {
+    "3005": {
         "Id": 3005,
         "Category": "Shoes",
         "Rarity": "N",
@@ -1482,6 +1640,7 @@
             true,
             true
         ],
+        "MaxLevel": 50,
         "StatType": [
             "AttackPower_Coefficient",
             "MaxHP_Coefficient"
@@ -1512,7 +1671,7 @@
         ],
         "RecipeCost": 75000
     },
-    {
+    "3006": {
         "Id": 3006,
         "Category": "Shoes",
         "Rarity": "N",
@@ -1526,6 +1685,7 @@
             true,
             true
         ],
+        "MaxLevel": 55,
         "StatType": [
             "AttackPower_Coefficient",
             "MaxHP_Coefficient"
@@ -1556,7 +1716,7 @@
         ],
         "RecipeCost": 100000
     },
-    {
+    "3007": {
         "Id": 3007,
         "Category": "Shoes",
         "Rarity": "N",
@@ -1564,12 +1724,13 @@
         "Icon": "equipment_icon_shoes_tier8",
         "Shops": [],
         "Name": "防水登山靴",
-        "Desc": "在天然橡胶上涂上了防水涂层，透气性与耐用性优异的登山靴。掉进水里表面也不会湿。",
+        "Desc": "天然橡胶加上防水涂层，透气性和耐久性卓越的登山靴。就算掉进水中，表面也不会湿。",
         "IsReleased": [
             true,
             true,
-            false
+            true
         ],
+        "MaxLevel": 60,
         "StatType": [
             "AttackPower_Coefficient",
             "MaxHP_Coefficient"
@@ -1600,20 +1761,21 @@
         ],
         "RecipeCost": 125000
     },
-    {
+    "3008": {
         "Id": 3008,
         "Category": "Shoes",
         "Rarity": "N",
         "Tier": 9,
         "Icon": "equipment_icon_shoes_tier9",
         "Shops": [],
-        "Name": "海蓝凉鞋",
-        "Desc": "使用疏水性强的防水原料制成的一体式凉鞋。为了不易在潮湿环境打滑而在鞋底加装了防滑垫。",
+        "Name": "运动凉鞋",
+        "Desc": "用排水性良好的防水材质制成的一体式凉鞋。底部附有鞋垫，在有水的地方也不会轻易滑倒。",
         "IsReleased": [
             true,
             true,
-            false
+            true
         ],
+        "MaxLevel": 65,
         "StatType": [
             "AttackPower_Coefficient",
             "MaxHP_Coefficient"
@@ -1644,7 +1806,52 @@
         ],
         "RecipeCost": 150000
     },
-    {
+    "3009": {
+        "Id": 3009,
+        "Category": "Shoes",
+        "Rarity": "N",
+        "Tier": 10,
+        "Icon": "equipment_icon_shoes_tier10",
+        "Shops": [],
+        "Name": "电竞拖鞋",
+        "Desc": "闪烁着红、绿、蓝光的拖鞋，即使在黑暗中也能轻易找到，但没人知道它与游戏有什么关联。",
+        "IsReleased": [
+            true,
+            true,
+            true
+        ],
+        "MaxLevel": 70,
+        "StatType": [
+            "AttackPower_Coefficient",
+            "MaxHP_Coefficient"
+        ],
+        "StatValue": [
+            [
+                4300,
+                4600
+            ],
+            [
+                1750,
+                2000
+            ]
+        ],
+        "Recipe": [
+            [
+                103009,
+                60
+            ],
+            [
+                103007,
+                20
+            ],
+            [
+                103006,
+                10
+            ]
+        ],
+        "RecipeCost": 175000
+    },
+    "4000": {
         "Id": 4000,
         "Category": "Bag",
         "Rarity": "N",
@@ -1658,6 +1865,7 @@
             true,
             true
         ],
+        "MaxLevel": 10,
         "StatType": [
             "MaxHP_Base"
         ],
@@ -1668,7 +1876,7 @@
             ]
         ]
     },
-    {
+    "4001": {
         "Id": 4001,
         "Category": "Bag",
         "Rarity": "N",
@@ -1682,6 +1890,7 @@
             true,
             true
         ],
+        "MaxLevel": 20,
         "StatType": [
             "MaxHP_Base"
         ],
@@ -1699,7 +1908,7 @@
         ],
         "RecipeCost": 1500
     },
-    {
+    "4002": {
         "Id": 4002,
         "Category": "Bag",
         "Rarity": "N",
@@ -1713,6 +1922,7 @@
             true,
             true
         ],
+        "MaxLevel": 30,
         "StatType": [
             "MaxHP_Base"
         ],
@@ -1730,7 +1940,7 @@
         ],
         "RecipeCost": 10000
     },
-    {
+    "4003": {
         "Id": 4003,
         "Category": "Bag",
         "Rarity": "N",
@@ -1744,6 +1954,7 @@
             true,
             true
         ],
+        "MaxLevel": 40,
         "StatType": [
             "MaxHP_Base",
             "DefensePower_Base"
@@ -1770,7 +1981,7 @@
         ],
         "RecipeCost": 25000
     },
-    {
+    "4004": {
         "Id": 4004,
         "Category": "Bag",
         "Rarity": "N",
@@ -1784,6 +1995,7 @@
             true,
             true
         ],
+        "MaxLevel": 45,
         "StatType": [
             "MaxHP_Base",
             "DefensePower_Base"
@@ -1814,7 +2026,7 @@
         ],
         "RecipeCost": 50000
     },
-    {
+    "4005": {
         "Id": 4005,
         "Category": "Bag",
         "Rarity": "N",
@@ -1828,6 +2040,7 @@
             true,
             true
         ],
+        "MaxLevel": 50,
         "StatType": [
             "MaxHP_Base",
             "DefensePower_Base"
@@ -1858,7 +2071,7 @@
         ],
         "RecipeCost": 75000
     },
-    {
+    "4006": {
         "Id": 4006,
         "Category": "Bag",
         "Rarity": "N",
@@ -1872,6 +2085,7 @@
             true,
             true
         ],
+        "MaxLevel": 55,
         "StatType": [
             "MaxHP_Base",
             "DefensePower_Base"
@@ -1902,20 +2116,21 @@
         ],
         "RecipeCost": 100000
     },
-    {
+    "4007": {
         "Id": 4007,
         "Category": "Bag",
         "Rarity": "N",
         "Tier": 8,
         "Icon": "equipment_icon_bag_tier8",
         "Shops": [],
-        "Name": "蝶纹斜挎包",
-        "Desc": "画有大蝴蝶图案的斜挎包。使用轻质材料制成，旅行时携带也不会造成负担。",
+        "Name": "蝴蝶图案单肩包",
+        "Desc": "画有巨大蝴蝶的单肩包。因为材质轻盈，所以带去旅行也不会有负担。",
         "IsReleased": [
             true,
             true,
-            false
+            true
         ],
+        "MaxLevel": 60,
         "StatType": [
             "MaxHP_Base",
             "DefensePower_Base"
@@ -1946,20 +2161,21 @@
         ],
         "RecipeCost": 125000
     },
-    {
+    "4008": {
         "Id": 4008,
         "Category": "Bag",
         "Rarity": "N",
         "Tier": 9,
         "Icon": "equipment_icon_bag_tier9",
         "Shops": [],
-        "Name": "防水挎包",
-        "Desc": "挂在单肩上背着使用的挎包。使用防水原料制成，因此适合将易受潮的电子设备之类的收纳其中。",
+        "Name": "斜挎式防水袋",
+        "Desc": "用防水材质制成的单肩包，适合存放容易受潮的电子产品。",
         "IsReleased": [
             true,
             true,
-            false
+            true
         ],
+        "MaxLevel": 65,
         "StatType": [
             "MaxHP_Base",
             "DefensePower_Base",
@@ -1995,7 +2211,57 @@
         ],
         "RecipeCost": 150000
     },
-    {
+    "4009": {
+        "Id": 4009,
+        "Category": "Bag",
+        "Rarity": "N",
+        "Tier": 10,
+        "Icon": "equipment_icon_bag_tier10",
+        "Shops": [],
+        "Name": "金属包",
+        "Desc": "内置电池的防弹合金材质背包。能够轻松挡下步枪的连发射击，非常适合用于存放电子设备。",
+        "IsReleased": [
+            true,
+            true,
+            true
+        ],
+        "MaxLevel": 70,
+        "StatType": [
+            "MaxHP_Base",
+            "DefensePower_Base",
+            "MaxHP_Coefficient"
+        ],
+        "StatValue": [
+            [
+                12500,
+                14000
+            ],
+            [
+                1600,
+                1700
+            ],
+            [
+                500,
+                500
+            ]
+        ],
+        "Recipe": [
+            [
+                104009,
+                60
+            ],
+            [
+                104007,
+                20
+            ],
+            [
+                104006,
+                10
+            ]
+        ],
+        "RecipeCost": 175000
+    },
+    "5000": {
         "Id": 5000,
         "Category": "Badge",
         "Rarity": "N",
@@ -2009,6 +2275,7 @@
             true,
             true
         ],
+        "MaxLevel": 10,
         "StatType": [
             "MaxHP_Base"
         ],
@@ -2019,7 +2286,7 @@
             ]
         ]
     },
-    {
+    "5001": {
         "Id": 5001,
         "Category": "Badge",
         "Rarity": "N",
@@ -2033,6 +2300,7 @@
             true,
             true
         ],
+        "MaxLevel": 20,
         "StatType": [
             "MaxHP_Base"
         ],
@@ -2050,7 +2318,7 @@
         ],
         "RecipeCost": 1500
     },
-    {
+    "5002": {
         "Id": 5002,
         "Category": "Badge",
         "Rarity": "N",
@@ -2064,6 +2332,7 @@
             true,
             true
         ],
+        "MaxLevel": 30,
         "StatType": [
             "MaxHP_Base"
         ],
@@ -2081,7 +2350,7 @@
         ],
         "RecipeCost": 10000
     },
-    {
+    "5003": {
         "Id": 5003,
         "Category": "Badge",
         "Rarity": "N",
@@ -2095,6 +2364,7 @@
             true,
             true
         ],
+        "MaxLevel": 40,
         "StatType": [
             "MaxHP_Base",
             "HealEffectivenessRate_Base"
@@ -2121,7 +2391,7 @@
         ],
         "RecipeCost": 25000
     },
-    {
+    "5004": {
         "Id": 5004,
         "Category": "Badge",
         "Rarity": "N",
@@ -2135,6 +2405,7 @@
             true,
             true
         ],
+        "MaxLevel": 45,
         "StatType": [
             "MaxHP_Base",
             "HealEffectivenessRate_Base",
@@ -2170,7 +2441,7 @@
         ],
         "RecipeCost": 50000
     },
-    {
+    "5005": {
         "Id": 5005,
         "Category": "Badge",
         "Rarity": "N",
@@ -2184,6 +2455,7 @@
             true,
             true
         ],
+        "MaxLevel": 50,
         "StatType": [
             "MaxHP_Base",
             "HealEffectivenessRate_Base",
@@ -2219,7 +2491,7 @@
         ],
         "RecipeCost": 75000
     },
-    {
+    "5006": {
         "Id": 5006,
         "Category": "Badge",
         "Rarity": "N",
@@ -2227,12 +2499,13 @@
         "Icon": "equipment_icon_badge_tier7",
         "Shops": [],
         "Name": "街头勋章",
-        "Desc": "由街头时尚品牌<三步>推出的勋章。从把自己公司的名号大大印在正中央的这点，可以看出制作公司对品牌的自豪。",
+        "Desc": "由街头时尚品牌“三步”推出的勋章。从把自己公司的名号大大印在正中央的这点，可以看出制作公司对品牌的自豪。",
         "IsReleased": [
             true,
             true,
             true
         ],
+        "MaxLevel": 55,
         "StatType": [
             "MaxHP_Base",
             "HealEffectivenessRate_Base",
@@ -2273,20 +2546,21 @@
         ],
         "RecipeCost": 100000
     },
-    {
+    "5007": {
         "Id": 5007,
         "Category": "Badge",
         "Rarity": "N",
         "Tier": 8,
         "Icon": "equipment_icon_badge_tier8",
         "Shops": [],
-        "Name": "罗蕾莱徽章",
-        "Desc": "现代时尚品牌「罗蕾莱」发售的徽章。对天然木材进行了精细的加工，表面光滑而散发着淡淡的原木清香。",
+        "Name": "罗蕾莱勋章",
+        "Desc": "现代时尚品牌“罗蕾莱”发售的勋章。木材经过精巧的加工，表面光滑且散发香气。",
         "IsReleased": [
             true,
             true,
-            false
+            true
         ],
+        "MaxLevel": 60,
         "StatType": [
             "MaxHP_Base",
             "HealEffectivenessRate_Base",
@@ -2327,7 +2601,7 @@
         ],
         "RecipeCost": 125000
     },
-    {
+    "5008": {
         "Id": 5008,
         "Category": "Badge",
         "Rarity": "N",
@@ -2335,12 +2609,13 @@
         "Icon": "equipment_icon_badge_tier9",
         "Shops": [],
         "Name": "哈耳庇厄弹性徽章",
-        "Desc": "印刷有海上运动品牌「哈耳庇厄」的徽标的徽章。由柔软的橡胶制成，耐污性强，因此能毫无顾虑将其贴在别的物品上装饰。",
+        "Desc": "印有海洋运动品牌【哈耳庇厄】标志的徽章。采用柔软的橡胶材料制成，耐脏污，可以轻松贴在任何想贴的地方。",
         "IsReleased": [
             true,
             true,
-            false
+            true
         ],
+        "MaxLevel": 65,
         "StatType": [
             "MaxHP_Base",
             "HealEffectivenessRate_Base",
@@ -2381,7 +2656,62 @@
         ],
         "RecipeCost": 150000
     },
-    {
+    "5009": {
+        "Id": 5009,
+        "Category": "Badge",
+        "Rarity": "N",
+        "Tier": 10,
+        "Icon": "equipment_icon_badge_tier10",
+        "Shops": [],
+        "Name": "硬币徽章",
+        "Desc": "以游戏厅曾使用的代币为原型制成的金属徽章。尺寸相当大，因此无法投入游戏机中。",
+        "IsReleased": [
+            true,
+            true,
+            true
+        ],
+        "MaxLevel": 70,
+        "StatType": [
+            "MaxHP_Base",
+            "HealEffectivenessRate_Base",
+            "MaxHP_Coefficient",
+            "DodgePoint_Base"
+        ],
+        "StatValue": [
+            [
+                14500,
+                16000
+            ],
+            [
+                3500,
+                3500
+            ],
+            [
+                2500,
+                2500
+            ],
+            [
+                450,
+                450
+            ]
+        ],
+        "Recipe": [
+            [
+                105009,
+                60
+            ],
+            [
+                105007,
+                20
+            ],
+            [
+                105006,
+                10
+            ]
+        ],
+        "RecipeCost": 175000
+    },
+    "6000": {
         "Id": 6000,
         "Category": "Hairpin",
         "Rarity": "N",
@@ -2395,6 +2725,7 @@
             true,
             true
         ],
+        "MaxLevel": 10,
         "StatType": [
             "MaxHP_Base"
         ],
@@ -2405,7 +2736,7 @@
             ]
         ]
     },
-    {
+    "6001": {
         "Id": 6001,
         "Category": "Hairpin",
         "Rarity": "N",
@@ -2419,6 +2750,7 @@
             true,
             true
         ],
+        "MaxLevel": 20,
         "StatType": [
             "MaxHP_Base"
         ],
@@ -2436,7 +2768,7 @@
         ],
         "RecipeCost": 1500
     },
-    {
+    "6002": {
         "Id": 6002,
         "Category": "Hairpin",
         "Rarity": "N",
@@ -2450,6 +2782,7 @@
             true,
             true
         ],
+        "MaxLevel": 30,
         "StatType": [
             "MaxHP_Base"
         ],
@@ -2467,7 +2800,7 @@
         ],
         "RecipeCost": 10000
     },
-    {
+    "6003": {
         "Id": 6003,
         "Category": "Hairpin",
         "Rarity": "N",
@@ -2481,6 +2814,7 @@
             true,
             true
         ],
+        "MaxLevel": 40,
         "StatType": [
             "MaxHP_Base",
             "OppressionResist_Coefficient"
@@ -2507,7 +2841,7 @@
         ],
         "RecipeCost": 25000
     },
-    {
+    "6004": {
         "Id": 6004,
         "Category": "Hairpin",
         "Rarity": "N",
@@ -2521,6 +2855,7 @@
             true,
             true
         ],
+        "MaxLevel": 45,
         "StatType": [
             "MaxHP_Base",
             "OppressionResist_Coefficient"
@@ -2551,7 +2886,7 @@
         ],
         "RecipeCost": 50000
     },
-    {
+    "6005": {
         "Id": 6005,
         "Category": "Hairpin",
         "Rarity": "N",
@@ -2565,6 +2900,7 @@
             true,
             true
         ],
+        "MaxLevel": 50,
         "StatType": [
             "MaxHP_Base",
             "OppressionResist_Coefficient"
@@ -2595,7 +2931,7 @@
         ],
         "RecipeCost": 75000
     },
-    {
+    "6006": {
         "Id": 6006,
         "Category": "Hairpin",
         "Rarity": "N",
@@ -2609,6 +2945,7 @@
             true,
             true
         ],
+        "MaxLevel": 55,
         "StatType": [
             "MaxHP_Base",
             "OppressionResist_Coefficient"
@@ -2639,20 +2976,21 @@
         ],
         "RecipeCost": 100000
     },
-    {
+    "6007": {
         "Id": 6007,
         "Category": "Hairpin",
         "Rarity": "N",
         "Tier": 8,
         "Icon": "equipment_icon_hairpin_tier8",
         "Shops": [],
-        "Name": "翠叶发卡",
-        "Desc": "做成了叶片样子的发卡。平时用起来有些麻烦，但很适合在要打扮的日子戴上。",
+        "Name": "树叶发夹",
+        "Desc": "叶子形状的发夹。平时要配戴的话有点困难，但适合在需要打扮的日子使用。",
         "IsReleased": [
             true,
             true,
-            false
+            true
         ],
+        "MaxLevel": 60,
         "StatType": [
             "MaxHP_Base",
             "OppressionResist_Coefficient"
@@ -2683,20 +3021,21 @@
         ],
         "RecipeCost": 125000
     },
-    {
+    "6008": {
         "Id": 6008,
         "Category": "Hairpin",
         "Rarity": "N",
         "Tier": 9,
         "Icon": "equipment_icon_hairpin_tier9",
         "Shops": [],
-        "Name": "船锚发卡",
-        "Desc": "带有两个钩子的船锚形发卡。设计很可爱，但据说扎头发的时候头发会经常缠在钩子上，实际上用起来有些不方便。",
+        "Name": "船锚发夹",
+        "Desc": "带有两个钩子的船锚状发夹。虽然设计得十分漂亮，但据说实际用起来有点不方便，绑头发时经常将头发缠在钩子上。",
         "IsReleased": [
             true,
             true,
-            false
+            true
         ],
+        "MaxLevel": 65,
         "StatType": [
             "MaxHP_Base",
             "OppressionResist_Coefficient",
@@ -2732,7 +3071,57 @@
         ],
         "RecipeCost": 150000
     },
-    {
+    "6009": {
+        "Id": 6009,
+        "Category": "Hairpin",
+        "Rarity": "N",
+        "Tier": 10,
+        "Icon": "equipment_icon_hairpin_tier10",
+        "Shops": [],
+        "Name": "电磁波屏蔽发夹",
+        "Desc": "能够屏蔽电磁波，有助于促进大脑健康的发夹，不过没有人知道这项功能是否是真的。",
+        "IsReleased": [
+            true,
+            true,
+            true
+        ],
+        "MaxLevel": 70,
+        "StatType": [
+            "MaxHP_Base",
+            "OppressionResist_Coefficient",
+            "CriticalPoint_Base"
+        ],
+        "StatValue": [
+            [
+                11500,
+                13000
+            ],
+            [
+                3500,
+                3600
+            ],
+            [
+                150,
+                150
+            ]
+        ],
+        "Recipe": [
+            [
+                106009,
+                60
+            ],
+            [
+                106007,
+                20
+            ],
+            [
+                106006,
+                10
+            ]
+        ],
+        "RecipeCost": 175000
+    },
+    "7000": {
         "Id": 7000,
         "Category": "Charm",
         "Rarity": "N",
@@ -2746,6 +3135,7 @@
             true,
             true
         ],
+        "MaxLevel": 10,
         "StatType": [
             "CriticalChanceResistPoint_Base"
         ],
@@ -2756,7 +3146,7 @@
             ]
         ]
     },
-    {
+    "7001": {
         "Id": 7001,
         "Category": "Charm",
         "Rarity": "N",
@@ -2770,6 +3160,7 @@
             true,
             true
         ],
+        "MaxLevel": 20,
         "StatType": [
             "CriticalChanceResistPoint_Base"
         ],
@@ -2787,7 +3178,7 @@
         ],
         "RecipeCost": 1500
     },
-    {
+    "7002": {
         "Id": 7002,
         "Category": "Charm",
         "Rarity": "N",
@@ -2801,6 +3192,7 @@
             true,
             true
         ],
+        "MaxLevel": 30,
         "StatType": [
             "CriticalChanceResistPoint_Base"
         ],
@@ -2818,7 +3210,7 @@
         ],
         "RecipeCost": 10000
     },
-    {
+    "7003": {
         "Id": 7003,
         "Category": "Charm",
         "Rarity": "N",
@@ -2832,6 +3224,7 @@
             true,
             true
         ],
+        "MaxLevel": 40,
         "StatType": [
             "CriticalChanceResistPoint_Base",
             "CriticalDamageResistRate_Base"
@@ -2858,7 +3251,7 @@
         ],
         "RecipeCost": 25000
     },
-    {
+    "7004": {
         "Id": 7004,
         "Category": "Charm",
         "Rarity": "N",
@@ -2872,6 +3265,7 @@
             true,
             true
         ],
+        "MaxLevel": 45,
         "StatType": [
             "CriticalChanceResistPoint_Base",
             "CriticalDamageResistRate_Base",
@@ -2907,7 +3301,7 @@
         ],
         "RecipeCost": 50000
     },
-    {
+    "7005": {
         "Id": 7005,
         "Category": "Charm",
         "Rarity": "N",
@@ -2921,6 +3315,7 @@
             true,
             true
         ],
+        "MaxLevel": 50,
         "StatType": [
             "CriticalChanceResistPoint_Base",
             "CriticalDamageResistRate_Base",
@@ -2956,7 +3351,7 @@
         ],
         "RecipeCost": 75000
     },
-    {
+    "7006": {
         "Id": 7006,
         "Category": "Charm",
         "Rarity": "N",
@@ -2964,12 +3359,13 @@
         "Icon": "equipment_icon_charm_tier7",
         "Shops": [],
         "Name": "便携式除臭剂",
-        "Desc": "与功能性化妆品制造商「Seaside」联名生产的便携式除臭剂。因为设计时尚，很多学员会把它挂在钥匙圈上，当成装饰品。",
+        "Desc": "与功能性化妆品制造商“Seaside”联名生产的便携式除臭剂。因为设计时尚，很多学员会把它挂在钥匙圈上，当成装饰品。",
         "IsReleased": [
             true,
             true,
             true
         ],
+        "MaxLevel": 55,
         "StatType": [
             "CriticalChanceResistPoint_Base",
             "CriticalDamageResistRate_Base",
@@ -3005,7 +3401,7 @@
         ],
         "RecipeCost": 100000
     },
-    {
+    "7007": {
         "Id": 7007,
         "Category": "Charm",
         "Rarity": "N",
@@ -3013,12 +3409,13 @@
         "Icon": "equipment_icon_charm_tier8",
         "Shops": [],
         "Name": "捕梦网",
-        "Desc": "带有消除噩梦这一巫术含义的捕梦网。闻起来散发着木材特有的清香。",
+        "Desc": "具有消除恶梦的咒术意义。闻起来有一股树木独特的香气。",
         "IsReleased": [
             true,
             true,
-            false
+            true
         ],
+        "MaxLevel": 60,
         "StatType": [
             "CriticalChanceResistPoint_Base",
             "CriticalDamageResistRate_Base",
@@ -3054,20 +3451,21 @@
         ],
         "RecipeCost": 125000
     },
-    {
+    "7008": {
         "Id": 7008,
         "Category": "Charm",
         "Rarity": "N",
         "Tier": 9,
         "Icon": "equipment_icon_charm_tier9",
         "Shops": [],
-        "Name": "鲨齿护符",
-        "Desc": "系上锐利的鲨鱼牙齿制成的护符。传说只要戴着这个护符，就能防止航海事故的发生。",
+        "Name": "鲨鱼牙齿护身符",
+        "Desc": "用锋利的鲨鱼牙齿制成的护身符。据说配戴此护身符能避免海上事故发生。",
         "IsReleased": [
             true,
-            false,
-            false
+            true,
+            true
         ],
+        "MaxLevel": 65,
         "StatType": [
             "CriticalChanceResistPoint_Base",
             "CriticalDamageResistRate_Base",
@@ -3103,7 +3501,57 @@
         ],
         "RecipeCost": 150000
     },
-    {
+    "7009": {
+        "Id": 7009,
+        "Category": "Charm",
+        "Rarity": "N",
+        "Tier": 10,
+        "Icon": "equipment_icon_charm_tier10",
+        "Shops": [],
+        "Name": "键帽玩具",
+        "Desc": "用键盘上的键帽制成的玩具。啪嗒啪嗒的感觉让人上瘾。",
+        "IsReleased": [
+            true,
+            true,
+            false
+        ],
+        "MaxLevel": 70,
+        "StatType": [
+            "CriticalChanceResistPoint_Base",
+            "CriticalDamageResistRate_Base",
+            "CriticalPoint_Base"
+        ],
+        "StatValue": [
+            [
+                405,
+                420
+            ],
+            [
+                2800,
+                3000
+            ],
+            [
+                260,
+                300
+            ]
+        ],
+        "Recipe": [
+            [
+                107009,
+                60
+            ],
+            [
+                107007,
+                20
+            ],
+            [
+                107006,
+                10
+            ]
+        ],
+        "RecipeCost": 175000
+    },
+    "8000": {
         "Id": 8000,
         "Category": "Watch",
         "Rarity": "N",
@@ -3117,6 +3565,7 @@
             true,
             true
         ],
+        "MaxLevel": 10,
         "StatType": [
             "CriticalPoint_Base"
         ],
@@ -3127,7 +3576,7 @@
             ]
         ]
     },
-    {
+    "8001": {
         "Id": 8001,
         "Category": "Watch",
         "Rarity": "N",
@@ -3141,6 +3590,7 @@
             true,
             true
         ],
+        "MaxLevel": 20,
         "StatType": [
             "CriticalPoint_Base"
         ],
@@ -3158,7 +3608,7 @@
         ],
         "RecipeCost": 1500
     },
-    {
+    "8002": {
         "Id": 8002,
         "Category": "Watch",
         "Rarity": "N",
@@ -3172,6 +3622,7 @@
             true,
             true
         ],
+        "MaxLevel": 30,
         "StatType": [
             "CriticalPoint_Base"
         ],
@@ -3189,7 +3640,7 @@
         ],
         "RecipeCost": 10000
     },
-    {
+    "8003": {
         "Id": 8003,
         "Category": "Watch",
         "Rarity": "N",
@@ -3203,6 +3654,7 @@
             true,
             true
         ],
+        "MaxLevel": 40,
         "StatType": [
             "CriticalPoint_Base",
             "CriticalDamageRate_Base"
@@ -3229,7 +3681,7 @@
         ],
         "RecipeCost": 25000
     },
-    {
+    "8004": {
         "Id": 8004,
         "Category": "Watch",
         "Rarity": "N",
@@ -3243,6 +3695,7 @@
             true,
             true
         ],
+        "MaxLevel": 45,
         "StatType": [
             "CriticalPoint_Base",
             "CriticalDamageRate_Base",
@@ -3278,7 +3731,7 @@
         ],
         "RecipeCost": 50000
     },
-    {
+    "8005": {
         "Id": 8005,
         "Category": "Watch",
         "Rarity": "N",
@@ -3292,6 +3745,7 @@
             true,
             true
         ],
+        "MaxLevel": 50,
         "StatType": [
             "CriticalPoint_Base",
             "CriticalDamageRate_Base",
@@ -3327,7 +3781,7 @@
         ],
         "RecipeCost": 75000
     },
-    {
+    "8006": {
         "Id": 8006,
         "Category": "Watch",
         "Rarity": "N",
@@ -3335,12 +3789,13 @@
         "Icon": "equipment_icon_watch_tier7",
         "Shops": [],
         "Name": "街头时尚手表",
-        "Desc": "同时有现代和可爱的设计而大受好评的街头时尚手表。<三步>在此使用和手环组合成套组一起贩卖的策略。",
+        "Desc": "同时有现代和可爱的设计而大受好评的街头时尚手表。“三步”在此使用了和手环组合成套装一起贩卖的策略。",
         "IsReleased": [
             true,
             true,
             true
         ],
+        "MaxLevel": 55,
         "StatType": [
             "CriticalPoint_Base",
             "CriticalDamageRate_Base",
@@ -3376,7 +3831,7 @@
         ],
         "RecipeCost": 100000
     },
-    {
+    "8007": {
         "Id": 8007,
         "Category": "Watch",
         "Rarity": "N",
@@ -3384,12 +3839,13 @@
         "Icon": "equipment_icon_watch_tier8",
         "Shops": [],
         "Name": "罗蕾莱手表",
-        "Desc": "现代时尚品牌「罗蕾莱」发售的手表。使用了木材与皮革的高雅设计散发着独特的氛围感。",
+        "Desc": "现代时尚品牌“罗蕾莱”发售的手表。使用木头和皮革的精致设计，营造出独特的氛围。",
         "IsReleased": [
             true,
             true,
-            false
+            true
         ],
+        "MaxLevel": 60,
         "StatType": [
             "CriticalPoint_Base",
             "CriticalDamageRate_Base",
@@ -3425,20 +3881,21 @@
         ],
         "RecipeCost": 125000
     },
-    {
+    "8008": {
         "Id": 8008,
         "Category": "Watch",
         "Rarity": "N",
         "Tier": 9,
         "Icon": "equipment_icon_watch_tier9",
         "Shops": [],
-        "Name": "潜水员手表",
-        "Desc": "海上运动品牌「哈耳庇厄」上市的一款潜水员用手表。理所应当地具备防水功能，就算在深水区域也能检测水下环境而不必担心水压对其造成影响。",
+        "Name": "潜水表",
+        "Desc": "海洋运动品牌【哈耳庇厄】推出的潜水用智能手表。除了防水之外，它在深水中也能确认水下环境，不必担心水压。",
         "IsReleased": [
             true,
-            false,
-            false
+            true,
+            true
         ],
+        "MaxLevel": 65,
         "StatType": [
             "CriticalPoint_Base",
             "CriticalDamageRate_Base",
@@ -3474,7 +3931,57 @@
         ],
         "RecipeCost": 150000
     },
-    {
+    "8009": {
+        "Id": 8009,
+        "Category": "Watch",
+        "Rarity": "N",
+        "Tier": 10,
+        "Icon": "equipment_icon_watch_tier10",
+        "Shops": [],
+        "Name": "触屏手表",
+        "Desc": "支持触屏的手表。可以移植市面上的游戏并运行，但想要流畅游玩怎么说还是太难了。",
+        "IsReleased": [
+            true,
+            true,
+            false
+        ],
+        "MaxLevel": 70,
+        "StatType": [
+            "CriticalPoint_Base",
+            "CriticalDamageRate_Base",
+            "MaxHP_Coefficient"
+        ],
+        "StatValue": [
+            [
+                450,
+                480
+            ],
+            [
+                2550,
+                2600
+            ],
+            [
+                1300,
+                1500
+            ]
+        ],
+        "Recipe": [
+            [
+                108009,
+                60
+            ],
+            [
+                108007,
+                20
+            ],
+            [
+                108006,
+                10
+            ]
+        ],
+        "RecipeCost": 175000
+    },
+    "9000": {
         "Id": 9000,
         "Category": "Necklace",
         "Rarity": "N",
@@ -3488,6 +3995,7 @@
             true,
             true
         ],
+        "MaxLevel": 10,
         "StatType": [
             "HealPower_Coefficient",
             "OppressionPower_Coefficient"
@@ -3503,7 +4011,7 @@
             ]
         ]
     },
-    {
+    "9001": {
         "Id": 9001,
         "Category": "Necklace",
         "Rarity": "N",
@@ -3517,6 +4025,7 @@
             true,
             true
         ],
+        "MaxLevel": 20,
         "StatType": [
             "HealPower_Coefficient",
             "OppressionPower_Coefficient"
@@ -3539,7 +4048,7 @@
         ],
         "RecipeCost": 1500
     },
-    {
+    "9002": {
         "Id": 9002,
         "Category": "Necklace",
         "Rarity": "N",
@@ -3553,6 +4062,7 @@
             true,
             true
         ],
+        "MaxLevel": 30,
         "StatType": [
             "HealPower_Coefficient",
             "OppressionPower_Coefficient"
@@ -3575,7 +4085,7 @@
         ],
         "RecipeCost": 10000
     },
-    {
+    "9003": {
         "Id": 9003,
         "Category": "Necklace",
         "Rarity": "N",
@@ -3589,6 +4099,7 @@
             true,
             true
         ],
+        "MaxLevel": 40,
         "StatType": [
             "HealPower_Coefficient",
             "OppressionPower_Coefficient"
@@ -3615,7 +4126,7 @@
         ],
         "RecipeCost": 25000
     },
-    {
+    "9004": {
         "Id": 9004,
         "Category": "Necklace",
         "Rarity": "N",
@@ -3629,6 +4140,7 @@
             true,
             true
         ],
+        "MaxLevel": 45,
         "StatType": [
             "HealPower_Coefficient",
             "OppressionPower_Coefficient",
@@ -3664,7 +4176,7 @@
         ],
         "RecipeCost": 50000
     },
-    {
+    "9005": {
         "Id": 9005,
         "Category": "Necklace",
         "Rarity": "N",
@@ -3678,6 +4190,7 @@
             true,
             true
         ],
+        "MaxLevel": 50,
         "StatType": [
             "HealPower_Coefficient",
             "OppressionPower_Coefficient",
@@ -3713,7 +4226,7 @@
         ],
         "RecipeCost": 75000
     },
-    {
+    "9006": {
         "Id": 9006,
         "Category": "Necklace",
         "Rarity": "N",
@@ -3727,6 +4240,7 @@
             true,
             true
         ],
+        "MaxLevel": 55,
         "StatType": [
             "HealPower_Coefficient",
             "OppressionPower_Coefficient",
@@ -3762,20 +4276,21 @@
         ],
         "RecipeCost": 100000
     },
-    {
+    "9007": {
         "Id": 9007,
         "Category": "Necklace",
         "Rarity": "N",
         "Tier": 8,
         "Icon": "equipment_icon_necklace_tier8",
         "Shops": [],
-        "Name": "翠叶项链",
-        "Desc": "现代时尚品牌「罗蕾莱」发售的项链。光照下叶片显现出模糊的光泽。",
+        "Name": "绿叶项链",
+        "Desc": "现代时尚品牌“罗蕾莱”推出的项链。据说被光芒照射的话，叶子会散发隐约的光泽。",
         "IsReleased": [
             true,
             true,
-            false
+            true
         ],
+        "MaxLevel": 60,
         "StatType": [
             "HealPower_Coefficient",
             "OppressionPower_Coefficient",
@@ -3811,20 +4326,21 @@
         ],
         "RecipeCost": 125000
     },
-    {
+    "9008": {
         "Id": 9008,
         "Category": "Necklace",
         "Rarity": "N",
         "Tier": 9,
         "Icon": "equipment_icon_necklace_tier9",
         "Shops": [],
-        "Name": "章鱼固定器",
-        "Desc": "潜水员用于固定呼吸器材而使用的项链型固定器。「哈耳庇厄」的固定器的协调配色与设计受到好评，也经常被当作时尚道具使用。",
+        "Name": "呼吸器固定装置",
+        "Desc": "潜水员用来固定呼吸调节器的项链形固定装置。【哈耳庇厄】的固定装置因其沉稳的色调与设计，经常被用于时尚搭配。",
         "IsReleased": [
             true,
-            false,
-            false
+            true,
+            true
         ],
+        "MaxLevel": 65,
         "StatType": [
             "HealPower_Coefficient",
             "OppressionPower_Coefficient",
@@ -3860,92 +4376,152 @@
         ],
         "RecipeCost": 150000
     },
-    {
+    "9009": {
+        "Id": 9009,
+        "Category": "Necklace",
+        "Rarity": "N",
+        "Tier": 10,
+        "Icon": "equipment_icon_necklace_tier10",
+        "Shops": [],
+        "Name": "存储器项链",
+        "Desc": "伪装成装饰的存储器项链。外表华丽，可内在却有可能存储着秘密数据。",
+        "IsReleased": [
+            true,
+            true,
+            false
+        ],
+        "MaxLevel": 70,
+        "StatType": [
+            "HealPower_Coefficient",
+            "OppressionPower_Coefficient",
+            "AttackPower_Coefficient"
+        ],
+        "StatValue": [
+            [
+                4100,
+                4200
+            ],
+            [
+                3800,
+                3800
+            ],
+            [
+                1500,
+                1800
+            ]
+        ],
+        "Recipe": [
+            [
+                109009,
+                60
+            ],
+            [
+                109007,
+                20
+            ],
+            [
+                109006,
+                10
+            ]
+        ],
+        "RecipeCost": 175000
+    },
+    "101001": {
         "Id": 101001,
         "Category": "Hat",
         "Rarity": "N",
         "Tier": 2,
         "Icon": "equipment_icon_hat_tier2_piece",
         "Shops": [],
-        "Name": "针织帽设计图纸",
-        "Desc": "可制造装备的设计图纸。",
+        "Name": "针织帽设计图",
+        "Desc": "可制造装备的设计图。",
         "IsReleased": [
             true,
             true,
             true
         ],
+        "MaxLevel": 1,
         "StatType": [],
-        "StatValue": []
+        "StatValue": [],
+        "LevelUpFeedExp": 15
     },
-    {
+    "101002": {
         "Id": 101002,
         "Category": "Hat",
         "Rarity": "N",
         "Tier": 3,
         "Icon": "equipment_icon_hat_tier3_piece",
         "Shops": [],
-        "Name": "大块头礼帽设计图纸",
-        "Desc": "可制造装备的设计图纸。",
+        "Name": "老大哥礼帽设计图",
+        "Desc": "可制造装备的设计图。",
         "IsReleased": [
             true,
             true,
             true
         ],
+        "MaxLevel": 1,
         "StatType": [],
-        "StatValue": []
+        "StatValue": [],
+        "LevelUpFeedExp": 25
     },
-    {
+    "101003": {
         "Id": 101003,
         "Category": "Hat",
         "Rarity": "N",
         "Tier": 4,
         "Icon": "equipment_icon_hat_tier4_piece",
         "Shops": [],
-        "Name": "蝴蝶结贝雷帽设计图纸",
-        "Desc": "可制造装备的设计图纸。",
+        "Name": "蝴蝶结贝雷帽设计图",
+        "Desc": "可制造装备的设计图。",
         "IsReleased": [
             true,
             true,
             true
         ],
+        "MaxLevel": 1,
         "StatType": [],
-        "StatValue": []
+        "StatValue": [],
+        "LevelUpFeedExp": 50
     },
-    {
+    "101004": {
         "Id": 101004,
         "Category": "Hat",
         "Rarity": "N",
         "Tier": 5,
         "Icon": "equipment_icon_hat_tier5_piece",
         "Shops": [],
-        "Name": "防弹头盔设计图纸",
-        "Desc": "可制造装备的设计图纸。",
+        "Name": "防弹头盔设计图",
+        "Desc": "可制造装备的设计图。",
         "IsReleased": [
             true,
             true,
             true
         ],
+        "MaxLevel": 1,
         "StatType": [],
-        "StatValue": []
+        "StatValue": [],
+        "LevelUpFeedExp": 75
     },
-    {
+    "101005": {
         "Id": 101005,
         "Category": "Hat",
         "Rarity": "N",
         "Tier": 6,
         "Icon": "equipment_icon_hat_tier6_piece",
         "Shops": [],
-        "Name": "褶边小礼帽设计图纸",
-        "Desc": "可制造装备的设计图纸。",
+        "Name": "褶边小礼帽设计图",
+        "Desc": "可制造装备的设计图。",
         "IsReleased": [
             true,
             true,
             true
         ],
+        "MaxLevel": 1,
         "StatType": [],
-        "StatValue": []
+        "StatValue": [],
+        "LevelUpFeedExp": 100
     },
-    {
+    "101006": {
         "Id": 101006,
         "Category": "Hat",
         "Rarity": "N",
@@ -3959,27 +4535,31 @@
             true,
             true
         ],
+        "MaxLevel": 1,
         "StatType": [],
-        "StatValue": []
+        "StatValue": [],
+        "LevelUpFeedExp": 125
     },
-    {
+    "101007": {
         "Id": 101007,
         "Category": "Hat",
         "Rarity": "N",
         "Tier": 8,
         "Icon": "equipment_icon_hat_tier8_piece",
         "Shops": [],
-        "Name": "叶条软呢帽设计图",
-        "Desc": "用于制作装备的图纸。",
+        "Name": "附有叶子的缎带礼帽设计图",
+        "Desc": "可制作装备的设计图。",
         "IsReleased": [
             true,
             true,
-            false
+            true
         ],
+        "MaxLevel": 1,
         "StatType": [],
-        "StatValue": []
+        "StatValue": [],
+        "LevelUpFeedExp": 150
     },
-    {
+    "101008": {
         "Id": 101008,
         "Category": "Hat",
         "Rarity": "N",
@@ -3987,101 +4567,132 @@
         "Icon": "equipment_icon_hat_tier9_piece",
         "Shops": [],
         "Name": "水手帽设计图",
-        "Desc": "用于制作装备的图纸。",
+        "Desc": "可制作装备的设计图。",
         "IsReleased": [
             true,
             true,
-            false
+            true
         ],
+        "MaxLevel": 1,
         "StatType": [],
-        "StatValue": []
+        "StatValue": [],
+        "LevelUpFeedExp": 175
     },
-    {
+    "101009": {
+        "Id": 101009,
+        "Category": "Hat",
+        "Rarity": "N",
+        "Tier": 10,
+        "Icon": "equipment_icon_hat_tier10_piece",
+        "Shops": [],
+        "Name": "电竞头盔设计图",
+        "Desc": "可制作装备的设计图。",
+        "IsReleased": [
+            true,
+            true,
+            true
+        ],
+        "MaxLevel": 1,
+        "StatType": [],
+        "StatValue": [],
+        "LevelUpFeedExp": 200
+    },
+    "102001": {
         "Id": 102001,
         "Category": "Gloves",
         "Rarity": "N",
         "Tier": 2,
         "Icon": "equipment_icon_gloves_tier2_piece",
         "Shops": [],
-        "Name": "针织连指手套设计图纸",
-        "Desc": "可制造装备的设计图纸。",
+        "Name": "针织连指手套设计图",
+        "Desc": "可制造装备的设计图。",
         "IsReleased": [
             true,
             true,
             true
         ],
+        "MaxLevel": 1,
         "StatType": [],
-        "StatValue": []
+        "StatValue": [],
+        "LevelUpFeedExp": 15
     },
-    {
+    "102002": {
         "Id": 102002,
         "Category": "Gloves",
         "Rarity": "N",
         "Tier": 3,
         "Icon": "equipment_icon_gloves_tier3_piece",
         "Shops": [],
-        "Name": "佩洛洛烤箱手套设计图纸",
-        "Desc": "可制造装备的设计图纸。",
+        "Name": "佩洛洛烤箱手套设计图",
+        "Desc": "可制造装备的设计图。",
         "IsReleased": [
             true,
             true,
             true
         ],
+        "MaxLevel": 1,
         "StatType": [],
-        "StatValue": []
+        "StatValue": [],
+        "LevelUpFeedExp": 25
     },
-    {
+    "102003": {
         "Id": 102003,
         "Category": "Gloves",
         "Rarity": "N",
         "Tier": 4,
         "Icon": "equipment_icon_gloves_tier4_piece",
         "Shops": [],
-        "Name": "皮手套设计图纸",
-        "Desc": "可制造装备的设计图纸。",
+        "Name": "皮手套设计图",
+        "Desc": "可制造装备的设计图。",
         "IsReleased": [
             true,
             true,
             true
         ],
+        "MaxLevel": 1,
         "StatType": [],
-        "StatValue": []
+        "StatValue": [],
+        "LevelUpFeedExp": 50
     },
-    {
+    "102004": {
         "Id": 102004,
         "Category": "Gloves",
         "Rarity": "N",
         "Tier": 5,
         "Icon": "equipment_icon_gloves_tier5_piece",
         "Shops": [],
-        "Name": "战术手套设计图纸",
-        "Desc": "可制造装备的设计图纸。",
+        "Name": "战术手套设计图",
+        "Desc": "可制造装备的设计图。",
         "IsReleased": [
             true,
             true,
             true
         ],
+        "MaxLevel": 1,
         "StatType": [],
-        "StatValue": []
+        "StatValue": [],
+        "LevelUpFeedExp": 75
     },
-    {
+    "102005": {
         "Id": 102005,
         "Category": "Gloves",
         "Rarity": "N",
         "Tier": 6,
         "Icon": "equipment_icon_gloves_tier6_piece",
         "Shops": [],
-        "Name": "蕾丝手套设计图纸",
-        "Desc": "可制造装备的设计图纸。",
+        "Name": "蕾丝手套设计图",
+        "Desc": "可制造装备的设计图。",
         "IsReleased": [
             true,
             true,
             true
         ],
+        "MaxLevel": 1,
         "StatType": [],
-        "StatValue": []
+        "StatValue": [],
+        "LevelUpFeedExp": 100
     },
-    {
+    "102006": {
         "Id": 102006,
         "Category": "Gloves",
         "Rarity": "N",
@@ -4095,27 +4706,31 @@
             true,
             true
         ],
+        "MaxLevel": 1,
         "StatType": [],
-        "StatValue": []
+        "StatValue": [],
+        "LevelUpFeedExp": 125
     },
-    {
+    "102007": {
         "Id": 102007,
         "Category": "Gloves",
         "Rarity": "N",
         "Tier": 8,
         "Icon": "equipment_icon_gloves_tier8_piece",
         "Shops": [],
-        "Name": "珍珠纱线手套设计图",
-        "Desc": "用于制作装备的图纸。",
+        "Name": "珍珠毛线手套设计图",
+        "Desc": "可制作装备的设计图。",
         "IsReleased": [
             true,
             true,
-            false
+            true
         ],
+        "MaxLevel": 1,
         "StatType": [],
-        "StatValue": []
+        "StatValue": [],
+        "LevelUpFeedExp": 150
     },
-    {
+    "102008": {
         "Id": 102008,
         "Category": "Gloves",
         "Rarity": "N",
@@ -4123,101 +4738,132 @@
         "Icon": "equipment_icon_gloves_tier9_piece",
         "Shops": [],
         "Name": "航海手套设计图",
-        "Desc": "用于制作装备的图纸。",
+        "Desc": "可制作装备的设计图。",
         "IsReleased": [
             true,
             true,
-            false
+            true
         ],
+        "MaxLevel": 1,
         "StatType": [],
-        "StatValue": []
+        "StatValue": [],
+        "LevelUpFeedExp": 175
     },
-    {
+    "102009": {
+        "Id": 102009,
+        "Category": "Gloves",
+        "Rarity": "N",
+        "Tier": 10,
+        "Icon": "equipment_icon_gloves_tier10_piece",
+        "Shops": [],
+        "Name": "超级手套设计图",
+        "Desc": "可制作装备的设计图。",
+        "IsReleased": [
+            true,
+            true,
+            true
+        ],
+        "MaxLevel": 1,
+        "StatType": [],
+        "StatValue": [],
+        "LevelUpFeedExp": 200
+    },
+    "103001": {
         "Id": 103001,
         "Category": "Shoes",
         "Rarity": "N",
         "Tier": 2,
         "Icon": "equipment_icon_shoes_tier2_piece",
         "Shops": [],
-        "Name": "雪地靴设计图纸",
-        "Desc": "可制造装备的设计图纸。",
+        "Name": "雪地靴设计图",
+        "Desc": "可制造装备的设计图。",
         "IsReleased": [
             true,
             true,
             true
         ],
+        "MaxLevel": 1,
         "StatType": [],
-        "StatValue": []
+        "StatValue": [],
+        "LevelUpFeedExp": 15
     },
-    {
+    "103002": {
         "Id": 103002,
         "Category": "Shoes",
         "Rarity": "N",
         "Tier": 3,
         "Icon": "equipment_icon_shoes_tier3_piece",
         "Shops": [],
-        "Name": "粉嫩羊驼拖鞋设计图纸",
-        "Desc": "可制造装备的设计图纸。",
+        "Name": "粉嫩羊驼拖鞋设计图",
+        "Desc": "可制造装备的设计图。",
         "IsReleased": [
             true,
             true,
             true
         ],
+        "MaxLevel": 1,
         "StatType": [],
-        "StatValue": []
+        "StatValue": [],
+        "LevelUpFeedExp": 25
     },
-    {
+    "103003": {
         "Id": 103003,
         "Category": "Shoes",
         "Rarity": "N",
         "Tier": 4,
         "Icon": "equipment_icon_shoes_tier4_piece",
         "Shops": [],
-        "Name": "复古漆皮豆豆鞋设计图纸",
-        "Desc": "可制造装备的设计图纸。",
+        "Name": "复古漆皮豆豆鞋设计图",
+        "Desc": "可制造装备的设计图。",
         "IsReleased": [
             true,
             true,
             true
         ],
+        "MaxLevel": 1,
         "StatType": [],
-        "StatValue": []
+        "StatValue": [],
+        "LevelUpFeedExp": 50
     },
-    {
+    "103004": {
         "Id": 103004,
         "Category": "Shoes",
         "Rarity": "N",
         "Tier": 5,
         "Icon": "equipment_icon_shoes_tier5_piece",
         "Shops": [],
-        "Name": "战术靴设计图纸",
-        "Desc": "可制造装备的设计图纸。",
+        "Name": "战术靴设计图",
+        "Desc": "可制造装备的设计图。",
         "IsReleased": [
             true,
             true,
             true
         ],
+        "MaxLevel": 1,
         "StatType": [],
-        "StatValue": []
+        "StatValue": [],
+        "LevelUpFeedExp": 75
     },
-    {
+    "103005": {
         "Id": 103005,
         "Category": "Shoes",
         "Rarity": "N",
         "Tier": 6,
         "Icon": "equipment_icon_shoes_tier6_piece",
         "Shops": [],
-        "Name": "高跟鞋设计图纸",
-        "Desc": "可制造装备的设计图纸。",
+        "Name": "高跟鞋设计图",
+        "Desc": "可制造装备的设计图。",
         "IsReleased": [
             true,
             true,
             true
         ],
+        "MaxLevel": 1,
         "StatType": [],
-        "StatValue": []
+        "StatValue": [],
+        "LevelUpFeedExp": 100
     },
-    {
+    "103006": {
         "Id": 103006,
         "Category": "Shoes",
         "Rarity": "N",
@@ -4231,10 +4877,12 @@
             true,
             true
         ],
+        "MaxLevel": 1,
         "StatType": [],
-        "StatValue": []
+        "StatValue": [],
+        "LevelUpFeedExp": 125
     },
-    {
+    "103007": {
         "Id": 103007,
         "Category": "Shoes",
         "Rarity": "N",
@@ -4242,118 +4890,151 @@
         "Icon": "equipment_icon_shoes_tier8_piece",
         "Shops": [],
         "Name": "防水登山靴设计图",
-        "Desc": "用于制作装备的图纸。",
+        "Desc": "可制作装备的设计图。",
         "IsReleased": [
             true,
             true,
-            false
+            true
         ],
+        "MaxLevel": 1,
         "StatType": [],
-        "StatValue": []
+        "StatValue": [],
+        "LevelUpFeedExp": 150
     },
-    {
+    "103008": {
         "Id": 103008,
         "Category": "Shoes",
         "Rarity": "N",
         "Tier": 9,
         "Icon": "equipment_icon_shoes_tier9_piece",
         "Shops": [],
-        "Name": "海蓝凉鞋设计图",
-        "Desc": "用于制作装备的图纸。",
+        "Name": "运动凉鞋设计图",
+        "Desc": "可制作装备的设计图。",
         "IsReleased": [
             true,
             true,
-            false
+            true
         ],
+        "MaxLevel": 1,
         "StatType": [],
-        "StatValue": []
+        "StatValue": [],
+        "LevelUpFeedExp": 175
     },
-    {
+    "103009": {
+        "Id": 103009,
+        "Category": "Shoes",
+        "Rarity": "N",
+        "Tier": 10,
+        "Icon": "equipment_icon_shoes_tier10_piece",
+        "Shops": [],
+        "Name": "游戏拖鞋设计图",
+        "Desc": "可制作装备的设计图。",
+        "IsReleased": [
+            true,
+            true,
+            true
+        ],
+        "MaxLevel": 1,
+        "StatType": [],
+        "StatValue": [],
+        "LevelUpFeedExp": 200
+    },
+    "104001": {
         "Id": 104001,
         "Category": "Bag",
         "Rarity": "N",
         "Tier": 2,
         "Icon": "equipment_icon_bag_tier2_piece",
         "Shops": [],
-        "Name": "防寒斜挎包设计图纸",
-        "Desc": "可制造装备的设计图纸。",
+        "Name": "防寒斜挎包设计图",
+        "Desc": "可制造装备的设计图。",
         "IsReleased": [
             true,
             true,
             true
         ],
+        "MaxLevel": 1,
         "StatType": [],
-        "StatValue": []
+        "StatValue": [],
+        "LevelUpFeedExp": 15
     },
-    {
+    "104002": {
         "Id": 104002,
         "Category": "Bag",
         "Rarity": "N",
         "Tier": 3,
         "Icon": "equipment_icon_bag_tier3_piece",
         "Shops": [],
-        "Name": "佩洛洛背包设计图纸",
-        "Desc": "可制造装备的设计图纸。",
+        "Name": "佩洛洛背包设计图",
+        "Desc": "可制造装备的设计图。",
         "IsReleased": [
             true,
             true,
             true
         ],
+        "MaxLevel": 1,
         "StatType": [],
-        "StatValue": []
+        "StatValue": [],
+        "LevelUpFeedExp": 25
     },
-    {
+    "104003": {
         "Id": 104003,
         "Category": "Bag",
         "Rarity": "N",
         "Tier": 4,
         "Icon": "equipment_icon_bag_tier4_piece",
         "Shops": [],
-        "Name": "藏蓝书包设计图纸",
-        "Desc": "可制造装备的设计图纸。",
+        "Name": "藏蓝书包设计图",
+        "Desc": "可制造装备的设计图。",
         "IsReleased": [
             true,
             true,
             true
         ],
+        "MaxLevel": 1,
         "StatType": [],
-        "StatValue": []
+        "StatValue": [],
+        "LevelUpFeedExp": 50
     },
-    {
+    "104004": {
         "Id": 104004,
         "Category": "Bag",
         "Rarity": "N",
         "Tier": 5,
         "Icon": "equipment_icon_bag_tier5_piece",
         "Shops": [],
-        "Name": "战术双肩包设计图纸",
-        "Desc": "可制造装备的设计图纸。",
+        "Name": "战术双肩包设计图",
+        "Desc": "可制造装备的设计图。",
         "IsReleased": [
             true,
             true,
             true
         ],
+        "MaxLevel": 1,
         "StatType": [],
-        "StatValue": []
+        "StatValue": [],
+        "LevelUpFeedExp": 75
     },
-    {
+    "104005": {
         "Id": 104005,
         "Category": "Bag",
         "Rarity": "N",
         "Tier": 6,
         "Icon": "equipment_icon_bag_tier6_piece",
         "Shops": [],
-        "Name": "恶魔之翼挎包设计图纸",
-        "Desc": "可制造装备的设计图纸。",
+        "Name": "恶魔之翼挎包设计图",
+        "Desc": "可制造装备的设计图。",
         "IsReleased": [
             true,
             true,
             true
         ],
+        "MaxLevel": 1,
         "StatType": [],
-        "StatValue": []
+        "StatValue": [],
+        "LevelUpFeedExp": 100
     },
-    {
+    "104006": {
         "Id": 104006,
         "Category": "Bag",
         "Rarity": "N",
@@ -4367,129 +5048,164 @@
             true,
             true
         ],
+        "MaxLevel": 1,
         "StatType": [],
-        "StatValue": []
+        "StatValue": [],
+        "LevelUpFeedExp": 125
     },
-    {
+    "104007": {
         "Id": 104007,
         "Category": "Bag",
         "Rarity": "N",
         "Tier": 8,
         "Icon": "equipment_icon_bag_tier8_piece",
         "Shops": [],
-        "Name": "蝶纹斜挎包设计图",
-        "Desc": "用于制作装备的图纸。",
+        "Name": "蝴蝶图案单肩包设计图",
+        "Desc": "可制作装备的设计图。",
         "IsReleased": [
             true,
             true,
-            false
+            true
         ],
+        "MaxLevel": 1,
         "StatType": [],
-        "StatValue": []
+        "StatValue": [],
+        "LevelUpFeedExp": 150
     },
-    {
+    "104008": {
         "Id": 104008,
         "Category": "Bag",
         "Rarity": "N",
         "Tier": 9,
         "Icon": "equipment_icon_bag_tier9_piece",
         "Shops": [],
-        "Name": "防水挎包设计图",
-        "Desc": "用于制作装备的图纸。",
+        "Name": "斜挎式防水袋设计图",
+        "Desc": "可制作装备的设计图。",
         "IsReleased": [
             true,
             true,
-            false
+            true
         ],
+        "MaxLevel": 1,
         "StatType": [],
-        "StatValue": []
+        "StatValue": [],
+        "LevelUpFeedExp": 175
     },
-    {
+    "104009": {
+        "Id": 104009,
+        "Category": "Bag",
+        "Rarity": "N",
+        "Tier": 10,
+        "Icon": "equipment_icon_bag_tier10_piece",
+        "Shops": [],
+        "Name": "金属包设计图",
+        "Desc": "可制作装备的设计图。",
+        "IsReleased": [
+            true,
+            true,
+            true
+        ],
+        "MaxLevel": 1,
+        "StatType": [],
+        "StatValue": [],
+        "LevelUpFeedExp": 200
+    },
+    "105001": {
         "Id": 105001,
         "Category": "Badge",
         "Rarity": "N",
         "Tier": 2,
         "Icon": "equipment_icon_badge_tier2_piece",
         "Shops": [],
-        "Name": "玛纳斯卢毛毡徽章设计图纸",
-        "Desc": "可制造装备的设计图纸。",
+        "Name": "玛纳斯卢毛毡徽章设计图",
+        "Desc": "可制造装备的设计图。",
         "IsReleased": [
             true,
             true,
             true
         ],
+        "MaxLevel": 1,
         "StatType": [],
-        "StatValue": []
+        "StatValue": [],
+        "LevelUpFeedExp": 15
     },
-    {
+    "105002": {
         "Id": 105002,
         "Category": "Badge",
         "Rarity": "N",
         "Tier": 3,
         "Icon": "equipment_icon_badge_tier3_piece",
         "Shops": [],
-        "Name": "愤怒的阿德利圆形徽章设计图纸",
-        "Desc": "可制造装备的设计图纸。",
+        "Name": "愤怒的阿德利圆形徽章设计图",
+        "Desc": "可制造装备的设计图。",
         "IsReleased": [
             true,
             true,
             true
         ],
+        "MaxLevel": 1,
         "StatType": [],
-        "StatValue": []
+        "StatValue": [],
+        "LevelUpFeedExp": 25
     },
-    {
+    "105003": {
         "Id": 105003,
         "Category": "Badge",
         "Rarity": "N",
         "Tier": 4,
         "Icon": "equipment_icon_badge_tier4_piece",
         "Shops": [],
-        "Name": "维罗妮卡刺绣徽章设计图纸",
-        "Desc": "可制造装备的设计图纸。",
+        "Name": "维罗妮卡刺绣徽章设计图",
+        "Desc": "可制造装备的设计图。",
         "IsReleased": [
             true,
             true,
             true
         ],
+        "MaxLevel": 1,
         "StatType": [],
-        "StatValue": []
+        "StatValue": [],
+        "LevelUpFeedExp": 50
     },
-    {
+    "105004": {
         "Id": 105004,
         "Category": "Badge",
         "Rarity": "N",
         "Tier": 5,
         "Icon": "equipment_icon_badge_tier5_piece",
         "Shops": [],
-        "Name": "风山纹章设计图纸",
-        "Desc": "可制造装备的设计图纸。",
+        "Name": "风山纹章设计图",
+        "Desc": "可制造装备的设计图。",
         "IsReleased": [
             true,
             true,
             true
         ],
+        "MaxLevel": 1,
         "StatType": [],
-        "StatValue": []
+        "StatValue": [],
+        "LevelUpFeedExp": 75
     },
-    {
+    "105005": {
         "Id": 105005,
         "Category": "Badge",
         "Rarity": "N",
         "Tier": 6,
         "Icon": "equipment_icon_badge_tier6_piece",
         "Shops": [],
-        "Name": "可可恶魔徽章设计图纸",
-        "Desc": "可制造装备的设计图纸。",
+        "Name": "可可恶魔徽章设计图",
+        "Desc": "可制造装备的设计图。",
         "IsReleased": [
             true,
             true,
             true
         ],
+        "MaxLevel": 1,
         "StatType": [],
-        "StatValue": []
+        "StatValue": [],
+        "LevelUpFeedExp": 100
     },
-    {
+    "105006": {
         "Id": 105006,
         "Category": "Badge",
         "Rarity": "N",
@@ -4503,10 +5219,12 @@
             true,
             true
         ],
+        "MaxLevel": 1,
         "StatType": [],
-        "StatValue": []
+        "StatValue": [],
+        "LevelUpFeedExp": 125
     },
-    {
+    "105007": {
         "Id": 105007,
         "Category": "Badge",
         "Rarity": "N",
@@ -4514,16 +5232,18 @@
         "Icon": "equipment_icon_badge_tier8_piece",
         "Shops": [],
         "Name": "罗蕾莱徽章设计图",
-        "Desc": "用于制作装备的图纸。",
+        "Desc": "可制作装备的设计图。",
         "IsReleased": [
             true,
             true,
-            false
+            true
         ],
+        "MaxLevel": 1,
         "StatType": [],
-        "StatValue": []
+        "StatValue": [],
+        "LevelUpFeedExp": 150
     },
-    {
+    "105008": {
         "Id": 105008,
         "Category": "Badge",
         "Rarity": "N",
@@ -4531,101 +5251,132 @@
         "Icon": "equipment_icon_badge_tier9_piece",
         "Shops": [],
         "Name": "哈耳庇厄弹性徽章设计图",
-        "Desc": "用于制作装备的图纸。",
+        "Desc": "可制作装备的设计图。",
         "IsReleased": [
             true,
             true,
-            false
+            true
         ],
+        "MaxLevel": 1,
         "StatType": [],
-        "StatValue": []
+        "StatValue": [],
+        "LevelUpFeedExp": 175
     },
-    {
+    "105009": {
+        "Id": 105009,
+        "Category": "Badge",
+        "Rarity": "N",
+        "Tier": 10,
+        "Icon": "equipment_icon_badge_tier10_piece",
+        "Shops": [],
+        "Name": "硬币徽章设计图",
+        "Desc": "可制作装备的设计图。",
+        "IsReleased": [
+            true,
+            true,
+            true
+        ],
+        "MaxLevel": 1,
+        "StatType": [],
+        "StatValue": [],
+        "LevelUpFeedExp": 200
+    },
+    "106001": {
         "Id": 106001,
         "Category": "Hairpin",
         "Rarity": "N",
         "Tier": 2,
         "Icon": "equipment_icon_hairpin_tier2_piece",
         "Shops": [],
-        "Name": "发圈设计图纸",
-        "Desc": "可制造装备的设计图纸。",
+        "Name": "发圈设计图",
+        "Desc": "可制造装备的设计图。",
         "IsReleased": [
             true,
             true,
             true
         ],
+        "MaxLevel": 1,
         "StatType": [],
-        "StatValue": []
+        "StatValue": [],
+        "LevelUpFeedExp": 15
     },
-    {
+    "106002": {
         "Id": 106002,
         "Category": "Hairpin",
         "Rarity": "N",
         "Tier": 3,
         "Icon": "equipment_icon_hairpin_tier3_piece",
         "Shops": [],
-        "Name": "MomoTalk发夹设计图纸",
-        "Desc": "可制造装备的设计图纸。",
+        "Name": "MomoTalk发夹设计图",
+        "Desc": "可制造装备的设计图。",
         "IsReleased": [
             true,
             true,
             true
         ],
+        "MaxLevel": 1,
         "StatType": [],
-        "StatValue": []
+        "StatValue": [],
+        "LevelUpFeedExp": 25
     },
-    {
+    "106003": {
         "Id": 106003,
         "Category": "Hairpin",
         "Rarity": "N",
         "Tier": 4,
         "Icon": "equipment_icon_hairpin_tier4_piece",
         "Shops": [],
-        "Name": "翅膀发夹设计图纸",
-        "Desc": "可制造装备的设计图纸。",
+        "Name": "翅膀发夹设计图",
+        "Desc": "可制造装备的设计图。",
         "IsReleased": [
             true,
             true,
             true
         ],
+        "MaxLevel": 1,
         "StatType": [],
-        "StatValue": []
+        "StatValue": [],
+        "LevelUpFeedExp": 50
     },
-    {
+    "106004": {
         "Id": 106004,
         "Category": "Hairpin",
         "Rarity": "N",
         "Tier": 5,
         "Icon": "equipment_icon_hairpin_tier5_piece",
         "Shops": [],
-        "Name": "多功能发夹设计图纸",
-        "Desc": "可制造装备的设计图纸。",
+        "Name": "多功能发夹设计图",
+        "Desc": "可制造装备的设计图。",
         "IsReleased": [
             true,
             true,
             true
         ],
+        "MaxLevel": 1,
         "StatType": [],
-        "StatValue": []
+        "StatValue": [],
+        "LevelUpFeedExp": 75
     },
-    {
+    "106005": {
         "Id": 106005,
         "Category": "Hairpin",
         "Rarity": "N",
         "Tier": 6,
         "Icon": "equipment_icon_hairpin_tier6_piece",
         "Shops": [],
-        "Name": "蝙蝠发夹设计图纸",
-        "Desc": "可制造装备的设计图纸。",
+        "Name": "蝙蝠发夹设计图",
+        "Desc": "可制造装备的设计图。",
         "IsReleased": [
             true,
             true,
             true
         ],
+        "MaxLevel": 1,
         "StatType": [],
-        "StatValue": []
+        "StatValue": [],
+        "LevelUpFeedExp": 100
     },
-    {
+    "106006": {
         "Id": 106006,
         "Category": "Hairpin",
         "Rarity": "N",
@@ -4639,112 +5390,145 @@
             true,
             true
         ],
+        "MaxLevel": 1,
         "StatType": [],
-        "StatValue": []
+        "StatValue": [],
+        "LevelUpFeedExp": 125
     },
-    {
+    "106007": {
         "Id": 106007,
         "Category": "Hairpin",
         "Rarity": "N",
         "Tier": 8,
         "Icon": "equipment_icon_hairpin_tier8_piece",
         "Shops": [],
-        "Name": "翠叶发卡设计图",
-        "Desc": "用于制作装备的图纸。",
+        "Name": "树叶发夹设计图",
+        "Desc": "可制作装备的设计图。",
         "IsReleased": [
             true,
             true,
-            false
+            true
         ],
+        "MaxLevel": 1,
         "StatType": [],
-        "StatValue": []
+        "StatValue": [],
+        "LevelUpFeedExp": 150
     },
-    {
+    "106008": {
         "Id": 106008,
         "Category": "Hairpin",
         "Rarity": "N",
         "Tier": 9,
         "Icon": "equipment_icon_hairpin_tier9_piece",
         "Shops": [],
-        "Name": "船锚发卡设计图",
-        "Desc": "用于制作装备的图纸。",
+        "Name": "船锚发夹设计图",
+        "Desc": "可制作装备的设计图。",
         "IsReleased": [
             true,
             true,
-            false
+            true
         ],
+        "MaxLevel": 1,
         "StatType": [],
-        "StatValue": []
+        "StatValue": [],
+        "LevelUpFeedExp": 175
     },
-    {
+    "106009": {
+        "Id": 106009,
+        "Category": "Hairpin",
+        "Rarity": "N",
+        "Tier": 10,
+        "Icon": "equipment_icon_hairpin_tier10_piece",
+        "Shops": [],
+        "Name": "电磁波屏蔽发夹设计图",
+        "Desc": "可制作装备的设计图。",
+        "IsReleased": [
+            true,
+            true,
+            true
+        ],
+        "MaxLevel": 1,
+        "StatType": [],
+        "StatValue": [],
+        "LevelUpFeedExp": 200
+    },
+    "107001": {
         "Id": 107001,
         "Category": "Charm",
         "Rarity": "N",
         "Tier": 2,
         "Icon": "equipment_icon_charm_tier2_piece",
         "Shops": [],
-        "Name": "暖手贴设计图纸",
-        "Desc": "可制造装备的设计图纸。",
+        "Name": "暖手贴设计图",
+        "Desc": "可制造装备的设计图。",
         "IsReleased": [
             true,
             true,
             true
         ],
+        "MaxLevel": 1,
         "StatType": [],
-        "StatValue": []
+        "StatValue": [],
+        "LevelUpFeedExp": 15
     },
-    {
+    "107002": {
         "Id": 107002,
         "Category": "Charm",
         "Rarity": "N",
         "Tier": 3,
         "Icon": "equipment_icon_charm_tier3_piece",
         "Shops": [],
-        "Name": "佩洛洛的羽毛设计图纸",
-        "Desc": "可制造装备的设计图纸。",
+        "Name": "佩洛洛的羽毛设计图",
+        "Desc": "可制造装备的设计图。",
         "IsReleased": [
             true,
             true,
             true
         ],
+        "MaxLevel": 1,
         "StatType": [],
-        "StatValue": []
+        "StatValue": [],
+        "LevelUpFeedExp": 25
     },
-    {
+    "107003": {
         "Id": 107003,
         "Category": "Charm",
         "Rarity": "N",
         "Tier": 4,
         "Icon": "equipment_icon_charm_tier4_piece",
         "Shops": [],
-        "Name": "十字架设计图纸",
-        "Desc": "可制造装备的设计图纸。",
+        "Name": "十字架设计图",
+        "Desc": "可制造装备的设计图。",
         "IsReleased": [
             true,
             true,
             true
         ],
+        "MaxLevel": 1,
         "StatType": [],
-        "StatValue": []
+        "StatValue": [],
+        "LevelUpFeedExp": 50
     },
-    {
+    "107004": {
         "Id": 107004,
         "Category": "Charm",
         "Rarity": "N",
         "Tier": 5,
         "Icon": "equipment_icon_charm_tier5_piece",
         "Shops": [],
-        "Name": "迷彩不倒翁设计图纸",
-        "Desc": "可制造装备的设计图纸。",
+        "Name": "迷彩不倒翁设计图",
+        "Desc": "可制造装备的设计图。",
         "IsReleased": [
             true,
             true,
             true
         ],
+        "MaxLevel": 1,
         "StatType": [],
-        "StatValue": []
+        "StatValue": [],
+        "LevelUpFeedExp": 75
     },
-    {
+    "107005": {
         "Id": 107005,
         "Category": "Charm",
         "Rarity": "N",
@@ -4758,10 +5542,12 @@
             true,
             true
         ],
+        "MaxLevel": 1,
         "StatType": [],
-        "StatValue": []
+        "StatValue": [],
+        "LevelUpFeedExp": 100
     },
-    {
+    "107006": {
         "Id": 107006,
         "Category": "Charm",
         "Rarity": "N",
@@ -4775,10 +5561,12 @@
             true,
             true
         ],
+        "MaxLevel": 1,
         "StatType": [],
-        "StatValue": []
+        "StatValue": [],
+        "LevelUpFeedExp": 125
     },
-    {
+    "107007": {
         "Id": 107007,
         "Category": "Charm",
         "Rarity": "N",
@@ -4786,101 +5574,132 @@
         "Icon": "equipment_icon_charm_tier8_piece",
         "Shops": [],
         "Name": "捕梦网设计图",
-        "Desc": "用于制作装备的图纸。",
+        "Desc": "可制作装备的设计图。",
         "IsReleased": [
             true,
             true,
-            false
+            true
         ],
+        "MaxLevel": 1,
         "StatType": [],
-        "StatValue": []
+        "StatValue": [],
+        "LevelUpFeedExp": 150
     },
-    {
+    "107008": {
         "Id": 107008,
         "Category": "Charm",
         "Rarity": "N",
         "Tier": 9,
         "Icon": "equipment_icon_charm_tier9_piece",
         "Shops": [],
-        "Name": "鲨齿护符设计图",
+        "Name": "鲨鱼牙齿护身符设计图",
+        "Desc": "可制作装备的设计图。",
+        "IsReleased": [
+            true,
+            true,
+            true
+        ],
+        "MaxLevel": 1,
+        "StatType": [],
+        "StatValue": [],
+        "LevelUpFeedExp": 175
+    },
+    "107009": {
+        "Id": 107009,
+        "Category": "Charm",
+        "Rarity": "N",
+        "Tier": 10,
+        "Icon": "equipment_icon_charm_tier10_piece",
+        "Shops": [],
+        "Name": "键帽玩具设计图",
         "Desc": "用于制作装备的图纸。",
         "IsReleased": [
             true,
-            false,
+            true,
             false
         ],
+        "MaxLevel": 1,
         "StatType": [],
-        "StatValue": []
+        "StatValue": [],
+        "LevelUpFeedExp": 200
     },
-    {
+    "108001": {
         "Id": 108001,
         "Category": "Watch",
         "Rarity": "N",
         "Tier": 2,
         "Icon": "equipment_icon_watch_tier2_piece",
         "Shops": [],
-        "Name": "皮带手表设计图纸",
-        "Desc": "可制造装备的设计图纸。",
+        "Name": "皮带手表设计图",
+        "Desc": "可制造装备的设计图。",
         "IsReleased": [
             true,
             true,
             true
         ],
+        "MaxLevel": 1,
         "StatType": [],
-        "StatValue": []
+        "StatValue": [],
+        "LevelUpFeedExp": 15
     },
-    {
+    "108002": {
         "Id": 108002,
         "Category": "Watch",
         "Rarity": "N",
         "Tier": 3,
         "Icon": "equipment_icon_watch_tier3_piece",
         "Shops": [],
-        "Name": "波浪猫手表设计图纸",
-        "Desc": "可制造装备的设计图纸。",
+        "Name": "波浪猫手表设计图",
+        "Desc": "可制造装备的设计图。",
         "IsReleased": [
             true,
             true,
             true
         ],
+        "MaxLevel": 1,
         "StatType": [],
-        "StatValue": []
+        "StatValue": [],
+        "LevelUpFeedExp": 25
     },
-    {
+    "108003": {
         "Id": 108003,
         "Category": "Watch",
         "Rarity": "N",
         "Tier": 4,
         "Icon": "equipment_icon_watch_tier4_piece",
         "Shops": [],
-        "Name": "复古怀表设计图纸",
-        "Desc": "可制造装备的设计图纸。",
+        "Name": "复古怀表设计图",
+        "Desc": "可制造装备的设计图。",
         "IsReleased": [
             true,
             true,
             true
         ],
+        "MaxLevel": 1,
         "StatType": [],
-        "StatValue": []
+        "StatValue": [],
+        "LevelUpFeedExp": 50
     },
-    {
+    "108004": {
         "Id": 108004,
         "Category": "Watch",
         "Rarity": "N",
         "Tier": 5,
         "Icon": "equipment_icon_watch_tier5_piece",
         "Shops": [],
-        "Name": "防尘手表设计图纸",
-        "Desc": "可制造装备的设计图纸。",
+        "Name": "防尘手表设计图",
+        "Desc": "可制造装备的设计图。",
         "IsReleased": [
             true,
             true,
             true
         ],
+        "MaxLevel": 1,
         "StatType": [],
-        "StatValue": []
+        "StatValue": [],
+        "LevelUpFeedExp": 75
     },
-    {
+    "108005": {
         "Id": 108005,
         "Category": "Watch",
         "Rarity": "N",
@@ -4894,10 +5713,12 @@
             true,
             true
         ],
+        "MaxLevel": 1,
         "StatType": [],
-        "StatValue": []
+        "StatValue": [],
+        "LevelUpFeedExp": 100
     },
-    {
+    "108006": {
         "Id": 108006,
         "Category": "Watch",
         "Rarity": "N",
@@ -4911,10 +5732,12 @@
             true,
             true
         ],
+        "MaxLevel": 1,
         "StatType": [],
-        "StatValue": []
+        "StatValue": [],
+        "LevelUpFeedExp": 125
     },
-    {
+    "108007": {
         "Id": 108007,
         "Category": "Watch",
         "Rarity": "N",
@@ -4922,101 +5745,132 @@
         "Icon": "equipment_icon_watch_tier8_piece",
         "Shops": [],
         "Name": "罗蕾莱手表设计图",
-        "Desc": "用于制作装备的图纸。",
+        "Desc": "可制作装备的设计图。",
         "IsReleased": [
             true,
             true,
-            false
+            true
         ],
+        "MaxLevel": 1,
         "StatType": [],
-        "StatValue": []
+        "StatValue": [],
+        "LevelUpFeedExp": 150
     },
-    {
+    "108008": {
         "Id": 108008,
         "Category": "Watch",
         "Rarity": "N",
         "Tier": 9,
         "Icon": "equipment_icon_watch_tier9_piece",
         "Shops": [],
-        "Name": "潜水员手表设计图",
+        "Name": "潜水表设计图",
+        "Desc": "可制作装备的设计图。",
+        "IsReleased": [
+            true,
+            true,
+            true
+        ],
+        "MaxLevel": 1,
+        "StatType": [],
+        "StatValue": [],
+        "LevelUpFeedExp": 175
+    },
+    "108009": {
+        "Id": 108009,
+        "Category": "Watch",
+        "Rarity": "N",
+        "Tier": 10,
+        "Icon": "equipment_icon_watch_tier10_piece",
+        "Shops": [],
+        "Name": "触屏手表设计图",
         "Desc": "用于制作装备的图纸。",
         "IsReleased": [
             true,
-            false,
+            true,
             false
         ],
+        "MaxLevel": 1,
         "StatType": [],
-        "StatValue": []
+        "StatValue": [],
+        "LevelUpFeedExp": 200
     },
-    {
+    "109001": {
         "Id": 109001,
         "Category": "Necklace",
         "Rarity": "N",
         "Tier": 2,
         "Icon": "equipment_icon_necklace_tier2_piece",
         "Shops": [],
-        "Name": "雪花吊坠设计图纸",
-        "Desc": "可制造装备的设计图纸。",
+        "Name": "雪花吊坠设计图",
+        "Desc": "可制造装备的设计图。",
         "IsReleased": [
             true,
             true,
             true
         ],
+        "MaxLevel": 1,
         "StatType": [],
-        "StatValue": []
+        "StatValue": [],
+        "LevelUpFeedExp": 15
     },
-    {
+    "109002": {
         "Id": 109002,
         "Category": "Necklace",
         "Rarity": "N",
         "Tier": 3,
         "Icon": "equipment_icon_necklace_tier3_piece",
         "Shops": [],
-        "Name": "尼古拉挂坠盒设计图纸",
-        "Desc": "可制造装备的设计图纸。",
+        "Name": "尼古拉挂坠盒设计图",
+        "Desc": "可制造装备的设计图。",
         "IsReleased": [
             true,
             true,
             true
         ],
+        "MaxLevel": 1,
         "StatType": [],
-        "StatValue": []
+        "StatValue": [],
+        "LevelUpFeedExp": 25
     },
-    {
+    "109003": {
         "Id": 109003,
         "Category": "Necklace",
         "Rarity": "N",
         "Tier": 4,
         "Icon": "equipment_icon_necklace_tier4_piece",
         "Shops": [],
-        "Name": "十字架颈链设计图纸",
-        "Desc": "可制造装备的设计图纸。",
+        "Name": "十字架颈链设计图",
+        "Desc": "可制造装备的设计图。",
         "IsReleased": [
             true,
             true,
             true
         ],
+        "MaxLevel": 1,
         "StatType": [],
-        "StatValue": []
+        "StatValue": [],
+        "LevelUpFeedExp": 50
     },
-    {
+    "109004": {
         "Id": 109004,
         "Category": "Necklace",
         "Rarity": "N",
         "Tier": 5,
         "Icon": "equipment_icon_necklace_tier5_piece",
         "Shops": [],
-        "Name": "身份牌设计图纸",
-        "Desc": "可制造装备的设计图纸。",
+        "Name": "身份牌设计图",
+        "Desc": "可制造装备的设计图。",
         "IsReleased": [
             true,
             true,
             true
         ],
+        "MaxLevel": 1,
         "StatType": [],
-        "StatValue": []
+        "StatValue": [],
+        "LevelUpFeedExp": 75
     },
-    {
+    "109005": {
         "Id": 109005,
         "Category": "Necklace",
         "Rarity": "N",
@@ -5030,10 +5884,12 @@
             true,
             true
         ],
+        "MaxLevel": 1,
         "StatType": [],
-        "StatValue": []
+        "StatValue": [],
+        "LevelUpFeedExp": 100
     },
-    {
+    "109006": {
         "Id": 109006,
         "Category": "Necklace",
         "Rarity": "N",
@@ -5047,41 +5903,237 @@
             true,
             true
         ],
+        "MaxLevel": 1,
         "StatType": [],
-        "StatValue": []
+        "StatValue": [],
+        "LevelUpFeedExp": 125
     },
-    {
+    "109007": {
         "Id": 109007,
         "Category": "Necklace",
         "Rarity": "N",
         "Tier": 8,
         "Icon": "equipment_icon_necklace_tier8_piece",
         "Shops": [],
-        "Name": "翠叶项链设计图",
-        "Desc": "用于制作装备的图纸。",
+        "Name": "绿叶项链设计图",
+        "Desc": "可制作装备的设计图。",
         "IsReleased": [
             true,
             true,
-            false
+            true
         ],
+        "MaxLevel": 1,
         "StatType": [],
-        "StatValue": []
+        "StatValue": [],
+        "LevelUpFeedExp": 150
     },
-    {
+    "109008": {
         "Id": 109008,
         "Category": "Necklace",
         "Rarity": "N",
         "Tier": 9,
         "Icon": "equipment_icon_necklace_tier9_piece",
         "Shops": [],
-        "Name": "章鱼固定器设计图",
+        "Name": "呼吸器固定装置设计图",
+        "Desc": "可制作装备的设计图。",
+        "IsReleased": [
+            true,
+            true,
+            true
+        ],
+        "MaxLevel": 1,
+        "StatType": [],
+        "StatValue": [],
+        "LevelUpFeedExp": 175
+    },
+    "109009": {
+        "Id": 109009,
+        "Category": "Necklace",
+        "Rarity": "N",
+        "Tier": 10,
+        "Icon": "equipment_icon_necklace_tier10_piece",
+        "Shops": [],
+        "Name": "存储器项链设计图",
         "Desc": "用于制作装备的图纸。",
         "IsReleased": [
             true,
-            false,
+            true,
             false
         ],
+        "MaxLevel": 1,
         "StatType": [],
-        "StatValue": []
+        "StatValue": [],
+        "LevelUpFeedExp": 200
+    },
+    "501000": {
+        "Id": 501000,
+        "Category": "Hat",
+        "Rarity": "N",
+        "Tier": 0,
+        "Icon": "equipment_icon_hat_useall_piece",
+        "Shops": [],
+        "Name": "帽子万能设计图",
+        "Desc": "用于制作装备的图纸。",
+        "IsReleased": [
+            true,
+            true,
+            false
+        ],
+        "MaxLevel": 1,
+        "StatType": [],
+        "StatValue": [],
+        "LevelUpFeedExp": 1
+    },
+    "502000": {
+        "Id": 502000,
+        "Category": "Gloves",
+        "Rarity": "N",
+        "Tier": 0,
+        "Icon": "equipment_icon_gloves_useall_piece",
+        "Shops": [],
+        "Name": "手套万能设计图",
+        "Desc": "用于制作装备的图纸。",
+        "IsReleased": [
+            true,
+            true,
+            false
+        ],
+        "MaxLevel": 1,
+        "StatType": [],
+        "StatValue": [],
+        "LevelUpFeedExp": 1
+    },
+    "503000": {
+        "Id": 503000,
+        "Category": "Shoes",
+        "Rarity": "N",
+        "Tier": 0,
+        "Icon": "equipment_icon_shoes_useall_piece",
+        "Shops": [],
+        "Name": "鞋万能设计图",
+        "Desc": "用于制作装备的图纸。",
+        "IsReleased": [
+            true,
+            true,
+            false
+        ],
+        "MaxLevel": 1,
+        "StatType": [],
+        "StatValue": [],
+        "LevelUpFeedExp": 1
+    },
+    "504000": {
+        "Id": 504000,
+        "Category": "Bag",
+        "Rarity": "N",
+        "Tier": 0,
+        "Icon": "equipment_icon_bag_useall_piece",
+        "Shops": [],
+        "Name": "背包万能设计图",
+        "Desc": "用于制作装备的图纸。",
+        "IsReleased": [
+            true,
+            true,
+            false
+        ],
+        "MaxLevel": 1,
+        "StatType": [],
+        "StatValue": [],
+        "LevelUpFeedExp": 1
+    },
+    "505000": {
+        "Id": 505000,
+        "Category": "Badge",
+        "Rarity": "N",
+        "Tier": 0,
+        "Icon": "equipment_icon_badge_useall_piece",
+        "Shops": [],
+        "Name": "徽章万能设计图",
+        "Desc": "用于制作装备的图纸。",
+        "IsReleased": [
+            true,
+            true,
+            false
+        ],
+        "MaxLevel": 1,
+        "StatType": [],
+        "StatValue": [],
+        "LevelUpFeedExp": 1
+    },
+    "506000": {
+        "Id": 506000,
+        "Category": "Hairpin",
+        "Rarity": "N",
+        "Tier": 0,
+        "Icon": "equipment_icon_hairpin_useall_piece",
+        "Shops": [],
+        "Name": "发夹万能设计图",
+        "Desc": "用于制作装备的图纸。",
+        "IsReleased": [
+            true,
+            true,
+            false
+        ],
+        "MaxLevel": 1,
+        "StatType": [],
+        "StatValue": [],
+        "LevelUpFeedExp": 1
+    },
+    "507000": {
+        "Id": 507000,
+        "Category": "Charm",
+        "Rarity": "N",
+        "Tier": 0,
+        "Icon": "equipment_icon_charm_useall_piece",
+        "Shops": [],
+        "Name": "护身符万能设计图",
+        "Desc": "用于制作装备的图纸。",
+        "IsReleased": [
+            true,
+            true,
+            false
+        ],
+        "MaxLevel": 1,
+        "StatType": [],
+        "StatValue": [],
+        "LevelUpFeedExp": 1
+    },
+    "508000": {
+        "Id": 508000,
+        "Category": "Watch",
+        "Rarity": "N",
+        "Tier": 0,
+        "Icon": "equipment_icon_watch_useall_piece",
+        "Shops": [],
+        "Name": "手表万能设计图",
+        "Desc": "用于制作装备的图纸。",
+        "IsReleased": [
+            true,
+            true,
+            false
+        ],
+        "MaxLevel": 1,
+        "StatType": [],
+        "StatValue": [],
+        "LevelUpFeedExp": 1
+    },
+    "509000": {
+        "Id": 509000,
+        "Category": "Necklace",
+        "Rarity": "N",
+        "Tier": 0,
+        "Icon": "equipment_icon_necklace_useall_piece",
+        "Shops": [],
+        "Name": "项链万能设计图",
+        "Desc": "用于制作装备的图纸。",
+        "IsReleased": [
+            true,
+            true,
+            false
+        ],
+        "MaxLevel": 1,
+        "StatType": [],
+        "StatValue": [],
+        "LevelUpFeedExp": 1
     }
-]
+}

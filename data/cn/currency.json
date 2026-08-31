@@ -1,7 +1,6 @@
 [
     {
         "Id": 1,
-        "Category": "Gold",
         "Rarity": "N",
         "Icon": "currency_icon_gold",
         "Name": "信用积分",
@@ -9,7 +8,6 @@
     },
     {
         "Id": 2,
-        "Category": "GemPaid",
         "Rarity": "N",
         "Icon": "currency_icon_gem",
         "Name": "青辉石",
@@ -17,7 +15,6 @@
     },
     {
         "Id": 3,
-        "Category": "GemBonus",
         "Rarity": "N",
         "Icon": "currency_icon_gem",
         "Name": "青辉石",
@@ -25,7 +22,6 @@
     },
     {
         "Id": 4,
-        "Category": "Gem",
         "Rarity": "N",
         "Icon": "currency_icon_gem",
         "Name": "青辉石",
@@ -33,15 +29,13 @@
     },
     {
         "Id": 5,
-        "Category": "ActionPoint",
         "Rarity": "N",
         "Icon": "currency_icon_ap",
-        "Name": "AP",
+        "Name": "行动点",
         "Desc": "老师的活力值。进行各种活动时都会消耗活力值。"
     },
     {
         "Id": 6,
-        "Category": "AcademyTicket",
         "Rarity": "N",
         "Icon": "currency_icon_academyticket",
         "Name": "日程券",
@@ -49,7 +43,6 @@
     },
     {
         "Id": 7,
-        "Category": "ArenaTicket",
         "Rarity": "N",
         "Icon": "currency_icon_arenaticket",
         "Name": "战术对抗赛挑战券",
@@ -57,7 +50,6 @@
     },
     {
         "Id": 8,
-        "Category": "RaidTicket",
         "Rarity": "N",
         "Icon": "currency_icon_raidticket",
         "Name": "总力战挑战券",
@@ -65,7 +57,6 @@
     },
     {
         "Id": 9,
-        "Category": "WeekDungeonChaserATicket",
         "Rarity": "N",
         "Icon": "currency_icon_chaseraticket",
         "Name": "悬赏通缉\n（街区战）挑战券",
@@ -73,7 +64,6 @@
     },
     {
         "Id": 10,
-        "Category": "WeekDungeonFindGiftTicket",
         "Rarity": "N",
         "Icon": "",
         "Name": "信用回收挑战券",
@@ -81,7 +71,6 @@
     },
     {
         "Id": 11,
-        "Category": "WeekDungeonBloodTicket",
         "Rarity": "N",
         "Icon": "",
         "Name": "据点防御挑战券",
@@ -89,7 +78,6 @@
     },
     {
         "Id": 12,
-        "Category": "WeekDungeonChaserBTicket",
         "Rarity": "N",
         "Icon": "currency_icon_chaserbticket",
         "Name": "悬赏通缉\n（野外战）挑战券",
@@ -97,7 +85,6 @@
     },
     {
         "Id": 13,
-        "Category": "WeekDungeonChaserCTicket",
         "Rarity": "N",
         "Icon": "currency_icon_chasercticket",
         "Name": "悬赏通缉\n（室内战）挑战券",
@@ -105,7 +92,6 @@
     },
     {
         "Id": 14,
-        "Category": "SchoolDungeonATicket",
         "Rarity": "N",
         "Icon": "currency_icon_schoolaticket",
         "Name": "学院交流会\n（崔尼蒂）挑战券",
@@ -113,7 +99,6 @@
     },
     {
         "Id": 15,
-        "Category": "SchoolDungeonBTicket",
         "Rarity": "N",
         "Icon": "currency_icon_schoolbticket",
         "Name": "学院交流会\n（歌赫娜）挑战券",
@@ -121,7 +106,6 @@
     },
     {
         "Id": 16,
-        "Category": "SchoolDungeonCTicket",
         "Rarity": "N",
         "Icon": "currency_icon_schoolcticket",
         "Name": "学院交流会\n（千禧年）挑战券",
@@ -129,7 +113,6 @@
     },
     {
         "Id": 17,
-        "Category": "TimeAttackDungeonTicket",
         "Rarity": "N",
         "Icon": "currency_icon_timeattackticket",
         "Name": "战术测试挑战券",
@@ -137,7 +120,6 @@
     },
     {
         "Id": 18,
-        "Category": "MasterCoin",
         "Rarity": "N",
         "Icon": "currency_icon_mastercoin",
         "Name": "熟练证书",
@@ -145,7 +127,6 @@
     },
     {
         "Id": 19,
-        "Category": "WorldRaidTicketA",
         "Rarity": "N",
         "Icon": "currency_icon_worldraidcommonticket",
         "Name": "联合行动挑战券",
@@ -153,7 +134,6 @@
     },
     {
         "Id": 20,
-        "Category": "WorldRaidTicketB",
         "Rarity": "N",
         "Icon": "currency_icon_worldraidcommonticket",
         "Name": "联合行动挑战券 ω",
@@ -161,7 +141,6 @@
     },
     {
         "Id": 21,
-        "Category": "WorldRaidTicketC",
         "Rarity": "N",
         "Icon": "currency_icon_worldraidcommonticket",
         "Name": "联合行动挑战券 ψ",
@@ -169,42 +148,51 @@
     },
     {
         "Id": 22,
-        "Category": "ChaserTotalTicket",
         "Rarity": "N",
         "Icon": "currency_icon_chasertotalticket",
-        "Name": "悬赏通缉票券",
-        "Desc": "用于挑战悬赏通缉的票券。"
+        "Name": "悬赏通缉挑战券",
+        "Desc": "可挑战悬赏通缉的挑战券。"
     },
     {
         "Id": 23,
-        "Category": "SchoolDungeonTotalTicket",
         "Rarity": "N",
         "Icon": "currency_icon_schooltotalticket",
-        "Name": "学园交流会票券",
-        "Desc": "用于参加学园交流会的票券。"
+        "Name": "学院交流会挑战券",
+        "Desc": "可挑战学院交流会的挑战券。"
     },
     {
         "Id": 24,
-        "Category": "EliminateTicketA",
         "Rarity": "N",
         "Icon": "currency_icon_eliminateraidticketa",
-        "Name": "大决战（轻型护甲）票券",
-        "Desc": "用于挑战大决战（轻型护甲）的票券。"
+        "Name": "大决战（轻装甲）挑战券",
+        "Desc": "可挑战大决战（轻装甲）的挑战券。"
     },
     {
         "Id": 25,
-        "Category": "EliminateTicketB",
         "Rarity": "N",
         "Icon": "currency_icon_eliminateraidticketb",
-        "Name": "大决战（重型装甲）票券",
-        "Desc": "用于挑战大决战（重型护甲）的票券。"
+        "Name": "大决战（重装甲）挑战券",
+        "Desc": "可挑战大决战（重装甲）的挑战券。"
     },
     {
         "Id": 26,
-        "Category": "EliminateTicketC",
         "Rarity": "N",
         "Icon": "currency_icon_eliminateraidticketc",
-        "Name": "大决战（特殊装甲）票券",
-        "Desc": "用于挑战大决战（特殊护甲）的票券。"
+        "Name": "大决战（特殊装甲）挑战券",
+        "Desc": "可挑战大决战（特殊装甲）的挑战券。"
+    },
+    {
+        "Id": 28,
+        "Rarity": "N",
+        "Icon": "currency_icon_cafestudentinvite_1",
+        "Name": "1号店招待券",
+        "Desc": "能够用来在咖啡厅1号店额外招待学生的票券。"
+    },
+    {
+        "Id": 29,
+        "Rarity": "N",
+        "Icon": "currency_icon_cafestudentinvite_2",
+        "Name": "2号店招待券",
+        "Desc": "能够用来在咖啡厅2号店额外招待学生的票券。"
     }
 ]

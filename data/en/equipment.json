@@ -1,5 +1,5 @@
-[
-    {
+{
+    "1": {
         "Id": 1,
         "Category": "Exp",
         "Rarity": "N",
@@ -23,7 +23,7 @@
                 "Released": [
                     true,
                     true,
-                    false
+                    true
                 ],
                 "Amount": 10,
                 "CostType": "Currency",
@@ -34,8 +34,8 @@
                 "ShopCategory": "General",
                 "Released": [
                     true,
-                    false,
-                    false
+                    true,
+                    true
                 ],
                 "Amount": 15,
                 "CostType": "Currency",
@@ -50,10 +50,12 @@
             true,
             true
         ],
+        "MaxLevel": 0,
         "StatType": [],
-        "StatValue": []
+        "StatValue": [],
+        "LevelUpFeedExp": 90
     },
-    {
+    "2": {
         "Id": 2,
         "Category": "Exp",
         "Rarity": "R",
@@ -77,7 +79,7 @@
                 "Released": [
                     true,
                     true,
-                    false
+                    true
                 ],
                 "Amount": 10,
                 "CostType": "Currency",
@@ -88,8 +90,8 @@
                 "ShopCategory": "General",
                 "Released": [
                     true,
-                    false,
-                    false
+                    true,
+                    true
                 ],
                 "Amount": 10,
                 "CostType": "Currency",
@@ -100,8 +102,8 @@
                 "ShopCategory": "General",
                 "Released": [
                     true,
-                    false,
-                    false
+                    true,
+                    true
                 ],
                 "Amount": 10,
                 "CostType": "Currency",
@@ -112,8 +114,8 @@
                 "ShopCategory": "General",
                 "Released": [
                     true,
-                    false,
-                    false
+                    true,
+                    true
                 ],
                 "Amount": 10,
                 "CostType": "Currency",
@@ -128,10 +130,12 @@
             true,
             true
         ],
+        "MaxLevel": 0,
         "StatType": [],
-        "StatValue": []
+        "StatValue": [],
+        "LevelUpFeedExp": 360
     },
-    {
+    "3": {
         "Id": 3,
         "Category": "Exp",
         "Rarity": "SR",
@@ -155,7 +159,7 @@
                 "Released": [
                     true,
                     true,
-                    false
+                    true
                 ],
                 "Amount": 6,
                 "CostType": "Currency",
@@ -166,8 +170,8 @@
                 "ShopCategory": "General",
                 "Released": [
                     true,
-                    false,
-                    false
+                    true,
+                    true
                 ],
                 "Amount": 5,
                 "CostType": "Currency",
@@ -178,8 +182,8 @@
                 "ShopCategory": "General",
                 "Released": [
                     true,
-                    false,
-                    false
+                    true,
+                    true
                 ],
                 "Amount": 4,
                 "CostType": "Currency",
@@ -190,8 +194,8 @@
                 "ShopCategory": "General",
                 "Released": [
                     true,
-                    false,
-                    false
+                    true,
+                    true
                 ],
                 "Amount": 5,
                 "CostType": "Currency",
@@ -206,10 +210,12 @@
             true,
             true
         ],
+        "MaxLevel": 0,
         "StatType": [],
-        "StatValue": []
+        "StatValue": [],
+        "LevelUpFeedExp": 1440
     },
-    {
+    "4": {
         "Id": 4,
         "Category": "Exp",
         "Rarity": "SSR",
@@ -233,7 +239,7 @@
                 "Released": [
                     true,
                     true,
-                    false
+                    true
                 ],
                 "Amount": 2,
                 "CostType": "Currency",
@@ -244,8 +250,8 @@
                 "ShopCategory": "General",
                 "Released": [
                     true,
-                    false,
-                    false
+                    true,
+                    true
                 ],
                 "Amount": 2,
                 "CostType": "Currency",
@@ -256,8 +262,8 @@
                 "ShopCategory": "General",
                 "Released": [
                     true,
-                    false,
-                    false
+                    true,
+                    true
                 ],
                 "Amount": 2,
                 "CostType": "Currency",
@@ -272,10 +278,12 @@
             true,
             true
         ],
+        "MaxLevel": 0,
         "StatType": [],
-        "StatValue": []
+        "StatValue": [],
+        "LevelUpFeedExp": 5760
     },
-    {
+    "10": {
         "Id": 10,
         "Category": "WeaponExpGrowthA",
         "Rarity": "N",
@@ -289,10 +297,12 @@
             true,
             true
         ],
+        "MaxLevel": 0,
         "StatType": [],
-        "StatValue": []
+        "StatValue": [],
+        "LevelUpFeedExp": 10
     },
-    {
+    "11": {
         "Id": 11,
         "Category": "WeaponExpGrowthA",
         "Rarity": "R",
@@ -306,10 +316,12 @@
             true,
             true
         ],
+        "MaxLevel": 0,
         "StatType": [],
-        "StatValue": []
+        "StatValue": [],
+        "LevelUpFeedExp": 50
     },
-    {
+    "12": {
         "Id": 12,
         "Category": "WeaponExpGrowthA",
         "Rarity": "SR",
@@ -323,10 +335,12 @@
             true,
             true
         ],
+        "MaxLevel": 0,
         "StatType": [],
-        "StatValue": []
+        "StatValue": [],
+        "LevelUpFeedExp": 200
     },
-    {
+    "13": {
         "Id": 13,
         "Category": "WeaponExpGrowthA",
         "Rarity": "SSR",
@@ -340,10 +354,12 @@
             true,
             true
         ],
+        "MaxLevel": 0,
         "StatType": [],
-        "StatValue": []
+        "StatValue": [],
+        "LevelUpFeedExp": 1000
     },
-    {
+    "20": {
         "Id": 20,
         "Category": "WeaponExpGrowthB",
         "Rarity": "N",
@@ -357,10 +373,12 @@
             true,
             true
         ],
+        "MaxLevel": 0,
         "StatType": [],
-        "StatValue": []
+        "StatValue": [],
+        "LevelUpFeedExp": 10
     },
-    {
+    "21": {
         "Id": 21,
         "Category": "WeaponExpGrowthB",
         "Rarity": "R",
@@ -374,10 +392,12 @@
             true,
             true
         ],
+        "MaxLevel": 0,
         "StatType": [],
-        "StatValue": []
+        "StatValue": [],
+        "LevelUpFeedExp": 50
     },
-    {
+    "22": {
         "Id": 22,
         "Category": "WeaponExpGrowthB",
         "Rarity": "SR",
@@ -391,10 +411,12 @@
             true,
             true
         ],
+        "MaxLevel": 0,
         "StatType": [],
-        "StatValue": []
+        "StatValue": [],
+        "LevelUpFeedExp": 200
     },
-    {
+    "23": {
         "Id": 23,
         "Category": "WeaponExpGrowthB",
         "Rarity": "SSR",
@@ -408,10 +430,12 @@
             true,
             true
         ],
+        "MaxLevel": 0,
         "StatType": [],
-        "StatValue": []
+        "StatValue": [],
+        "LevelUpFeedExp": 1000
     },
-    {
+    "30": {
         "Id": 30,
         "Category": "WeaponExpGrowthC",
         "Rarity": "N",
@@ -425,10 +449,12 @@
             true,
             true
         ],
+        "MaxLevel": 0,
         "StatType": [],
-        "StatValue": []
+        "StatValue": [],
+        "LevelUpFeedExp": 10
     },
-    {
+    "31": {
         "Id": 31,
         "Category": "WeaponExpGrowthC",
         "Rarity": "R",
@@ -442,10 +468,12 @@
             true,
             true
         ],
+        "MaxLevel": 0,
         "StatType": [],
-        "StatValue": []
+        "StatValue": [],
+        "LevelUpFeedExp": 50
     },
-    {
+    "32": {
         "Id": 32,
         "Category": "WeaponExpGrowthC",
         "Rarity": "SR",
@@ -459,10 +487,12 @@
             true,
             true
         ],
+        "MaxLevel": 0,
         "StatType": [],
-        "StatValue": []
+        "StatValue": [],
+        "LevelUpFeedExp": 200
     },
-    {
+    "33": {
         "Id": 33,
         "Category": "WeaponExpGrowthC",
         "Rarity": "SSR",
@@ -476,10 +506,12 @@
             true,
             true
         ],
+        "MaxLevel": 0,
         "StatType": [],
-        "StatValue": []
+        "StatValue": [],
+        "LevelUpFeedExp": 1000
     },
-    {
+    "40": {
         "Id": 40,
         "Category": "WeaponExpGrowthZ",
         "Rarity": "N",
@@ -493,10 +525,12 @@
             true,
             true
         ],
+        "MaxLevel": 0,
         "StatType": [],
-        "StatValue": []
+        "StatValue": [],
+        "LevelUpFeedExp": 10
     },
-    {
+    "41": {
         "Id": 41,
         "Category": "WeaponExpGrowthZ",
         "Rarity": "R",
@@ -523,10 +557,12 @@
             true,
             true
         ],
+        "MaxLevel": 0,
         "StatType": [],
-        "StatValue": []
+        "StatValue": [],
+        "LevelUpFeedExp": 50
     },
-    {
+    "42": {
         "Id": 42,
         "Category": "WeaponExpGrowthZ",
         "Rarity": "SR",
@@ -553,10 +589,12 @@
             true,
             true
         ],
+        "MaxLevel": 0,
         "StatType": [],
-        "StatValue": []
+        "StatValue": [],
+        "LevelUpFeedExp": 200
     },
-    {
+    "43": {
         "Id": 43,
         "Category": "WeaponExpGrowthZ",
         "Rarity": "SSR",
@@ -583,10 +621,12 @@
             true,
             true
         ],
+        "MaxLevel": 0,
         "StatType": [],
-        "StatValue": []
+        "StatValue": [],
+        "LevelUpFeedExp": 1000
     },
-    {
+    "1000": {
         "Id": 1000,
         "Category": "Hat",
         "Rarity": "N",
@@ -600,6 +640,7 @@
             true,
             true
         ],
+        "MaxLevel": 10,
         "StatType": [
             "AttackPower_Coefficient"
         ],
@@ -610,7 +651,7 @@
             ]
         ]
     },
-    {
+    "1001": {
         "Id": 1001,
         "Category": "Hat",
         "Rarity": "N",
@@ -624,6 +665,7 @@
             true,
             true
         ],
+        "MaxLevel": 20,
         "StatType": [
             "AttackPower_Coefficient"
         ],
@@ -641,7 +683,7 @@
         ],
         "RecipeCost": 1500
     },
-    {
+    "1002": {
         "Id": 1002,
         "Category": "Hat",
         "Rarity": "N",
@@ -655,6 +697,7 @@
             true,
             true
         ],
+        "MaxLevel": 30,
         "StatType": [
             "AttackPower_Coefficient"
         ],
@@ -672,7 +715,7 @@
         ],
         "RecipeCost": 10000
     },
-    {
+    "1003": {
         "Id": 1003,
         "Category": "Hat",
         "Rarity": "N",
@@ -686,6 +729,7 @@
             true,
             true
         ],
+        "MaxLevel": 40,
         "StatType": [
             "AttackPower_Coefficient",
             "CriticalDamageRate_Base"
@@ -712,7 +756,7 @@
         ],
         "RecipeCost": 25000
     },
-    {
+    "1004": {
         "Id": 1004,
         "Category": "Hat",
         "Rarity": "N",
@@ -726,6 +770,7 @@
             true,
             true
         ],
+        "MaxLevel": 45,
         "StatType": [
             "AttackPower_Coefficient",
             "CriticalDamageRate_Base"
@@ -756,7 +801,7 @@
         ],
         "RecipeCost": 50000
     },
-    {
+    "1005": {
         "Id": 1005,
         "Category": "Hat",
         "Rarity": "N",
@@ -770,6 +815,7 @@
             true,
             true
         ],
+        "MaxLevel": 50,
         "StatType": [
             "AttackPower_Coefficient",
             "CriticalDamageRate_Base"
@@ -800,7 +846,7 @@
         ],
         "RecipeCost": 75000
     },
-    {
+    "1006": {
         "Id": 1006,
         "Category": "Hat",
         "Rarity": "N",
@@ -814,6 +860,7 @@
             true,
             true
         ],
+        "MaxLevel": 55,
         "StatType": [
             "AttackPower_Coefficient",
             "CriticalDamageRate_Base"
@@ -844,7 +891,7 @@
         ],
         "RecipeCost": 100000
     },
-    {
+    "1007": {
         "Id": 1007,
         "Category": "Hat",
         "Rarity": "N",
@@ -856,8 +903,9 @@
         "IsReleased": [
             true,
             true,
-            false
+            true
         ],
+        "MaxLevel": 60,
         "StatType": [
             "AttackPower_Coefficient",
             "CriticalDamageRate_Base"
@@ -888,7 +936,7 @@
         ],
         "RecipeCost": 125000
     },
-    {
+    "1008": {
         "Id": 1008,
         "Category": "Hat",
         "Rarity": "N",
@@ -900,8 +948,9 @@
         "IsReleased": [
             true,
             true,
-            false
+            true
         ],
+        "MaxLevel": 65,
         "StatType": [
             "AttackPower_Coefficient",
             "CriticalDamageRate_Base"
@@ -932,7 +981,52 @@
         ],
         "RecipeCost": 150000
     },
-    {
+    "1009": {
+        "Id": 1009,
+        "Category": "Hat",
+        "Rarity": "N",
+        "Tier": 10,
+        "Icon": "equipment_icon_hat_tier10",
+        "Shops": [],
+        "Name": "Gaming Helmet",
+        "Desc": "A hat with beverage attachments. It also comes with a straw, so you don't have to pause your game to take a sip.",
+        "IsReleased": [
+            true,
+            true,
+            true
+        ],
+        "MaxLevel": 70,
+        "StatType": [
+            "AttackPower_Coefficient",
+            "CriticalDamageRate_Base"
+        ],
+        "StatValue": [
+            [
+                4900,
+                5000
+            ],
+            [
+                2000,
+                2000
+            ]
+        ],
+        "Recipe": [
+            [
+                101009,
+                60
+            ],
+            [
+                101007,
+                20
+            ],
+            [
+                101006,
+                10
+            ]
+        ],
+        "RecipeCost": 175000
+    },
+    "2000": {
         "Id": 2000,
         "Category": "Gloves",
         "Rarity": "N",
@@ -946,6 +1040,7 @@
             true,
             true
         ],
+        "MaxLevel": 10,
         "StatType": [
             "AttackPower_Coefficient"
         ],
@@ -956,7 +1051,7 @@
             ]
         ]
     },
-    {
+    "2001": {
         "Id": 2001,
         "Category": "Gloves",
         "Rarity": "N",
@@ -970,6 +1065,7 @@
             true,
             true
         ],
+        "MaxLevel": 20,
         "StatType": [
             "AttackPower_Coefficient"
         ],
@@ -987,7 +1083,7 @@
         ],
         "RecipeCost": 1500
     },
-    {
+    "2002": {
         "Id": 2002,
         "Category": "Gloves",
         "Rarity": "N",
@@ -1001,6 +1097,7 @@
             true,
             true
         ],
+        "MaxLevel": 30,
         "StatType": [
             "AttackPower_Coefficient"
         ],
@@ -1018,7 +1115,7 @@
         ],
         "RecipeCost": 10000
     },
-    {
+    "2003": {
         "Id": 2003,
         "Category": "Gloves",
         "Rarity": "N",
@@ -1032,6 +1129,7 @@
             true,
             true
         ],
+        "MaxLevel": 40,
         "StatType": [
             "AttackPower_Coefficient",
             "CriticalPoint_Base"
@@ -1058,7 +1156,7 @@
         ],
         "RecipeCost": 25000
     },
-    {
+    "2004": {
         "Id": 2004,
         "Category": "Gloves",
         "Rarity": "N",
@@ -1072,6 +1170,7 @@
             true,
             true
         ],
+        "MaxLevel": 45,
         "StatType": [
             "AttackPower_Coefficient",
             "CriticalPoint_Base"
@@ -1102,7 +1201,7 @@
         ],
         "RecipeCost": 50000
     },
-    {
+    "2005": {
         "Id": 2005,
         "Category": "Gloves",
         "Rarity": "N",
@@ -1116,6 +1215,7 @@
             true,
             true
         ],
+        "MaxLevel": 50,
         "StatType": [
             "AttackPower_Coefficient",
             "CriticalPoint_Base",
@@ -1151,7 +1251,7 @@
         ],
         "RecipeCost": 75000
     },
-    {
+    "2006": {
         "Id": 2006,
         "Category": "Gloves",
         "Rarity": "N",
@@ -1165,6 +1265,7 @@
             true,
             true
         ],
+        "MaxLevel": 55,
         "StatType": [
             "AttackPower_Coefficient",
             "CriticalPoint_Base",
@@ -1200,7 +1301,7 @@
         ],
         "RecipeCost": 100000
     },
-    {
+    "2007": {
         "Id": 2007,
         "Category": "Gloves",
         "Rarity": "N",
@@ -1212,8 +1313,9 @@
         "IsReleased": [
             true,
             true,
-            false
+            true
         ],
+        "MaxLevel": 60,
         "StatType": [
             "AttackPower_Coefficient",
             "CriticalPoint_Base",
@@ -1249,7 +1351,7 @@
         ],
         "RecipeCost": 125000
     },
-    {
+    "2008": {
         "Id": 2008,
         "Category": "Gloves",
         "Rarity": "N",
@@ -1261,8 +1363,9 @@
         "IsReleased": [
             true,
             true,
-            false
+            true
         ],
+        "MaxLevel": 65,
         "StatType": [
             "AttackPower_Coefficient",
             "CriticalPoint_Base",
@@ -1298,7 +1401,57 @@
         ],
         "RecipeCost": 150000
     },
-    {
+    "2009": {
+        "Id": 2009,
+        "Category": "Gloves",
+        "Rarity": "N",
+        "Tier": 10,
+        "Icon": "equipment_icon_gloves_tier10",
+        "Shops": [],
+        "Name": "Super Gloves",
+        "Desc": "A pair of gaming gloves with a built-in motion recognition device. It didn't perform well, but paved the way for future game developers.",
+        "IsReleased": [
+            true,
+            true,
+            true
+        ],
+        "MaxLevel": 70,
+        "StatType": [
+            "AttackPower_Coefficient",
+            "CriticalPoint_Base",
+            "AccuracyPoint_Base"
+        ],
+        "StatValue": [
+            [
+                4700,
+                5000
+            ],
+            [
+                450,
+                500
+            ],
+            [
+                220,
+                220
+            ]
+        ],
+        "Recipe": [
+            [
+                102009,
+                60
+            ],
+            [
+                102007,
+                20
+            ],
+            [
+                102006,
+                10
+            ]
+        ],
+        "RecipeCost": 175000
+    },
+    "3000": {
         "Id": 3000,
         "Category": "Shoes",
         "Rarity": "N",
@@ -1312,6 +1465,7 @@
             true,
             true
         ],
+        "MaxLevel": 10,
         "StatType": [
             "AttackPower_Coefficient"
         ],
@@ -1322,7 +1476,7 @@
             ]
         ]
     },
-    {
+    "3001": {
         "Id": 3001,
         "Category": "Shoes",
         "Rarity": "N",
@@ -1336,6 +1490,7 @@
             true,
             true
         ],
+        "MaxLevel": 20,
         "StatType": [
             "AttackPower_Coefficient"
         ],
@@ -1353,7 +1508,7 @@
         ],
         "RecipeCost": 1500
     },
-    {
+    "3002": {
         "Id": 3002,
         "Category": "Shoes",
         "Rarity": "N",
@@ -1367,6 +1522,7 @@
             true,
             true
         ],
+        "MaxLevel": 30,
         "StatType": [
             "AttackPower_Coefficient"
         ],
@@ -1384,7 +1540,7 @@
         ],
         "RecipeCost": 10000
     },
-    {
+    "3003": {
         "Id": 3003,
         "Category": "Shoes",
         "Rarity": "N",
@@ -1398,6 +1554,7 @@
             true,
             true
         ],
+        "MaxLevel": 40,
         "StatType": [
             "AttackPower_Coefficient",
             "MaxHP_Coefficient"
@@ -1424,7 +1581,7 @@
         ],
         "RecipeCost": 25000
     },
-    {
+    "3004": {
         "Id": 3004,
         "Category": "Shoes",
         "Rarity": "N",
@@ -1438,6 +1595,7 @@
             true,
             true
         ],
+        "MaxLevel": 45,
         "StatType": [
             "AttackPower_Coefficient",
             "MaxHP_Coefficient"
@@ -1468,7 +1626,7 @@
         ],
         "RecipeCost": 50000
     },
-    {
+    "3005": {
         "Id": 3005,
         "Category": "Shoes",
         "Rarity": "N",
@@ -1482,6 +1640,7 @@
             true,
             true
         ],
+        "MaxLevel": 50,
         "StatType": [
             "AttackPower_Coefficient",
             "MaxHP_Coefficient"
@@ -1512,7 +1671,7 @@
         ],
         "RecipeCost": 75000
     },
-    {
+    "3006": {
         "Id": 3006,
         "Category": "Shoes",
         "Rarity": "N",
@@ -1526,6 +1685,7 @@
             true,
             true
         ],
+        "MaxLevel": 55,
         "StatType": [
             "AttackPower_Coefficient",
             "MaxHP_Coefficient"
@@ -1556,7 +1716,7 @@
         ],
         "RecipeCost": 100000
     },
-    {
+    "3007": {
         "Id": 3007,
         "Category": "Shoes",
         "Rarity": "N",
@@ -1568,8 +1728,9 @@
         "IsReleased": [
             true,
             true,
-            false
+            true
         ],
+        "MaxLevel": 60,
         "StatType": [
             "AttackPower_Coefficient",
             "MaxHP_Coefficient"
@@ -1600,7 +1761,7 @@
         ],
         "RecipeCost": 125000
     },
-    {
+    "3008": {
         "Id": 3008,
         "Category": "Shoes",
         "Rarity": "N",
@@ -1608,12 +1769,13 @@
         "Icon": "equipment_icon_shoes_tier9",
         "Shops": [],
         "Name": "Aqua Sandals",
-        "Desc": "Water-resistant sandals with holes for draining. The non-slip padding on the soles ensure excellent grip even on slippery surfaces.",
+        "Desc": "Water-resistant sandals with holes for draining. The non-slip padding on the soles ensures excellent grip even on slippery surfaces.",
         "IsReleased": [
             true,
             true,
-            false
+            true
         ],
+        "MaxLevel": 65,
         "StatType": [
             "AttackPower_Coefficient",
             "MaxHP_Coefficient"
@@ -1644,7 +1806,52 @@
         ],
         "RecipeCost": 150000
     },
-    {
+    "3009": {
+        "Id": 3009,
+        "Category": "Shoes",
+        "Rarity": "N",
+        "Tier": 10,
+        "Icon": "equipment_icon_shoes_tier10",
+        "Shops": [],
+        "Name": "Gaming Slippers",
+        "Desc": "A pair of slippers with RGB lighting. It has the advantage of being easy to spot in the dark, but other than that, there appears to be no direct relation to games.",
+        "IsReleased": [
+            true,
+            true,
+            true
+        ],
+        "MaxLevel": 70,
+        "StatType": [
+            "AttackPower_Coefficient",
+            "MaxHP_Coefficient"
+        ],
+        "StatValue": [
+            [
+                4300,
+                4600
+            ],
+            [
+                1750,
+                2000
+            ]
+        ],
+        "Recipe": [
+            [
+                103009,
+                60
+            ],
+            [
+                103007,
+                20
+            ],
+            [
+                103006,
+                10
+            ]
+        ],
+        "RecipeCost": 175000
+    },
+    "4000": {
         "Id": 4000,
         "Category": "Bag",
         "Rarity": "N",
@@ -1658,6 +1865,7 @@
             true,
             true
         ],
+        "MaxLevel": 10,
         "StatType": [
             "MaxHP_Base"
         ],
@@ -1668,7 +1876,7 @@
             ]
         ]
     },
-    {
+    "4001": {
         "Id": 4001,
         "Category": "Bag",
         "Rarity": "N",
@@ -1682,6 +1890,7 @@
             true,
             true
         ],
+        "MaxLevel": 20,
         "StatType": [
             "MaxHP_Base"
         ],
@@ -1699,7 +1908,7 @@
         ],
         "RecipeCost": 1500
     },
-    {
+    "4002": {
         "Id": 4002,
         "Category": "Bag",
         "Rarity": "N",
@@ -1713,6 +1922,7 @@
             true,
             true
         ],
+        "MaxLevel": 30,
         "StatType": [
             "MaxHP_Base"
         ],
@@ -1730,7 +1940,7 @@
         ],
         "RecipeCost": 10000
     },
-    {
+    "4003": {
         "Id": 4003,
         "Category": "Bag",
         "Rarity": "N",
@@ -1744,6 +1954,7 @@
             true,
             true
         ],
+        "MaxLevel": 40,
         "StatType": [
             "MaxHP_Base",
             "DefensePower_Base"
@@ -1770,7 +1981,7 @@
         ],
         "RecipeCost": 25000
     },
-    {
+    "4004": {
         "Id": 4004,
         "Category": "Bag",
         "Rarity": "N",
@@ -1784,6 +1995,7 @@
             true,
             true
         ],
+        "MaxLevel": 45,
         "StatType": [
             "MaxHP_Base",
             "DefensePower_Base"
@@ -1814,7 +2026,7 @@
         ],
         "RecipeCost": 50000
     },
-    {
+    "4005": {
         "Id": 4005,
         "Category": "Bag",
         "Rarity": "N",
@@ -1828,6 +2040,7 @@
             true,
             true
         ],
+        "MaxLevel": 50,
         "StatType": [
             "MaxHP_Base",
             "DefensePower_Base"
@@ -1858,7 +2071,7 @@
         ],
         "RecipeCost": 75000
     },
-    {
+    "4006": {
         "Id": 4006,
         "Category": "Bag",
         "Rarity": "N",
@@ -1872,6 +2085,7 @@
             true,
             true
         ],
+        "MaxLevel": 55,
         "StatType": [
             "MaxHP_Base",
             "DefensePower_Base"
@@ -1902,7 +2116,7 @@
         ],
         "RecipeCost": 100000
     },
-    {
+    "4007": {
         "Id": 4007,
         "Category": "Bag",
         "Rarity": "N",
@@ -1914,8 +2128,9 @@
         "IsReleased": [
             true,
             true,
-            false
+            true
         ],
+        "MaxLevel": 60,
         "StatType": [
             "MaxHP_Base",
             "DefensePower_Base"
@@ -1946,7 +2161,7 @@
         ],
         "RecipeCost": 125000
     },
-    {
+    "4008": {
         "Id": 4008,
         "Category": "Bag",
         "Rarity": "N",
@@ -1958,8 +2173,9 @@
         "IsReleased": [
             true,
             true,
-            false
+            true
         ],
+        "MaxLevel": 65,
         "StatType": [
             "MaxHP_Base",
             "DefensePower_Base",
@@ -1995,7 +2211,57 @@
         ],
         "RecipeCost": 150000
     },
-    {
+    "4009": {
+        "Id": 4009,
+        "Category": "Bag",
+        "Rarity": "N",
+        "Tier": 10,
+        "Icon": "equipment_icon_bag_tier10",
+        "Shops": [],
+        "Name": "Metal Case",
+        "Desc": "A backpack made of bulletproof alloy with a built-in battery. It can easily withstand shots from a rifle, making it perfect for storing electronics.",
+        "IsReleased": [
+            true,
+            true,
+            true
+        ],
+        "MaxLevel": 70,
+        "StatType": [
+            "MaxHP_Base",
+            "DefensePower_Base",
+            "MaxHP_Coefficient"
+        ],
+        "StatValue": [
+            [
+                12500,
+                14000
+            ],
+            [
+                1600,
+                1700
+            ],
+            [
+                500,
+                500
+            ]
+        ],
+        "Recipe": [
+            [
+                104009,
+                60
+            ],
+            [
+                104007,
+                20
+            ],
+            [
+                104006,
+                10
+            ]
+        ],
+        "RecipeCost": 175000
+    },
+    "5000": {
         "Id": 5000,
         "Category": "Badge",
         "Rarity": "N",
@@ -2009,6 +2275,7 @@
             true,
             true
         ],
+        "MaxLevel": 10,
         "StatType": [
             "MaxHP_Base"
         ],
@@ -2019,7 +2286,7 @@
             ]
         ]
     },
-    {
+    "5001": {
         "Id": 5001,
         "Category": "Badge",
         "Rarity": "N",
@@ -2033,6 +2300,7 @@
             true,
             true
         ],
+        "MaxLevel": 20,
         "StatType": [
             "MaxHP_Base"
         ],
@@ -2050,7 +2318,7 @@
         ],
         "RecipeCost": 1500
     },
-    {
+    "5002": {
         "Id": 5002,
         "Category": "Badge",
         "Rarity": "N",
@@ -2064,6 +2332,7 @@
             true,
             true
         ],
+        "MaxLevel": 30,
         "StatType": [
             "MaxHP_Base"
         ],
@@ -2081,7 +2350,7 @@
         ],
         "RecipeCost": 10000
     },
-    {
+    "5003": {
         "Id": 5003,
         "Category": "Badge",
         "Rarity": "N",
@@ -2095,6 +2364,7 @@
             true,
             true
         ],
+        "MaxLevel": 40,
         "StatType": [
             "MaxHP_Base",
             "HealEffectivenessRate_Base"
@@ -2121,7 +2391,7 @@
         ],
         "RecipeCost": 25000
     },
-    {
+    "5004": {
         "Id": 5004,
         "Category": "Badge",
         "Rarity": "N",
@@ -2135,6 +2405,7 @@
             true,
             true
         ],
+        "MaxLevel": 45,
         "StatType": [
             "MaxHP_Base",
             "HealEffectivenessRate_Base",
@@ -2170,7 +2441,7 @@
         ],
         "RecipeCost": 50000
     },
-    {
+    "5005": {
         "Id": 5005,
         "Category": "Badge",
         "Rarity": "N",
@@ -2184,6 +2455,7 @@
             true,
             true
         ],
+        "MaxLevel": 50,
         "StatType": [
             "MaxHP_Base",
             "HealEffectivenessRate_Base",
@@ -2219,7 +2491,7 @@
         ],
         "RecipeCost": 75000
     },
-    {
+    "5006": {
         "Id": 5006,
         "Category": "Badge",
         "Rarity": "N",
@@ -2233,6 +2505,7 @@
             true,
             true
         ],
+        "MaxLevel": 55,
         "StatType": [
             "MaxHP_Base",
             "HealEffectivenessRate_Base",
@@ -2273,7 +2546,7 @@
         ],
         "RecipeCost": 100000
     },
-    {
+    "5007": {
         "Id": 5007,
         "Category": "Badge",
         "Rarity": "N",
@@ -2285,8 +2558,9 @@
         "IsReleased": [
             true,
             true,
-            false
+            true
         ],
+        "MaxLevel": 60,
         "StatType": [
             "MaxHP_Base",
             "HealEffectivenessRate_Base",
@@ -2327,7 +2601,7 @@
         ],
         "RecipeCost": 125000
     },
-    {
+    "5008": {
         "Id": 5008,
         "Category": "Badge",
         "Rarity": "N",
@@ -2339,8 +2613,9 @@
         "IsReleased": [
             true,
             true,
-            false
+            true
         ],
+        "MaxLevel": 65,
         "StatType": [
             "MaxHP_Base",
             "HealEffectivenessRate_Base",
@@ -2381,7 +2656,62 @@
         ],
         "RecipeCost": 150000
     },
-    {
+    "5009": {
+        "Id": 5009,
+        "Category": "Badge",
+        "Rarity": "N",
+        "Tier": 10,
+        "Icon": "equipment_icon_badge_tier10",
+        "Shops": [],
+        "Name": "Coin Badge",
+        "Desc": "A metal badge made after arcade coins. It's quite big and cannot be used in actual game machines. ",
+        "IsReleased": [
+            true,
+            true,
+            true
+        ],
+        "MaxLevel": 70,
+        "StatType": [
+            "MaxHP_Base",
+            "HealEffectivenessRate_Base",
+            "MaxHP_Coefficient",
+            "DodgePoint_Base"
+        ],
+        "StatValue": [
+            [
+                14500,
+                16000
+            ],
+            [
+                3500,
+                3500
+            ],
+            [
+                2500,
+                2500
+            ],
+            [
+                450,
+                450
+            ]
+        ],
+        "Recipe": [
+            [
+                105009,
+                60
+            ],
+            [
+                105007,
+                20
+            ],
+            [
+                105006,
+                10
+            ]
+        ],
+        "RecipeCost": 175000
+    },
+    "6000": {
         "Id": 6000,
         "Category": "Hairpin",
         "Rarity": "N",
@@ -2395,6 +2725,7 @@
             true,
             true
         ],
+        "MaxLevel": 10,
         "StatType": [
             "MaxHP_Base"
         ],
@@ -2405,7 +2736,7 @@
             ]
         ]
     },
-    {
+    "6001": {
         "Id": 6001,
         "Category": "Hairpin",
         "Rarity": "N",
@@ -2419,6 +2750,7 @@
             true,
             true
         ],
+        "MaxLevel": 20,
         "StatType": [
             "MaxHP_Base"
         ],
@@ -2436,7 +2768,7 @@
         ],
         "RecipeCost": 1500
     },
-    {
+    "6002": {
         "Id": 6002,
         "Category": "Hairpin",
         "Rarity": "N",
@@ -2450,6 +2782,7 @@
             true,
             true
         ],
+        "MaxLevel": 30,
         "StatType": [
             "MaxHP_Base"
         ],
@@ -2467,7 +2800,7 @@
         ],
         "RecipeCost": 10000
     },
-    {
+    "6003": {
         "Id": 6003,
         "Category": "Hairpin",
         "Rarity": "N",
@@ -2481,6 +2814,7 @@
             true,
             true
         ],
+        "MaxLevel": 40,
         "StatType": [
             "MaxHP_Base",
             "OppressionResist_Coefficient"
@@ -2507,7 +2841,7 @@
         ],
         "RecipeCost": 25000
     },
-    {
+    "6004": {
         "Id": 6004,
         "Category": "Hairpin",
         "Rarity": "N",
@@ -2515,12 +2849,13 @@
         "Icon": "equipment_icon_hairpin_tier5",
         "Shops": [],
         "Name": "Multi-Purpose Hairpin",
-        "Desc": "A hairpin with a sharp end that can be used for a variety of purposes, including as a bottle opener or pocketknife. Just remember not to run your fingers through your hair on accident!",
+        "Desc": "A hairpin with a sharp end that can be used for a variety of purposes, including as a bottle opener or pocketknife. Just remember not to run your fingers through your hair by accident!",
         "IsReleased": [
             true,
             true,
             true
         ],
+        "MaxLevel": 45,
         "StatType": [
             "MaxHP_Base",
             "OppressionResist_Coefficient"
@@ -2551,7 +2886,7 @@
         ],
         "RecipeCost": 50000
     },
-    {
+    "6005": {
         "Id": 6005,
         "Category": "Hairpin",
         "Rarity": "N",
@@ -2565,6 +2900,7 @@
             true,
             true
         ],
+        "MaxLevel": 50,
         "StatType": [
             "MaxHP_Base",
             "OppressionResist_Coefficient"
@@ -2595,7 +2931,7 @@
         ],
         "RecipeCost": 75000
     },
-    {
+    "6006": {
         "Id": 6006,
         "Category": "Hairpin",
         "Rarity": "N",
@@ -2609,6 +2945,7 @@
             true,
             true
         ],
+        "MaxLevel": 55,
         "StatType": [
             "MaxHP_Base",
             "OppressionResist_Coefficient"
@@ -2639,7 +2976,7 @@
         ],
         "RecipeCost": 100000
     },
-    {
+    "6007": {
         "Id": 6007,
         "Category": "Hairpin",
         "Rarity": "N",
@@ -2651,8 +2988,9 @@
         "IsReleased": [
             true,
             true,
-            false
+            true
         ],
+        "MaxLevel": 60,
         "StatType": [
             "MaxHP_Base",
             "OppressionResist_Coefficient"
@@ -2683,7 +3021,7 @@
         ],
         "RecipeCost": 125000
     },
-    {
+    "6008": {
         "Id": 6008,
         "Category": "Hairpin",
         "Rarity": "N",
@@ -2695,8 +3033,9 @@
         "IsReleased": [
             true,
             true,
-            false
+            true
         ],
+        "MaxLevel": 65,
         "StatType": [
             "MaxHP_Base",
             "OppressionResist_Coefficient",
@@ -2732,7 +3071,57 @@
         ],
         "RecipeCost": 150000
     },
-    {
+    "6009": {
+        "Id": 6009,
+        "Category": "Hairpin",
+        "Rarity": "N",
+        "Tier": 10,
+        "Icon": "equipment_icon_hairpin_tier10",
+        "Shops": [],
+        "Name": "EMF Protection Hairpin",
+        "Desc": "A hairpin that blocks electromagnetic waves to improve brain health. There haven't been any studies regarding the efficacy of it, though...",
+        "IsReleased": [
+            true,
+            true,
+            true
+        ],
+        "MaxLevel": 70,
+        "StatType": [
+            "MaxHP_Base",
+            "OppressionResist_Coefficient",
+            "CriticalPoint_Base"
+        ],
+        "StatValue": [
+            [
+                11500,
+                13000
+            ],
+            [
+                3500,
+                3600
+            ],
+            [
+                150,
+                150
+            ]
+        ],
+        "Recipe": [
+            [
+                106009,
+                60
+            ],
+            [
+                106007,
+                20
+            ],
+            [
+                106006,
+                10
+            ]
+        ],
+        "RecipeCost": 175000
+    },
+    "7000": {
         "Id": 7000,
         "Category": "Charm",
         "Rarity": "N",
@@ -2746,6 +3135,7 @@
             true,
             true
         ],
+        "MaxLevel": 10,
         "StatType": [
             "CriticalChanceResistPoint_Base"
         ],
@@ -2756,7 +3146,7 @@
             ]
         ]
     },
-    {
+    "7001": {
         "Id": 7001,
         "Category": "Charm",
         "Rarity": "N",
@@ -2770,6 +3160,7 @@
             true,
             true
         ],
+        "MaxLevel": 20,
         "StatType": [
             "CriticalChanceResistPoint_Base"
         ],
@@ -2787,7 +3178,7 @@
         ],
         "RecipeCost": 1500
     },
-    {
+    "7002": {
         "Id": 7002,
         "Category": "Charm",
         "Rarity": "N",
@@ -2801,6 +3192,7 @@
             true,
             true
         ],
+        "MaxLevel": 30,
         "StatType": [
             "CriticalChanceResistPoint_Base"
         ],
@@ -2818,7 +3210,7 @@
         ],
         "RecipeCost": 10000
     },
-    {
+    "7003": {
         "Id": 7003,
         "Category": "Charm",
         "Rarity": "N",
@@ -2832,6 +3224,7 @@
             true,
             true
         ],
+        "MaxLevel": 40,
         "StatType": [
             "CriticalChanceResistPoint_Base",
             "CriticalDamageResistRate_Base"
@@ -2858,7 +3251,7 @@
         ],
         "RecipeCost": 25000
     },
-    {
+    "7004": {
         "Id": 7004,
         "Category": "Charm",
         "Rarity": "N",
@@ -2872,6 +3265,7 @@
             true,
             true
         ],
+        "MaxLevel": 45,
         "StatType": [
             "CriticalChanceResistPoint_Base",
             "CriticalDamageResistRate_Base",
@@ -2907,7 +3301,7 @@
         ],
         "RecipeCost": 50000
     },
-    {
+    "7005": {
         "Id": 7005,
         "Category": "Charm",
         "Rarity": "N",
@@ -2921,6 +3315,7 @@
             true,
             true
         ],
+        "MaxLevel": 50,
         "StatType": [
             "CriticalChanceResistPoint_Base",
             "CriticalDamageResistRate_Base",
@@ -2956,7 +3351,7 @@
         ],
         "RecipeCost": 75000
     },
-    {
+    "7006": {
         "Id": 7006,
         "Category": "Charm",
         "Rarity": "N",
@@ -2970,6 +3365,7 @@
             true,
             true
         ],
+        "MaxLevel": 55,
         "StatType": [
             "CriticalChanceResistPoint_Base",
             "CriticalDamageResistRate_Base",
@@ -3005,7 +3401,7 @@
         ],
         "RecipeCost": 100000
     },
-    {
+    "7007": {
         "Id": 7007,
         "Category": "Charm",
         "Rarity": "N",
@@ -3017,8 +3413,9 @@
         "IsReleased": [
             true,
             true,
-            false
+            true
         ],
+        "MaxLevel": 60,
         "StatType": [
             "CriticalChanceResistPoint_Base",
             "CriticalDamageResistRate_Base",
@@ -3054,20 +3451,21 @@
         ],
         "RecipeCost": 125000
     },
-    {
+    "7008": {
         "Id": 7008,
         "Category": "Charm",
         "Rarity": "N",
         "Tier": 9,
         "Icon": "equipment_icon_charm_tier9",
         "Shops": [],
-        "Name": "サメの歯のお守り",
-        "Desc": "鋭いサメの歯を繋いで作ったお守り。このお守りを持っていると、海難事故を防いでくれるという言い伝えがある。",
+        "Name": "Shark Teeth Amulet",
+        "Desc": "An amulet made of shark teeth woven together. Wearing this amulet is said to keep sailors safe at sea.",
         "IsReleased": [
             true,
-            false,
-            false
+            true,
+            true
         ],
+        "MaxLevel": 65,
         "StatType": [
             "CriticalChanceResistPoint_Base",
             "CriticalDamageResistRate_Base",
@@ -3103,7 +3501,57 @@
         ],
         "RecipeCost": 150000
     },
-    {
+    "7009": {
+        "Id": 7009,
+        "Category": "Charm",
+        "Rarity": "N",
+        "Tier": 10,
+        "Icon": "equipment_icon_charm_tier10",
+        "Shops": [],
+        "Name": "Keycap Toy",
+        "Desc": "A fidget toy made with a keycap from a keyboard. Nothing actually happens when it's pressed, but the satisfying clicking sound can calm down an anxious mind.",
+        "IsReleased": [
+            true,
+            true,
+            false
+        ],
+        "MaxLevel": 70,
+        "StatType": [
+            "CriticalChanceResistPoint_Base",
+            "CriticalDamageResistRate_Base",
+            "CriticalPoint_Base"
+        ],
+        "StatValue": [
+            [
+                405,
+                420
+            ],
+            [
+                2800,
+                3000
+            ],
+            [
+                260,
+                300
+            ]
+        ],
+        "Recipe": [
+            [
+                107009,
+                60
+            ],
+            [
+                107007,
+                20
+            ],
+            [
+                107006,
+                10
+            ]
+        ],
+        "RecipeCost": 175000
+    },
+    "8000": {
         "Id": 8000,
         "Category": "Watch",
         "Rarity": "N",
@@ -3117,6 +3565,7 @@
             true,
             true
         ],
+        "MaxLevel": 10,
         "StatType": [
             "CriticalPoint_Base"
         ],
@@ -3127,7 +3576,7 @@
             ]
         ]
     },
-    {
+    "8001": {
         "Id": 8001,
         "Category": "Watch",
         "Rarity": "N",
@@ -3141,6 +3590,7 @@
             true,
             true
         ],
+        "MaxLevel": 20,
         "StatType": [
             "CriticalPoint_Base"
         ],
@@ -3158,7 +3608,7 @@
         ],
         "RecipeCost": 1500
     },
-    {
+    "8002": {
         "Id": 8002,
         "Category": "Watch",
         "Rarity": "N",
@@ -3172,6 +3622,7 @@
             true,
             true
         ],
+        "MaxLevel": 30,
         "StatType": [
             "CriticalPoint_Base"
         ],
@@ -3189,7 +3640,7 @@
         ],
         "RecipeCost": 10000
     },
-    {
+    "8003": {
         "Id": 8003,
         "Category": "Watch",
         "Rarity": "N",
@@ -3203,6 +3654,7 @@
             true,
             true
         ],
+        "MaxLevel": 40,
         "StatType": [
             "CriticalPoint_Base",
             "CriticalDamageRate_Base"
@@ -3229,7 +3681,7 @@
         ],
         "RecipeCost": 25000
     },
-    {
+    "8004": {
         "Id": 8004,
         "Category": "Watch",
         "Rarity": "N",
@@ -3243,6 +3695,7 @@
             true,
             true
         ],
+        "MaxLevel": 45,
         "StatType": [
             "CriticalPoint_Base",
             "CriticalDamageRate_Base",
@@ -3278,7 +3731,7 @@
         ],
         "RecipeCost": 50000
     },
-    {
+    "8005": {
         "Id": 8005,
         "Category": "Watch",
         "Rarity": "N",
@@ -3292,6 +3745,7 @@
             true,
             true
         ],
+        "MaxLevel": 50,
         "StatType": [
             "CriticalPoint_Base",
             "CriticalDamageRate_Base",
@@ -3327,7 +3781,7 @@
         ],
         "RecipeCost": 75000
     },
-    {
+    "8006": {
         "Id": 8006,
         "Category": "Watch",
         "Rarity": "N",
@@ -3341,6 +3795,7 @@
             true,
             true
         ],
+        "MaxLevel": 55,
         "StatType": [
             "CriticalPoint_Base",
             "CriticalDamageRate_Base",
@@ -3376,7 +3831,7 @@
         ],
         "RecipeCost": 100000
     },
-    {
+    "8007": {
         "Id": 8007,
         "Category": "Watch",
         "Rarity": "N",
@@ -3388,8 +3843,9 @@
         "IsReleased": [
             true,
             true,
-            false
+            true
         ],
+        "MaxLevel": 60,
         "StatType": [
             "CriticalPoint_Base",
             "CriticalDamageRate_Base",
@@ -3425,20 +3881,21 @@
         ],
         "RecipeCost": 125000
     },
-    {
+    "8008": {
         "Id": 8008,
         "Category": "Watch",
         "Rarity": "N",
         "Tier": 9,
         "Icon": "equipment_icon_watch_tier9",
         "Shops": [],
-        "Name": "ダイバーウォッチ",
-        "Desc": "マリンスポーツブランド「ハルピュイア」から登場したダイバー用スマートウォッチ。防水機能はもちろん、深い水深でも水圧を気にせず水中環境をチェックできる。",
+        "Name": "Diver Watch",
+        "Desc": "A smartwatch from the marine sports brand Harpia designed for divers. Not only is it waterproof, but it can also withstand the pressures of the ocean's depths to monitor the surrounding environment.",
         "IsReleased": [
             true,
-            false,
-            false
+            true,
+            true
         ],
+        "MaxLevel": 65,
         "StatType": [
             "CriticalPoint_Base",
             "CriticalDamageRate_Base",
@@ -3474,7 +3931,57 @@
         ],
         "RecipeCost": 150000
     },
-    {
+    "8009": {
+        "Id": 8009,
+        "Category": "Watch",
+        "Rarity": "N",
+        "Tier": 10,
+        "Icon": "equipment_icon_watch_tier10",
+        "Shops": [],
+        "Name": "Screen Watch",
+        "Desc": "A wristwatch with touch screen. It can port and run all sorts of games, but that's really the only thing it can do.",
+        "IsReleased": [
+            true,
+            true,
+            false
+        ],
+        "MaxLevel": 70,
+        "StatType": [
+            "CriticalPoint_Base",
+            "CriticalDamageRate_Base",
+            "MaxHP_Coefficient"
+        ],
+        "StatValue": [
+            [
+                450,
+                480
+            ],
+            [
+                2550,
+                2600
+            ],
+            [
+                1300,
+                1500
+            ]
+        ],
+        "Recipe": [
+            [
+                108009,
+                60
+            ],
+            [
+                108007,
+                20
+            ],
+            [
+                108006,
+                10
+            ]
+        ],
+        "RecipeCost": 175000
+    },
+    "9000": {
         "Id": 9000,
         "Category": "Necklace",
         "Rarity": "N",
@@ -3488,6 +3995,7 @@
             true,
             true
         ],
+        "MaxLevel": 10,
         "StatType": [
             "HealPower_Coefficient",
             "OppressionPower_Coefficient"
@@ -3503,7 +4011,7 @@
             ]
         ]
     },
-    {
+    "9001": {
         "Id": 9001,
         "Category": "Necklace",
         "Rarity": "N",
@@ -3517,6 +4025,7 @@
             true,
             true
         ],
+        "MaxLevel": 20,
         "StatType": [
             "HealPower_Coefficient",
             "OppressionPower_Coefficient"
@@ -3539,7 +4048,7 @@
         ],
         "RecipeCost": 1500
     },
-    {
+    "9002": {
         "Id": 9002,
         "Category": "Necklace",
         "Rarity": "N",
@@ -3553,6 +4062,7 @@
             true,
             true
         ],
+        "MaxLevel": 30,
         "StatType": [
             "HealPower_Coefficient",
             "OppressionPower_Coefficient"
@@ -3575,7 +4085,7 @@
         ],
         "RecipeCost": 10000
     },
-    {
+    "9003": {
         "Id": 9003,
         "Category": "Necklace",
         "Rarity": "N",
@@ -3589,6 +4099,7 @@
             true,
             true
         ],
+        "MaxLevel": 40,
         "StatType": [
             "HealPower_Coefficient",
             "OppressionPower_Coefficient"
@@ -3615,7 +4126,7 @@
         ],
         "RecipeCost": 25000
     },
-    {
+    "9004": {
         "Id": 9004,
         "Category": "Necklace",
         "Rarity": "N",
@@ -3629,6 +4140,7 @@
             true,
             true
         ],
+        "MaxLevel": 45,
         "StatType": [
             "HealPower_Coefficient",
             "OppressionPower_Coefficient",
@@ -3664,7 +4176,7 @@
         ],
         "RecipeCost": 50000
     },
-    {
+    "9005": {
         "Id": 9005,
         "Category": "Necklace",
         "Rarity": "N",
@@ -3678,6 +4190,7 @@
             true,
             true
         ],
+        "MaxLevel": 50,
         "StatType": [
             "HealPower_Coefficient",
             "OppressionPower_Coefficient",
@@ -3713,7 +4226,7 @@
         ],
         "RecipeCost": 75000
     },
-    {
+    "9006": {
         "Id": 9006,
         "Category": "Necklace",
         "Rarity": "N",
@@ -3727,6 +4240,7 @@
             true,
             true
         ],
+        "MaxLevel": 55,
         "StatType": [
             "HealPower_Coefficient",
             "OppressionPower_Coefficient",
@@ -3762,7 +4276,7 @@
         ],
         "RecipeCost": 100000
     },
-    {
+    "9007": {
         "Id": 9007,
         "Category": "Necklace",
         "Rarity": "N",
@@ -3774,8 +4288,9 @@
         "IsReleased": [
             true,
             true,
-            false
+            true
         ],
+        "MaxLevel": 60,
         "StatType": [
             "HealPower_Coefficient",
             "OppressionPower_Coefficient",
@@ -3811,20 +4326,21 @@
         ],
         "RecipeCost": 125000
     },
-    {
+    "9008": {
         "Id": 9008,
         "Category": "Necklace",
         "Rarity": "N",
         "Tier": 9,
         "Icon": "equipment_icon_necklace_tier9",
         "Shops": [],
-        "Name": "オクトパスホルダー",
-        "Desc": "ダイバーが呼吸器を固定するために使用するネックレス型のホルダー。「ハルピュイア」のホルダーは落ち着いた色とデザインが評価され、ファッショングッズとしてもよく使われる。",
+        "Name": "Octopus Holder",
+        "Desc": "A necklace-style holder used by divers to secure their respirators. Thanks to the subtle color and design, the Harpia holder also doubles as a trendy fashion accessory.",
         "IsReleased": [
             true,
-            false,
-            false
+            true,
+            true
         ],
+        "MaxLevel": 65,
         "StatType": [
             "HealPower_Coefficient",
             "OppressionPower_Coefficient",
@@ -3860,7 +4376,57 @@
         ],
         "RecipeCost": 150000
     },
-    {
+    "9009": {
+        "Id": 9009,
+        "Category": "Necklace",
+        "Rarity": "N",
+        "Tier": 10,
+        "Icon": "equipment_icon_necklace_tier10",
+        "Shops": [],
+        "Name": "Memory Necklace",
+        "Desc": "A necklace with a storage unit disguised as a pendant. Its flashy exterior may be hiding some secrets inside.",
+        "IsReleased": [
+            true,
+            true,
+            false
+        ],
+        "MaxLevel": 70,
+        "StatType": [
+            "HealPower_Coefficient",
+            "OppressionPower_Coefficient",
+            "AttackPower_Coefficient"
+        ],
+        "StatValue": [
+            [
+                4100,
+                4200
+            ],
+            [
+                3800,
+                3800
+            ],
+            [
+                1500,
+                1800
+            ]
+        ],
+        "Recipe": [
+            [
+                109009,
+                60
+            ],
+            [
+                109007,
+                20
+            ],
+            [
+                109006,
+                10
+            ]
+        ],
+        "RecipeCost": 175000
+    },
+    "101001": {
         "Id": 101001,
         "Category": "Hat",
         "Rarity": "N",
@@ -3874,10 +4440,12 @@
             true,
             true
         ],
+        "MaxLevel": 1,
         "StatType": [],
-        "StatValue": []
+        "StatValue": [],
+        "LevelUpFeedExp": 15
     },
-    {
+    "101002": {
         "Id": 101002,
         "Category": "Hat",
         "Rarity": "N",
@@ -3891,10 +4459,12 @@
             true,
             true
         ],
+        "MaxLevel": 1,
         "StatType": [],
-        "StatValue": []
+        "StatValue": [],
+        "LevelUpFeedExp": 25
     },
-    {
+    "101003": {
         "Id": 101003,
         "Category": "Hat",
         "Rarity": "N",
@@ -3908,10 +4478,12 @@
             true,
             true
         ],
+        "MaxLevel": 1,
         "StatType": [],
-        "StatValue": []
+        "StatValue": [],
+        "LevelUpFeedExp": 50
     },
-    {
+    "101004": {
         "Id": 101004,
         "Category": "Hat",
         "Rarity": "N",
@@ -3925,10 +4497,12 @@
             true,
             true
         ],
+        "MaxLevel": 1,
         "StatType": [],
-        "StatValue": []
+        "StatValue": [],
+        "LevelUpFeedExp": 75
     },
-    {
+    "101005": {
         "Id": 101005,
         "Category": "Hat",
         "Rarity": "N",
@@ -3942,10 +4516,12 @@
             true,
             true
         ],
+        "MaxLevel": 1,
         "StatType": [],
-        "StatValue": []
+        "StatValue": [],
+        "LevelUpFeedExp": 100
     },
-    {
+    "101006": {
         "Id": 101006,
         "Category": "Hat",
         "Rarity": "N",
@@ -3959,10 +4535,12 @@
             true,
             true
         ],
+        "MaxLevel": 1,
         "StatType": [],
-        "StatValue": []
+        "StatValue": [],
+        "LevelUpFeedExp": 125
     },
-    {
+    "101007": {
         "Id": 101007,
         "Category": "Hat",
         "Rarity": "N",
@@ -3974,12 +4552,14 @@
         "IsReleased": [
             true,
             true,
-            false
+            true
         ],
+        "MaxLevel": 1,
         "StatType": [],
-        "StatValue": []
+        "StatValue": [],
+        "LevelUpFeedExp": 150
     },
-    {
+    "101008": {
         "Id": 101008,
         "Category": "Hat",
         "Rarity": "N",
@@ -3991,12 +4571,33 @@
         "IsReleased": [
             true,
             true,
-            false
+            true
         ],
+        "MaxLevel": 1,
         "StatType": [],
-        "StatValue": []
+        "StatValue": [],
+        "LevelUpFeedExp": 175
     },
-    {
+    "101009": {
+        "Id": 101009,
+        "Category": "Hat",
+        "Rarity": "N",
+        "Tier": 10,
+        "Icon": "equipment_icon_hat_tier10_piece",
+        "Shops": [],
+        "Name": "Gaming Helmet Blueprint",
+        "Desc": "A blueprint for creating equipment.",
+        "IsReleased": [
+            true,
+            true,
+            true
+        ],
+        "MaxLevel": 1,
+        "StatType": [],
+        "StatValue": [],
+        "LevelUpFeedExp": 200
+    },
+    "102001": {
         "Id": 102001,
         "Category": "Gloves",
         "Rarity": "N",
@@ -4010,10 +4611,12 @@
             true,
             true
         ],
+        "MaxLevel": 1,
         "StatType": [],
-        "StatValue": []
+        "StatValue": [],
+        "LevelUpFeedExp": 15
     },
-    {
+    "102002": {
         "Id": 102002,
         "Category": "Gloves",
         "Rarity": "N",
@@ -4027,10 +4630,12 @@
             true,
             true
         ],
+        "MaxLevel": 1,
         "StatType": [],
-        "StatValue": []
+        "StatValue": [],
+        "LevelUpFeedExp": 25
     },
-    {
+    "102003": {
         "Id": 102003,
         "Category": "Gloves",
         "Rarity": "N",
@@ -4044,10 +4649,12 @@
             true,
             true
         ],
+        "MaxLevel": 1,
         "StatType": [],
-        "StatValue": []
+        "StatValue": [],
+        "LevelUpFeedExp": 50
     },
-    {
+    "102004": {
         "Id": 102004,
         "Category": "Gloves",
         "Rarity": "N",
@@ -4061,10 +4668,12 @@
             true,
             true
         ],
+        "MaxLevel": 1,
         "StatType": [],
-        "StatValue": []
+        "StatValue": [],
+        "LevelUpFeedExp": 75
     },
-    {
+    "102005": {
         "Id": 102005,
         "Category": "Gloves",
         "Rarity": "N",
@@ -4078,10 +4687,12 @@
             true,
             true
         ],
+        "MaxLevel": 1,
         "StatType": [],
-        "StatValue": []
+        "StatValue": [],
+        "LevelUpFeedExp": 100
     },
-    {
+    "102006": {
         "Id": 102006,
         "Category": "Gloves",
         "Rarity": "N",
@@ -4095,10 +4706,12 @@
             true,
             true
         ],
+        "MaxLevel": 1,
         "StatType": [],
-        "StatValue": []
+        "StatValue": [],
+        "LevelUpFeedExp": 125
     },
-    {
+    "102007": {
         "Id": 102007,
         "Category": "Gloves",
         "Rarity": "N",
@@ -4110,12 +4723,14 @@
         "IsReleased": [
             true,
             true,
-            false
+            true
         ],
+        "MaxLevel": 1,
         "StatType": [],
-        "StatValue": []
+        "StatValue": [],
+        "LevelUpFeedExp": 150
     },
-    {
+    "102008": {
         "Id": 102008,
         "Category": "Gloves",
         "Rarity": "N",
@@ -4127,12 +4742,33 @@
         "IsReleased": [
             true,
             true,
-            false
+            true
         ],
+        "MaxLevel": 1,
         "StatType": [],
-        "StatValue": []
+        "StatValue": [],
+        "LevelUpFeedExp": 175
     },
-    {
+    "102009": {
+        "Id": 102009,
+        "Category": "Gloves",
+        "Rarity": "N",
+        "Tier": 10,
+        "Icon": "equipment_icon_gloves_tier10_piece",
+        "Shops": [],
+        "Name": "Super Gloves Blueprint",
+        "Desc": "A blueprint for creating equipment.",
+        "IsReleased": [
+            true,
+            true,
+            true
+        ],
+        "MaxLevel": 1,
+        "StatType": [],
+        "StatValue": [],
+        "LevelUpFeedExp": 200
+    },
+    "103001": {
         "Id": 103001,
         "Category": "Shoes",
         "Rarity": "N",
@@ -4146,10 +4782,12 @@
             true,
             true
         ],
+        "MaxLevel": 1,
         "StatType": [],
-        "StatValue": []
+        "StatValue": [],
+        "LevelUpFeedExp": 15
     },
-    {
+    "103002": {
         "Id": 103002,
         "Category": "Shoes",
         "Rarity": "N",
@@ -4163,10 +4801,12 @@
             true,
             true
         ],
+        "MaxLevel": 1,
         "StatType": [],
-        "StatValue": []
+        "StatValue": [],
+        "LevelUpFeedExp": 25
     },
-    {
+    "103003": {
         "Id": 103003,
         "Category": "Shoes",
         "Rarity": "N",
@@ -4180,10 +4820,12 @@
             true,
             true
         ],
+        "MaxLevel": 1,
         "StatType": [],
-        "StatValue": []
+        "StatValue": [],
+        "LevelUpFeedExp": 50
     },
-    {
+    "103004": {
         "Id": 103004,
         "Category": "Shoes",
         "Rarity": "N",
@@ -4197,10 +4839,12 @@
             true,
             true
         ],
+        "MaxLevel": 1,
         "StatType": [],
-        "StatValue": []
+        "StatValue": [],
+        "LevelUpFeedExp": 75
     },
-    {
+    "103005": {
         "Id": 103005,
         "Category": "Shoes",
         "Rarity": "N",
@@ -4214,10 +4858,12 @@
             true,
             true
         ],
+        "MaxLevel": 1,
         "StatType": [],
-        "StatValue": []
+        "StatValue": [],
+        "LevelUpFeedExp": 100
     },
-    {
+    "103006": {
         "Id": 103006,
         "Category": "Shoes",
         "Rarity": "N",
@@ -4231,10 +4877,12 @@
             true,
             true
         ],
+        "MaxLevel": 1,
         "StatType": [],
-        "StatValue": []
+        "StatValue": [],
+        "LevelUpFeedExp": 125
     },
-    {
+    "103007": {
         "Id": 103007,
         "Category": "Shoes",
         "Rarity": "N",
@@ -4246,12 +4894,14 @@
         "IsReleased": [
             true,
             true,
-            false
+            true
         ],
+        "MaxLevel": 1,
         "StatType": [],
-        "StatValue": []
+        "StatValue": [],
+        "LevelUpFeedExp": 150
     },
-    {
+    "103008": {
         "Id": 103008,
         "Category": "Shoes",
         "Rarity": "N",
@@ -4263,12 +4913,33 @@
         "IsReleased": [
             true,
             true,
-            false
+            true
         ],
+        "MaxLevel": 1,
         "StatType": [],
-        "StatValue": []
+        "StatValue": [],
+        "LevelUpFeedExp": 175
     },
-    {
+    "103009": {
+        "Id": 103009,
+        "Category": "Shoes",
+        "Rarity": "N",
+        "Tier": 10,
+        "Icon": "equipment_icon_shoes_tier10_piece",
+        "Shops": [],
+        "Name": "Gaming Slippers Blueprint",
+        "Desc": "A blueprint for creating equipment.",
+        "IsReleased": [
+            true,
+            true,
+            true
+        ],
+        "MaxLevel": 1,
+        "StatType": [],
+        "StatValue": [],
+        "LevelUpFeedExp": 200
+    },
+    "104001": {
         "Id": 104001,
         "Category": "Bag",
         "Rarity": "N",
@@ -4282,10 +4953,12 @@
             true,
             true
         ],
+        "MaxLevel": 1,
         "StatType": [],
-        "StatValue": []
+        "StatValue": [],
+        "LevelUpFeedExp": 15
     },
-    {
+    "104002": {
         "Id": 104002,
         "Category": "Bag",
         "Rarity": "N",
@@ -4299,10 +4972,12 @@
             true,
             true
         ],
+        "MaxLevel": 1,
         "StatType": [],
-        "StatValue": []
+        "StatValue": [],
+        "LevelUpFeedExp": 25
     },
-    {
+    "104003": {
         "Id": 104003,
         "Category": "Bag",
         "Rarity": "N",
@@ -4316,10 +4991,12 @@
             true,
             true
         ],
+        "MaxLevel": 1,
         "StatType": [],
-        "StatValue": []
+        "StatValue": [],
+        "LevelUpFeedExp": 50
     },
-    {
+    "104004": {
         "Id": 104004,
         "Category": "Bag",
         "Rarity": "N",
@@ -4333,10 +5010,12 @@
             true,
             true
         ],
+        "MaxLevel": 1,
         "StatType": [],
-        "StatValue": []
+        "StatValue": [],
+        "LevelUpFeedExp": 75
     },
-    {
+    "104005": {
         "Id": 104005,
         "Category": "Bag",
         "Rarity": "N",
@@ -4350,10 +5029,12 @@
             true,
             true
         ],
+        "MaxLevel": 1,
         "StatType": [],
-        "StatValue": []
+        "StatValue": [],
+        "LevelUpFeedExp": 100
     },
-    {
+    "104006": {
         "Id": 104006,
         "Category": "Bag",
         "Rarity": "N",
@@ -4367,10 +5048,12 @@
             true,
             true
         ],
+        "MaxLevel": 1,
         "StatType": [],
-        "StatValue": []
+        "StatValue": [],
+        "LevelUpFeedExp": 125
     },
-    {
+    "104007": {
         "Id": 104007,
         "Category": "Bag",
         "Rarity": "N",
@@ -4382,12 +5065,14 @@
         "IsReleased": [
             true,
             true,
-            false
+            true
         ],
+        "MaxLevel": 1,
         "StatType": [],
-        "StatValue": []
+        "StatValue": [],
+        "LevelUpFeedExp": 150
     },
-    {
+    "104008": {
         "Id": 104008,
         "Category": "Bag",
         "Rarity": "N",
@@ -4399,12 +5084,33 @@
         "IsReleased": [
             true,
             true,
-            false
+            true
         ],
+        "MaxLevel": 1,
         "StatType": [],
-        "StatValue": []
+        "StatValue": [],
+        "LevelUpFeedExp": 175
     },
-    {
+    "104009": {
+        "Id": 104009,
+        "Category": "Bag",
+        "Rarity": "N",
+        "Tier": 10,
+        "Icon": "equipment_icon_bag_tier10_piece",
+        "Shops": [],
+        "Name": "Metal Case Blueprint",
+        "Desc": "A blueprint for creating equipment.",
+        "IsReleased": [
+            true,
+            true,
+            true
+        ],
+        "MaxLevel": 1,
+        "StatType": [],
+        "StatValue": [],
+        "LevelUpFeedExp": 200
+    },
+    "105001": {
         "Id": 105001,
         "Category": "Badge",
         "Rarity": "N",
@@ -4418,10 +5124,12 @@
             true,
             true
         ],
+        "MaxLevel": 1,
         "StatType": [],
-        "StatValue": []
+        "StatValue": [],
+        "LevelUpFeedExp": 15
     },
-    {
+    "105002": {
         "Id": 105002,
         "Category": "Badge",
         "Rarity": "N",
@@ -4435,10 +5143,12 @@
             true,
             true
         ],
+        "MaxLevel": 1,
         "StatType": [],
-        "StatValue": []
+        "StatValue": [],
+        "LevelUpFeedExp": 25
     },
-    {
+    "105003": {
         "Id": 105003,
         "Category": "Badge",
         "Rarity": "N",
@@ -4452,10 +5162,12 @@
             true,
             true
         ],
+        "MaxLevel": 1,
         "StatType": [],
-        "StatValue": []
+        "StatValue": [],
+        "LevelUpFeedExp": 50
     },
-    {
+    "105004": {
         "Id": 105004,
         "Category": "Badge",
         "Rarity": "N",
@@ -4469,10 +5181,12 @@
             true,
             true
         ],
+        "MaxLevel": 1,
         "StatType": [],
-        "StatValue": []
+        "StatValue": [],
+        "LevelUpFeedExp": 75
     },
-    {
+    "105005": {
         "Id": 105005,
         "Category": "Badge",
         "Rarity": "N",
@@ -4486,10 +5200,12 @@
             true,
             true
         ],
+        "MaxLevel": 1,
         "StatType": [],
-        "StatValue": []
+        "StatValue": [],
+        "LevelUpFeedExp": 100
     },
-    {
+    "105006": {
         "Id": 105006,
         "Category": "Badge",
         "Rarity": "N",
@@ -4503,10 +5219,12 @@
             true,
             true
         ],
+        "MaxLevel": 1,
         "StatType": [],
-        "StatValue": []
+        "StatValue": [],
+        "LevelUpFeedExp": 125
     },
-    {
+    "105007": {
         "Id": 105007,
         "Category": "Badge",
         "Rarity": "N",
@@ -4518,12 +5236,14 @@
         "IsReleased": [
             true,
             true,
-            false
+            true
         ],
+        "MaxLevel": 1,
         "StatType": [],
-        "StatValue": []
+        "StatValue": [],
+        "LevelUpFeedExp": 150
     },
-    {
+    "105008": {
         "Id": 105008,
         "Category": "Badge",
         "Rarity": "N",
@@ -4535,12 +5255,33 @@
         "IsReleased": [
             true,
             true,
-            false
+            true
         ],
+        "MaxLevel": 1,
         "StatType": [],
-        "StatValue": []
+        "StatValue": [],
+        "LevelUpFeedExp": 175
     },
-    {
+    "105009": {
+        "Id": 105009,
+        "Category": "Badge",
+        "Rarity": "N",
+        "Tier": 10,
+        "Icon": "equipment_icon_badge_tier10_piece",
+        "Shops": [],
+        "Name": "Coin Badge Blueprint",
+        "Desc": "A blueprint for creating equipment.",
+        "IsReleased": [
+            true,
+            true,
+            true
+        ],
+        "MaxLevel": 1,
+        "StatType": [],
+        "StatValue": [],
+        "LevelUpFeedExp": 200
+    },
+    "106001": {
         "Id": 106001,
         "Category": "Hairpin",
         "Rarity": "N",
@@ -4554,10 +5295,12 @@
             true,
             true
         ],
+        "MaxLevel": 1,
         "StatType": [],
-        "StatValue": []
+        "StatValue": [],
+        "LevelUpFeedExp": 15
     },
-    {
+    "106002": {
         "Id": 106002,
         "Category": "Hairpin",
         "Rarity": "N",
@@ -4571,10 +5314,12 @@
             true,
             true
         ],
+        "MaxLevel": 1,
         "StatType": [],
-        "StatValue": []
+        "StatValue": [],
+        "LevelUpFeedExp": 25
     },
-    {
+    "106003": {
         "Id": 106003,
         "Category": "Hairpin",
         "Rarity": "N",
@@ -4588,10 +5333,12 @@
             true,
             true
         ],
+        "MaxLevel": 1,
         "StatType": [],
-        "StatValue": []
+        "StatValue": [],
+        "LevelUpFeedExp": 50
     },
-    {
+    "106004": {
         "Id": 106004,
         "Category": "Hairpin",
         "Rarity": "N",
@@ -4605,10 +5352,12 @@
             true,
             true
         ],
+        "MaxLevel": 1,
         "StatType": [],
-        "StatValue": []
+        "StatValue": [],
+        "LevelUpFeedExp": 75
     },
-    {
+    "106005": {
         "Id": 106005,
         "Category": "Hairpin",
         "Rarity": "N",
@@ -4622,10 +5371,12 @@
             true,
             true
         ],
+        "MaxLevel": 1,
         "StatType": [],
-        "StatValue": []
+        "StatValue": [],
+        "LevelUpFeedExp": 100
     },
-    {
+    "106006": {
         "Id": 106006,
         "Category": "Hairpin",
         "Rarity": "N",
@@ -4639,10 +5390,12 @@
             true,
             true
         ],
+        "MaxLevel": 1,
         "StatType": [],
-        "StatValue": []
+        "StatValue": [],
+        "LevelUpFeedExp": 125
     },
-    {
+    "106007": {
         "Id": 106007,
         "Category": "Hairpin",
         "Rarity": "N",
@@ -4654,12 +5407,14 @@
         "IsReleased": [
             true,
             true,
-            false
+            true
         ],
+        "MaxLevel": 1,
         "StatType": [],
-        "StatValue": []
+        "StatValue": [],
+        "LevelUpFeedExp": 150
     },
-    {
+    "106008": {
         "Id": 106008,
         "Category": "Hairpin",
         "Rarity": "N",
@@ -4671,12 +5426,33 @@
         "IsReleased": [
             true,
             true,
-            false
+            true
         ],
+        "MaxLevel": 1,
         "StatType": [],
-        "StatValue": []
+        "StatValue": [],
+        "LevelUpFeedExp": 175
     },
-    {
+    "106009": {
+        "Id": 106009,
+        "Category": "Hairpin",
+        "Rarity": "N",
+        "Tier": 10,
+        "Icon": "equipment_icon_hairpin_tier10_piece",
+        "Shops": [],
+        "Name": "EMF Protection Hairpin Blueprint",
+        "Desc": "A blueprint for creating equipment.",
+        "IsReleased": [
+            true,
+            true,
+            true
+        ],
+        "MaxLevel": 1,
+        "StatType": [],
+        "StatValue": [],
+        "LevelUpFeedExp": 200
+    },
+    "107001": {
         "Id": 107001,
         "Category": "Charm",
         "Rarity": "N",
@@ -4690,10 +5466,12 @@
             true,
             true
         ],
+        "MaxLevel": 1,
         "StatType": [],
-        "StatValue": []
+        "StatValue": [],
+        "LevelUpFeedExp": 15
     },
-    {
+    "107002": {
         "Id": 107002,
         "Category": "Charm",
         "Rarity": "N",
@@ -4707,10 +5485,12 @@
             true,
             true
         ],
+        "MaxLevel": 1,
         "StatType": [],
-        "StatValue": []
+        "StatValue": [],
+        "LevelUpFeedExp": 25
     },
-    {
+    "107003": {
         "Id": 107003,
         "Category": "Charm",
         "Rarity": "N",
@@ -4724,10 +5504,12 @@
             true,
             true
         ],
+        "MaxLevel": 1,
         "StatType": [],
-        "StatValue": []
+        "StatValue": [],
+        "LevelUpFeedExp": 50
     },
-    {
+    "107004": {
         "Id": 107004,
         "Category": "Charm",
         "Rarity": "N",
@@ -4741,10 +5523,12 @@
             true,
             true
         ],
+        "MaxLevel": 1,
         "StatType": [],
-        "StatValue": []
+        "StatValue": [],
+        "LevelUpFeedExp": 75
     },
-    {
+    "107005": {
         "Id": 107005,
         "Category": "Charm",
         "Rarity": "N",
@@ -4758,10 +5542,12 @@
             true,
             true
         ],
+        "MaxLevel": 1,
         "StatType": [],
-        "StatValue": []
+        "StatValue": [],
+        "LevelUpFeedExp": 100
     },
-    {
+    "107006": {
         "Id": 107006,
         "Category": "Charm",
         "Rarity": "N",
@@ -4775,10 +5561,12 @@
             true,
             true
         ],
+        "MaxLevel": 1,
         "StatType": [],
-        "StatValue": []
+        "StatValue": [],
+        "LevelUpFeedExp": 125
     },
-    {
+    "107007": {
         "Id": 107007,
         "Category": "Charm",
         "Rarity": "N",
@@ -4790,29 +5578,52 @@
         "IsReleased": [
             true,
             true,
-            false
+            true
         ],
+        "MaxLevel": 1,
         "StatType": [],
-        "StatValue": []
+        "StatValue": [],
+        "LevelUpFeedExp": 150
     },
-    {
+    "107008": {
         "Id": 107008,
         "Category": "Charm",
         "Rarity": "N",
         "Tier": 9,
         "Icon": "equipment_icon_charm_tier9_piece",
         "Shops": [],
-        "Name": "サメの歯のお守りの設計図",
-        "Desc": "装備を作ることができる図面。",
+        "Name": "Shark Teeth Amulet Blueprint",
+        "Desc": "A blueprint for creating equipment.",
         "IsReleased": [
             true,
-            false,
+            true,
+            true
+        ],
+        "MaxLevel": 1,
+        "StatType": [],
+        "StatValue": [],
+        "LevelUpFeedExp": 175
+    },
+    "107009": {
+        "Id": 107009,
+        "Category": "Charm",
+        "Rarity": "N",
+        "Tier": 10,
+        "Icon": "equipment_icon_charm_tier10_piece",
+        "Shops": [],
+        "Name": "Keycap Toy Blueprint",
+        "Desc": "A blueprint for creating equipment.",
+        "IsReleased": [
+            true,
+            true,
             false
         ],
+        "MaxLevel": 1,
         "StatType": [],
-        "StatValue": []
+        "StatValue": [],
+        "LevelUpFeedExp": 200
     },
-    {
+    "108001": {
         "Id": 108001,
         "Category": "Watch",
         "Rarity": "N",
@@ -4826,10 +5637,12 @@
             true,
             true
         ],
+        "MaxLevel": 1,
         "StatType": [],
-        "StatValue": []
+        "StatValue": [],
+        "LevelUpFeedExp": 15
     },
-    {
+    "108002": {
         "Id": 108002,
         "Category": "Watch",
         "Rarity": "N",
@@ -4843,10 +5656,12 @@
             true,
             true
         ],
+        "MaxLevel": 1,
         "StatType": [],
-        "StatValue": []
+        "StatValue": [],
+        "LevelUpFeedExp": 25
     },
-    {
+    "108003": {
         "Id": 108003,
         "Category": "Watch",
         "Rarity": "N",
@@ -4860,10 +5675,12 @@
             true,
             true
         ],
+        "MaxLevel": 1,
         "StatType": [],
-        "StatValue": []
+        "StatValue": [],
+        "LevelUpFeedExp": 50
     },
-    {
+    "108004": {
         "Id": 108004,
         "Category": "Watch",
         "Rarity": "N",
@@ -4877,10 +5694,12 @@
             true,
             true
         ],
+        "MaxLevel": 1,
         "StatType": [],
-        "StatValue": []
+        "StatValue": [],
+        "LevelUpFeedExp": 75
     },
-    {
+    "108005": {
         "Id": 108005,
         "Category": "Watch",
         "Rarity": "N",
@@ -4894,10 +5713,12 @@
             true,
             true
         ],
+        "MaxLevel": 1,
         "StatType": [],
-        "StatValue": []
+        "StatValue": [],
+        "LevelUpFeedExp": 100
     },
-    {
+    "108006": {
         "Id": 108006,
         "Category": "Watch",
         "Rarity": "N",
@@ -4911,10 +5732,12 @@
             true,
             true
         ],
+        "MaxLevel": 1,
         "StatType": [],
-        "StatValue": []
+        "StatValue": [],
+        "LevelUpFeedExp": 125
     },
-    {
+    "108007": {
         "Id": 108007,
         "Category": "Watch",
         "Rarity": "N",
@@ -4926,29 +5749,52 @@
         "IsReleased": [
             true,
             true,
-            false
+            true
         ],
+        "MaxLevel": 1,
         "StatType": [],
-        "StatValue": []
+        "StatValue": [],
+        "LevelUpFeedExp": 150
     },
-    {
+    "108008": {
         "Id": 108008,
         "Category": "Watch",
         "Rarity": "N",
         "Tier": 9,
         "Icon": "equipment_icon_watch_tier9_piece",
         "Shops": [],
-        "Name": "ダイバーウォッチの設計図",
-        "Desc": "装備を作ることができる図面。",
+        "Name": "Diver Watch Blueprint",
+        "Desc": "A blueprint for creating equipment.",
         "IsReleased": [
             true,
-            false,
+            true,
+            true
+        ],
+        "MaxLevel": 1,
+        "StatType": [],
+        "StatValue": [],
+        "LevelUpFeedExp": 175
+    },
+    "108009": {
+        "Id": 108009,
+        "Category": "Watch",
+        "Rarity": "N",
+        "Tier": 10,
+        "Icon": "equipment_icon_watch_tier10_piece",
+        "Shops": [],
+        "Name": "Screen Watch Blueprint",
+        "Desc": "A blueprint for creating equipment.",
+        "IsReleased": [
+            true,
+            true,
             false
         ],
+        "MaxLevel": 1,
         "StatType": [],
-        "StatValue": []
+        "StatValue": [],
+        "LevelUpFeedExp": 200
     },
-    {
+    "109001": {
         "Id": 109001,
         "Category": "Necklace",
         "Rarity": "N",
@@ -4962,10 +5808,12 @@
             true,
             true
         ],
+        "MaxLevel": 1,
         "StatType": [],
-        "StatValue": []
+        "StatValue": [],
+        "LevelUpFeedExp": 15
     },
-    {
+    "109002": {
         "Id": 109002,
         "Category": "Necklace",
         "Rarity": "N",
@@ -4979,10 +5827,12 @@
             true,
             true
         ],
+        "MaxLevel": 1,
         "StatType": [],
-        "StatValue": []
+        "StatValue": [],
+        "LevelUpFeedExp": 25
     },
-    {
+    "109003": {
         "Id": 109003,
         "Category": "Necklace",
         "Rarity": "N",
@@ -4996,10 +5846,12 @@
             true,
             true
         ],
+        "MaxLevel": 1,
         "StatType": [],
-        "StatValue": []
+        "StatValue": [],
+        "LevelUpFeedExp": 50
     },
-    {
+    "109004": {
         "Id": 109004,
         "Category": "Necklace",
         "Rarity": "N",
@@ -5013,10 +5865,12 @@
             true,
             true
         ],
+        "MaxLevel": 1,
         "StatType": [],
-        "StatValue": []
+        "StatValue": [],
+        "LevelUpFeedExp": 75
     },
-    {
+    "109005": {
         "Id": 109005,
         "Category": "Necklace",
         "Rarity": "N",
@@ -5030,10 +5884,12 @@
             true,
             true
         ],
+        "MaxLevel": 1,
         "StatType": [],
-        "StatValue": []
+        "StatValue": [],
+        "LevelUpFeedExp": 100
     },
-    {
+    "109006": {
         "Id": 109006,
         "Category": "Necklace",
         "Rarity": "N",
@@ -5047,10 +5903,12 @@
             true,
             true
         ],
+        "MaxLevel": 1,
         "StatType": [],
-        "StatValue": []
+        "StatValue": [],
+        "LevelUpFeedExp": 125
     },
-    {
+    "109007": {
         "Id": 109007,
         "Category": "Necklace",
         "Rarity": "N",
@@ -5062,26 +5920,220 @@
         "IsReleased": [
             true,
             true,
-            false
+            true
         ],
+        "MaxLevel": 1,
         "StatType": [],
-        "StatValue": []
+        "StatValue": [],
+        "LevelUpFeedExp": 150
     },
-    {
+    "109008": {
         "Id": 109008,
         "Category": "Necklace",
         "Rarity": "N",
         "Tier": 9,
         "Icon": "equipment_icon_necklace_tier9_piece",
         "Shops": [],
-        "Name": "オクトパスホルダーの設計図",
-        "Desc": "装備を作ることができる図面。",
+        "Name": "Octopus Holder Blueprint",
+        "Desc": "A blueprint for creating equipment.",
         "IsReleased": [
             true,
-            false,
+            true,
+            true
+        ],
+        "MaxLevel": 1,
+        "StatType": [],
+        "StatValue": [],
+        "LevelUpFeedExp": 175
+    },
+    "109009": {
+        "Id": 109009,
+        "Category": "Necklace",
+        "Rarity": "N",
+        "Tier": 10,
+        "Icon": "equipment_icon_necklace_tier10_piece",
+        "Shops": [],
+        "Name": "Memory Necklace Blueprint",
+        "Desc": "A blueprint for creating equipment.",
+        "IsReleased": [
+            true,
+            true,
             false
         ],
+        "MaxLevel": 1,
         "StatType": [],
-        "StatValue": []
+        "StatValue": [],
+        "LevelUpFeedExp": 200
+    },
+    "501000": {
+        "Id": 501000,
+        "Category": "Hat",
+        "Rarity": "N",
+        "Tier": 0,
+        "Icon": "equipment_icon_hat_useall_piece",
+        "Shops": [],
+        "Name": "General Hat Blueprint",
+        "Desc": "A general blueprint for creating hats.",
+        "IsReleased": [
+            true,
+            true,
+            false
+        ],
+        "MaxLevel": 1,
+        "StatType": [],
+        "StatValue": [],
+        "LevelUpFeedExp": 1
+    },
+    "502000": {
+        "Id": 502000,
+        "Category": "Gloves",
+        "Rarity": "N",
+        "Tier": 0,
+        "Icon": "equipment_icon_gloves_useall_piece",
+        "Shops": [],
+        "Name": "General Gloves Blueprint",
+        "Desc": "A general blueprint for creating gloves.",
+        "IsReleased": [
+            true,
+            true,
+            false
+        ],
+        "MaxLevel": 1,
+        "StatType": [],
+        "StatValue": [],
+        "LevelUpFeedExp": 1
+    },
+    "503000": {
+        "Id": 503000,
+        "Category": "Shoes",
+        "Rarity": "N",
+        "Tier": 0,
+        "Icon": "equipment_icon_shoes_useall_piece",
+        "Shops": [],
+        "Name": "General Shoes Blueprint",
+        "Desc": "A general blueprint for creating shoes.",
+        "IsReleased": [
+            true,
+            true,
+            false
+        ],
+        "MaxLevel": 1,
+        "StatType": [],
+        "StatValue": [],
+        "LevelUpFeedExp": 1
+    },
+    "504000": {
+        "Id": 504000,
+        "Category": "Bag",
+        "Rarity": "N",
+        "Tier": 0,
+        "Icon": "equipment_icon_bag_useall_piece",
+        "Shops": [],
+        "Name": "General Bag Blueprint",
+        "Desc": "A general blueprint for creating bags.",
+        "IsReleased": [
+            true,
+            true,
+            false
+        ],
+        "MaxLevel": 1,
+        "StatType": [],
+        "StatValue": [],
+        "LevelUpFeedExp": 1
+    },
+    "505000": {
+        "Id": 505000,
+        "Category": "Badge",
+        "Rarity": "N",
+        "Tier": 0,
+        "Icon": "equipment_icon_badge_useall_piece",
+        "Shops": [],
+        "Name": "General Badge Blueprint",
+        "Desc": "A general blueprint for creating badges.",
+        "IsReleased": [
+            true,
+            true,
+            false
+        ],
+        "MaxLevel": 1,
+        "StatType": [],
+        "StatValue": [],
+        "LevelUpFeedExp": 1
+    },
+    "506000": {
+        "Id": 506000,
+        "Category": "Hairpin",
+        "Rarity": "N",
+        "Tier": 0,
+        "Icon": "equipment_icon_hairpin_useall_piece",
+        "Shops": [],
+        "Name": "General Hairpin Blueprint",
+        "Desc": "A general blueprint for creating hairpins.",
+        "IsReleased": [
+            true,
+            true,
+            false
+        ],
+        "MaxLevel": 1,
+        "StatType": [],
+        "StatValue": [],
+        "LevelUpFeedExp": 1
+    },
+    "507000": {
+        "Id": 507000,
+        "Category": "Charm",
+        "Rarity": "N",
+        "Tier": 0,
+        "Icon": "equipment_icon_charm_useall_piece",
+        "Shops": [],
+        "Name": "General Amulet Blueprint",
+        "Desc": "A general blueprint for creating amulets.",
+        "IsReleased": [
+            true,
+            true,
+            false
+        ],
+        "MaxLevel": 1,
+        "StatType": [],
+        "StatValue": [],
+        "LevelUpFeedExp": 1
+    },
+    "508000": {
+        "Id": 508000,
+        "Category": "Watch",
+        "Rarity": "N",
+        "Tier": 0,
+        "Icon": "equipment_icon_watch_useall_piece",
+        "Shops": [],
+        "Name": "General Wristwatch Blueprint",
+        "Desc": "A general blueprint for creating wristwatches.",
+        "IsReleased": [
+            true,
+            true,
+            false
+        ],
+        "MaxLevel": 1,
+        "StatType": [],
+        "StatValue": [],
+        "LevelUpFeedExp": 1
+    },
+    "509000": {
+        "Id": 509000,
+        "Category": "Necklace",
+        "Rarity": "N",
+        "Tier": 0,
+        "Icon": "equipment_icon_necklace_useall_piece",
+        "Shops": [],
+        "Name": "General Necklace Blueprint",
+        "Desc": "A general blueprint for creating necklaces.",
+        "IsReleased": [
+            true,
+            true,
+            false
+        ],
+        "MaxLevel": 1,
+        "StatType": [],
+        "StatValue": [],
+        "LevelUpFeedExp": 1
     }
-]
+}
