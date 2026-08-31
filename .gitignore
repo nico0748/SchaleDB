@@ -1,3 +1,6 @@
 *.bat
 jsconfig.json
 node_modules
+
+# API練習用サーバ（ローカル学習用）
+api-practice/
