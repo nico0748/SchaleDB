@@ -1,7 +1,6 @@
 [
     {
         "Id": 1,
-        "Category": "Gold",
         "Rarity": "N",
         "Icon": "currency_icon_gold",
         "Name": "크레딧 포인트",
@@ -9,7 +8,6 @@
     },
     {
         "Id": 2,
-        "Category": "GemPaid",
         "Rarity": "N",
         "Icon": "currency_icon_gem",
         "Name": "청휘석",
@@ -17,7 +15,6 @@
     },
     {
         "Id": 3,
-        "Category": "GemBonus",
         "Rarity": "N",
         "Icon": "currency_icon_gem",
         "Name": "청휘석",
@@ -25,7 +22,6 @@
     },
     {
         "Id": 4,
-        "Category": "Gem",
         "Rarity": "N",
         "Icon": "currency_icon_gem",
         "Name": "청휘석",
@@ -33,7 +29,6 @@
     },
     {
         "Id": 5,
-        "Category": "ActionPoint",
         "Rarity": "N",
         "Icon": "currency_icon_ap",
         "Name": "AP",
@@ -41,7 +36,6 @@
     },
     {
         "Id": 6,
-        "Category": "AcademyTicket",
         "Rarity": "N",
         "Icon": "currency_icon_academyticket",
         "Name": "스케쥴 티켓",
@@ -49,7 +43,6 @@
     },
     {
         "Id": 7,
-        "Category": "ArenaTicket",
         "Rarity": "N",
         "Icon": "currency_icon_arenaticket",
         "Name": "전술 대회 티켓",
@@ -57,7 +50,6 @@
     },
     {
         "Id": 8,
-        "Category": "RaidTicket",
         "Rarity": "N",
         "Icon": "currency_icon_raidticket",
         "Name": "총력전 티켓",
@@ -65,7 +57,6 @@
     },
     {
         "Id": 9,
-        "Category": "WeekDungeonChaserATicket",
         "Rarity": "N",
         "Icon": "currency_icon_chaseraticket",
         "Name": "현상수배(시가전) 티켓",
@@ -73,7 +64,6 @@
     },
     {
         "Id": 10,
-        "Category": "WeekDungeonFindGiftTicket",
         "Rarity": "N",
         "Icon": "",
         "Name": "물건회수 티켓",
@@ -81,7 +71,6 @@
     },
     {
         "Id": 11,
-        "Category": "WeekDungeonBloodTicket",
         "Rarity": "N",
         "Icon": "",
         "Name": "거점방어 티켓",
@@ -89,7 +78,6 @@
     },
     {
         "Id": 12,
-        "Category": "WeekDungeonChaserBTicket",
         "Rarity": "N",
         "Icon": "currency_icon_chaserbticket",
         "Name": "현상수배(야전) 티켓",
@@ -97,7 +85,6 @@
     },
     {
         "Id": 13,
-        "Category": "WeekDungeonChaserCTicket",
         "Rarity": "N",
         "Icon": "currency_icon_chasercticket",
         "Name": "현상수배(실내전) 티켓",
@@ -105,7 +92,6 @@
     },
     {
         "Id": 14,
-        "Category": "SchoolDungeonATicket",
         "Rarity": "N",
         "Icon": "currency_icon_schoolaticket",
         "Name": "학원교류회(트리니티) 티켓",
@@ -113,7 +99,6 @@
     },
     {
         "Id": 15,
-        "Category": "SchoolDungeonBTicket",
         "Rarity": "N",
         "Icon": "currency_icon_schoolbticket",
         "Name": "학원교류회(게헨나) 티켓",
@@ -121,7 +106,6 @@
     },
     {
         "Id": 16,
-        "Category": "SchoolDungeonCTicket",
         "Rarity": "N",
         "Icon": "currency_icon_schoolcticket",
         "Name": "학원교류회(밀레니엄) 티켓",
@@ -129,7 +113,6 @@
     },
     {
         "Id": 17,
-        "Category": "TimeAttackDungeonTicket",
         "Rarity": "N",
         "Icon": "currency_icon_timeattackticket",
         "Name": "응시 티켓",
@@ -137,7 +120,6 @@
     },
     {
         "Id": 18,
-        "Category": "MasterCoin",
         "Rarity": "N",
         "Icon": "currency_icon_mastercoin",
         "Name": "숙련 증서",
@@ -145,7 +127,6 @@
     },
     {
         "Id": 19,
-        "Category": "WorldRaidTicketA",
         "Rarity": "N",
         "Icon": "currency_icon_worldraidcommonticket",
         "Name": "연합 작전 티켓",
@@ -153,7 +134,6 @@
     },
     {
         "Id": 20,
-        "Category": "WorldRaidTicketB",
         "Rarity": "N",
         "Icon": "currency_icon_worldraidcommonticket",
         "Name": "연합 작전 티켓 ω",
@@ -161,7 +141,6 @@
     },
     {
         "Id": 21,
-        "Category": "WorldRaidTicketC",
         "Rarity": "N",
         "Icon": "currency_icon_worldraidcommonticket",
         "Name": "연합 작전 티켓 ψ ",
@@ -169,7 +148,6 @@
     },
     {
         "Id": 22,
-        "Category": "ChaserTotalTicket",
         "Rarity": "N",
         "Icon": "currency_icon_chasertotalticket",
         "Name": "현상수배 티켓",
@@ -177,7 +155,6 @@
     },
     {
         "Id": 23,
-        "Category": "SchoolDungeonTotalTicket",
         "Rarity": "N",
         "Icon": "currency_icon_schooltotalticket",
         "Name": "학원교류회 티켓",
@@ -185,7 +162,6 @@
     },
     {
         "Id": 24,
-        "Category": "EliminateTicketA",
         "Rarity": "N",
         "Icon": "currency_icon_eliminateraidticketa",
         "Name": "대결전(경장갑) 티켓",
@@ -193,7 +169,6 @@
     },
     {
         "Id": 25,
-        "Category": "EliminateTicketB",
         "Rarity": "N",
         "Icon": "currency_icon_eliminateraidticketb",
         "Name": "대결전(중장갑) 티켓",
@@ -201,10 +176,23 @@
     },
     {
         "Id": 26,
-        "Category": "EliminateTicketC",
         "Rarity": "N",
         "Icon": "currency_icon_eliminateraidticketc",
         "Name": "대결전(특수장갑) 티켓",
         "Desc": "대결전(특수장갑)에 도전할 수 있는 티켓"
+    },
+    {
+        "Id": 28,
+        "Rarity": "N",
+        "Icon": "currency_icon_cafestudentinvite_1",
+        "Name": "1호점 초대권",
+        "Desc": "카페 1호점에 학생을 추가로 초대할 수 있는 티켓"
+    },
+    {
+        "Id": 29,
+        "Rarity": "N",
+        "Icon": "currency_icon_cafestudentinvite_2",
+        "Name": "2호점 초대권",
+        "Desc": "카페 2호점에 학생을 추가로 초대할 수 있는 티켓"
     }
 ]

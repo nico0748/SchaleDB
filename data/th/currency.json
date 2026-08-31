@@ -1,7 +1,6 @@
 [
     {
         "Id": 1,
-        "Category": "Gold",
         "Rarity": "N",
         "Icon": "currency_icon_gold",
         "Name": "เครดิต",
@@ -9,7 +8,6 @@
     },
     {
         "Id": 2,
-        "Category": "GemPaid",
         "Rarity": "N",
         "Icon": "currency_icon_gem",
         "Name": "เพชรฟ้า",
@@ -17,7 +15,6 @@
     },
     {
         "Id": 3,
-        "Category": "GemBonus",
         "Rarity": "N",
         "Icon": "currency_icon_gem",
         "Name": "เพชรฟ้า",
@@ -25,7 +22,6 @@
     },
     {
         "Id": 4,
-        "Category": "Gem",
         "Rarity": "N",
         "Icon": "currency_icon_gem",
         "Name": "เพชรฟ้า",
@@ -33,7 +29,6 @@
     },
     {
         "Id": 5,
-        "Category": "ActionPoint",
         "Rarity": "N",
         "Icon": "currency_icon_ap",
         "Name": "AP",
@@ -41,7 +36,6 @@
     },
     {
         "Id": 6,
-        "Category": "AcademyTicket",
         "Rarity": "N",
         "Icon": "currency_icon_academyticket",
         "Name": "ตั๋วเข้าคลาส",
@@ -49,7 +43,6 @@
     },
     {
         "Id": 7,
-        "Category": "ArenaTicket",
         "Rarity": "N",
         "Icon": "currency_icon_arenaticket",
         "Name": "ตั๋วอารีน่า",
@@ -57,7 +50,6 @@
     },
     {
         "Id": 8,
-        "Category": "RaidTicket",
         "Rarity": "N",
         "Icon": "currency_icon_raidticket",
         "Name": "ตั๋วเรดบอส",
@@ -65,7 +57,6 @@
     },
     {
         "Id": 9,
-        "Category": "WeekDungeonChaserATicket",
         "Rarity": "N",
         "Icon": "currency_icon_chaseraticket",
         "Name": "ตั๋วประกาศจับ (ถนน)",
@@ -73,7 +64,6 @@
     },
     {
         "Id": 10,
-        "Category": "WeekDungeonFindGiftTicket",
         "Rarity": "N",
         "Icon": "",
         "Name": "ตั๋วรับของขวัญ",
@@ -81,7 +71,6 @@
     },
     {
         "Id": 11,
-        "Category": "WeekDungeonBloodTicket",
         "Rarity": "N",
         "Icon": "",
         "Name": "ตั๋วป้องกันฐาน",
@@ -89,7 +78,6 @@
     },
     {
         "Id": 12,
-        "Category": "WeekDungeonChaserBTicket",
         "Rarity": "N",
         "Icon": "currency_icon_chaserbticket",
         "Name": "ตั๋วประกาศจับ (ทะเลทราย)",
@@ -97,7 +85,6 @@
     },
     {
         "Id": 13,
-        "Category": "WeekDungeonChaserCTicket",
         "Rarity": "N",
         "Icon": "currency_icon_chasercticket",
         "Name": "ตั๋วประกาศจับ (ห้องเรียน)",
@@ -105,7 +92,6 @@
     },
     {
         "Id": 14,
-        "Category": "SchoolDungeonATicket",
         "Rarity": "N",
         "Icon": "currency_icon_schoolaticket",
         "Name": "ตั๋วทัวร์โรงเรียน (ทรีนิตี้)",
@@ -113,7 +99,6 @@
     },
     {
         "Id": 15,
-        "Category": "SchoolDungeonBTicket",
         "Rarity": "N",
         "Icon": "currency_icon_schoolbticket",
         "Name": "ตั๋วทัวร์โรงเรียน (เกเฮนน่า)",
@@ -121,7 +106,6 @@
     },
     {
         "Id": 16,
-        "Category": "SchoolDungeonCTicket",
         "Rarity": "N",
         "Icon": "currency_icon_schoolcticket",
         "Name": "ตั๋วทัวร์โรงเรียน (มิลเลเนียม)",
@@ -129,7 +113,6 @@
     },
     {
         "Id": 17,
-        "Category": "TimeAttackDungeonTicket",
         "Rarity": "N",
         "Icon": "currency_icon_timeattackticket",
         "Name": "ตั๋วสอบประมวล",
@@ -137,7 +120,6 @@
     },
     {
         "Id": 18,
-        "Category": "MasterCoin",
         "Rarity": "N",
         "Icon": "currency_icon_mastercoin",
         "Name": "เหรียญรับรองทักษะ",
@@ -145,7 +127,6 @@
     },
     {
         "Id": 19,
-        "Category": "WorldRaidTicketA",
         "Rarity": "N",
         "Icon": "currency_icon_worldraidcommonticket",
         "Name": "ตั๋วปฏิบัติการสหพันธ์",
@@ -153,7 +134,6 @@
     },
     {
         "Id": 20,
-        "Category": "WorldRaidTicketB",
         "Rarity": "N",
         "Icon": "currency_icon_worldraidcommonticket",
         "Name": "ตั๋วปฏิบัติการสหพันธ์ ω",
@@ -161,7 +141,6 @@
     },
     {
         "Id": 21,
-        "Category": "WorldRaidTicketC",
         "Rarity": "N",
         "Icon": "currency_icon_worldraidcommonticket",
         "Name": "ตั๋วปฏิบัติการสหพันธ์ ψ ",
@@ -169,7 +148,6 @@
     },
     {
         "Id": 22,
-        "Category": "ChaserTotalTicket",
         "Rarity": "N",
         "Icon": "currency_icon_chasertotalticket",
         "Name": "ตั๋วประกาศจับ",
@@ -177,7 +155,6 @@
     },
     {
         "Id": 23,
-        "Category": "SchoolDungeonTotalTicket",
         "Rarity": "N",
         "Icon": "currency_icon_schooltotalticket",
         "Name": "ตั๋วทัวร์โรงเรียน",
@@ -185,7 +162,6 @@
     },
     {
         "Id": 24,
-        "Category": "EliminateTicketA",
         "Rarity": "N",
         "Icon": "currency_icon_eliminateraidticketa",
         "Name": "ตั๋วแกรนด์เรดบอส (เกราะเบา)",
@@ -193,7 +169,6 @@
     },
     {
         "Id": 25,
-        "Category": "EliminateTicketB",
         "Rarity": "N",
         "Icon": "currency_icon_eliminateraidticketb",
         "Name": "ตั๋วแกรนด์เรดบอส (เกราะหนัก)",
@@ -201,10 +176,23 @@
     },
     {
         "Id": 26,
-        "Category": "EliminateTicketC",
         "Rarity": "N",
         "Icon": "currency_icon_eliminateraidticketc",
         "Name": "ตั๋วแกรนด์เรดบอส (เกราะพิเศษ)",
         "Desc": "ตั๋วที่ใช้เข้าแกรนด์เรดบอส (เกราะหนัก)"
+    },
+    {
+        "Id": 28,
+        "Rarity": "N",
+        "Icon": "currency_icon_cafestudentinvite_1",
+        "Name": "บัตรเชิญคาเฟ่ที่ 1",
+        "Desc": "บัตรที่ใช้เชิญนักเรียนมาคาเฟ่ที่ 1 ได้เพิ่ม"
+    },
+    {
+        "Id": 29,
+        "Rarity": "N",
+        "Icon": "currency_icon_cafestudentinvite_2",
+        "Name": "บัตรเชิญคาเฟ่ที่ 2",
+        "Desc": "บัตรที่ใช้เชิญนักเรียนมาคาเฟ่ที่ 2 ได้เพิ่ม"
     }
 ]
