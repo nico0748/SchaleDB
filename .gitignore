@@ -4,3 +4,6 @@ node_modules
 
 # API練習用サーバ（ローカル学習用）
 api-practice/
+
+# wikiru_sync.py の取得キャッシュ
+.wikiru_cache/

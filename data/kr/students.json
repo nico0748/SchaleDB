@@ -172891,5 +172891,2928 @@
             ]
         ],
         "PotentialMaterial": 280
+    },
+    "20061": {
+        "Id": 20061,
+        "IsReleased": [
+            true,
+            false,
+            false
+        ],
+        "DefaultOrder": 274,
+        "PathName": "azusa_racing",
+        "DevName": "CH0380",
+        "Name": "アズサ（レーシング）",
+        "Icon": null,
+        "SearchTags": [],
+        "School": "Trinity",
+        "Club": "RemedialClass",
+        "StarGrade": 3,
+        "SquadType": "Support",
+        "TacticRole": "Supporter",
+        "Summons": [],
+        "Position": "Back",
+        "BulletType": "Explosion",
+        "ArmorType": "Unarmed",
+        "StreetBattleAdaptation": 2,
+        "OutdoorBattleAdaptation": 0,
+        "IndoorBattleAdaptation": 4,
+        "WeaponType": "AR",
+        "WeaponImg": "weapon_icon_10019",
+        "Cover": false,
+        "Size": "Medium",
+        "Equipment": [
+            "Shoes",
+            "Bag",
+            "Necklace"
+        ],
+        "CollectionBG": "BG_Trinity_Collection",
+        "FamilyName": "白洲",
+        "PersonalName": "アズサ",
+        "SchoolYear": "2年生",
+        "CharacterAge": "16歳",
+        "Birthday": "12月26日",
+        "FamilyNameRuby": "しらす",
+        "PersonalNameRuby": "",
+        "CharacterSSRNew": "",
+        "ProfileIntroduction": "トリニティ総合学園所属、補習授業部の氷の魔女。今回はいつもと少し違う恰好をしている。\n\n本人は、レース会場に自然に溶け込むことができ、放熱性にも優れた戦術的な装いだと思っている。\nしかし、周囲からすれば、可愛い恰好をしているアズサにしか見えない。",
+        "Hobby": "もうすぐ決まる⋯⋯と思う",
+        "CharacterVoice": "種田梨沙",
+        "BirthDay": "12/26",
+        "Illustrator": "Gum Shrew",
+        "Designer": "Gum Shrew",
+        "CharHeightMetric": "149cm",
+        "CharHeightImperial": null,
+        "StabilityPoint": 1555,
+        "AttackPower1": 238,
+        "AttackPower100": 2378,
+        "MaxHP1": 3027,
+        "MaxHP100": 22622,
+        "DefensePower1": 100,
+        "DefensePower100": 605,
+        "HealPower1": 1660,
+        "HealPower100": 4982,
+        "DodgePoint": 774,
+        "AccuracyPoint": 670,
+        "CriticalPoint": 257,
+        "CriticalDamageRate": 20000,
+        "AmmoCount": 15,
+        "AmmoCost": 3,
+        "Range": 1000,
+        "SightPoint": 800,
+        "RegenCost": 700,
+        "Skills": {
+            "Normal": {
+                "Effects": [
+                    {
+                        "Type": "Damage",
+                        "Hits": [
+                            3333,
+                            3333,
+                            3334
+                        ],
+                        "Scale": [
+                            10000
+                        ],
+                        "Block": 1
+                    }
+                ],
+                "Frames": {
+                    "AttackEnterDuration": 66,
+                    "AttackStartDuration": 24,
+                    "AttackEndDuration": 16,
+                    "AttackBurstRoundOverDelay": 40,
+                    "AttackIngDuration": 24,
+                    "AttackReloadDuration": 60
+                }
+            },
+            "Ex": {
+                "Name": "Macte Virtute",
+                "Icon": "SKILLICON_CH0380_EXSKILL",
+                "Desc": "アズサ(レーシング)が登場、味方を応援する。(45秒間) /\n自身のコスト回復力を<?1>増加(25秒間)/\n円形範囲内の味方に対して、治癒力の<?2>分の回復",
+                "Parameters": [
+                    [
+                        "519",
+                        "597",
+                        "753",
+                        "831",
+                        "986"
+                    ],
+                    [
+                        "22.4%",
+                        "25.7%",
+                        "32.4%",
+                        "35.8%",
+                        "42.5%"
+                    ]
+                ],
+                "Cost": [
+                    4,
+                    4,
+                    4,
+                    4,
+                    4
+                ],
+                "Effects": []
+            },
+            "Public": {
+                "Name": "Fortiter",
+                "Icon": "COMMON_SKILLICON_WEAPONBUFF",
+                "Desc": "30秒間毎に、ストライカーかつアタッカーの味方の会心値を<?1>増加(25秒間)",
+                "Parameters": [
+                    [
+                        "9.9%",
+                        "10.4%",
+                        "10.9%",
+                        "12.9%",
+                        "13.4%",
+                        "13.9%",
+                        "15.9%",
+                        "16.4%",
+                        "16.9%",
+                        "18.9%"
+                    ]
+                ],
+                "Effects": []
+            },
+            "Passive": {
+                "Name": "なでなで",
+                "Icon": "COMMON_SKILLICON_STATBUFF",
+                "Desc": "治癒力を<?1>増加",
+                "Parameters": [
+                    [
+                        "14%",
+                        "14.7%",
+                        "15.4%",
+                        "18.2%",
+                        "18.9%",
+                        "19.6%",
+                        "22.4%",
+                        "23.1%",
+                        "23.8%",
+                        "26.6%"
+                    ]
+                ],
+                "Effects": []
+            },
+            "WeaponPassive": {
+                "Name": "なでなで+",
+                "Icon": "COMMON_SKILLICON_STATBUFF",
+                "Desc": "バフ効果持続力を<?1>増加/\nさらに治癒力を<?2>増加",
+                "Parameters": [
+                    [
+                        "1000",
+                        "1050",
+                        "1100",
+                        "1300",
+                        "1350",
+                        "1400",
+                        "1600",
+                        "1650",
+                        "1700",
+                        "1900"
+                    ],
+                    [
+                        "14%",
+                        "14.7%",
+                        "15.4%",
+                        "18.2%",
+                        "18.9%",
+                        "19.6%",
+                        "22.4%",
+                        "23.1%",
+                        "23.8%",
+                        "26.6%"
+                    ]
+                ],
+                "Effects": []
+            },
+            "ExtraPassive": {
+                "Name": "教え通りに",
+                "Icon": "COMMON_SKILLICON_BULLETTYPEBUFF",
+                "Desc": "味方の爆発特効を<?1>加算",
+                "Parameters": [
+                    [
+                        "15.9%",
+                        "16.7%",
+                        "17.5%",
+                        "20.7%",
+                        "21.5%",
+                        "22.3%",
+                        "25.5%",
+                        "26.3%",
+                        "27%",
+                        "30.2%"
+                    ]
+                ],
+                "Effects": []
+            }
+        },
+        "FavorStatType": [
+            "HealPower",
+            "MaxHP"
+        ],
+        "FavorStatValue": [
+            [
+                5,
+                0
+            ],
+            [
+                7,
+                0
+            ],
+            [
+                10,
+                57
+            ],
+            [
+                12,
+                68
+            ],
+            [
+                3,
+                11
+            ],
+            [
+                5,
+                17
+            ],
+            [
+                7,
+                28
+            ]
+        ],
+        "FavorAlts": [],
+        "MemoryLobby": [
+            6,
+            0,
+            0
+        ],
+        "MemoryLobbyBGM": 228,
+        "FurnitureInteraction": [
+            [],
+            [],
+            []
+        ],
+        "FavorItemTags": [],
+        "FavorItemUniqueTags": [],
+        "IsLimited": [
+            1,
+            1,
+            1
+        ],
+        "Weapon": {
+            "Name": "Et Omnia Vanitas",
+            "Desc": "アズサのアサルトライフル。\n\n変わらず持ち主を守り続けている。",
+            "AdaptationType": "Indoor",
+            "AdaptationValue": 1,
+            "AttackPower1": 104,
+            "AttackPower100": 1044,
+            "MaxHP1": 658,
+            "MaxHP100": 6585,
+            "HealPower1": 195,
+            "HealPower100": 1952,
+            "StatLevelUpType": "Standard"
+        },
+        "Gear": {},
+        "SkillExMaterial": [
+            [
+                3020,
+                100
+            ],
+            [
+                3021,
+                3020,
+                101,
+                220
+            ],
+            [
+                3022,
+                3021,
+                102,
+                221
+            ],
+            [
+                3023,
+                3022,
+                103,
+                222
+            ]
+        ],
+        "SkillExMaterialAmount": [
+            [
+                12,
+                16
+            ],
+            [
+                12,
+                18,
+                12,
+                30
+            ],
+            [
+                12,
+                18,
+                9,
+                24
+            ],
+            [
+                8,
+                18,
+                8,
+                21
+            ]
+        ],
+        "SkillMaterial": [
+            [
+                4020
+            ],
+            [
+                4020
+            ],
+            [
+                4021,
+                4020,
+                100
+            ],
+            [
+                4021,
+                101,
+                220
+            ],
+            [
+                4022,
+                4021,
+                101,
+                220
+            ],
+            [
+                4022,
+                102,
+                221
+            ],
+            [
+                4023,
+                4022,
+                103,
+                222
+            ],
+            [
+                4023,
+                103,
+                222
+            ]
+        ],
+        "SkillMaterialAmount": [
+            [
+                5
+            ],
+            [
+                8
+            ],
+            [
+                5,
+                12,
+                4
+            ],
+            [
+                8,
+                5,
+                13
+            ],
+            [
+                5,
+                12,
+                10,
+                19
+            ],
+            [
+                8,
+                3,
+                16
+            ],
+            [
+                8,
+                12,
+                4,
+                9
+            ],
+            [
+                12,
+                8,
+                15
+            ]
+        ],
+        "PotentialMaterial": 100,
+        "Source": "wikiru",
+        "DataPartial": true
+    },
+    "10151": {
+        "Id": 10151,
+        "IsReleased": [
+            true,
+            false,
+            false
+        ],
+        "DefaultOrder": 275,
+        "PathName": "anna",
+        "DevName": "CH0320",
+        "Name": "アンナ",
+        "Icon": null,
+        "SearchTags": [],
+        "School": "RedWinter",
+        "Club": "Class183",
+        "StarGrade": 3,
+        "SquadType": "Main",
+        "TacticRole": "DamageDealer",
+        "Summons": [],
+        "Position": "Middle",
+        "BulletType": "Pierce",
+        "ArmorType": "LightArmor",
+        "StreetBattleAdaptation": 2,
+        "OutdoorBattleAdaptation": 0,
+        "IndoorBattleAdaptation": 4,
+        "WeaponType": "HG",
+        "WeaponImg": "weapon_icon_ch0320",
+        "Cover": true,
+        "Size": "Medium",
+        "Equipment": [
+            "Hat",
+            "Hairpin",
+            "Watch"
+        ],
+        "CollectionBG": "BG_Redwinter_Collection",
+        "FamilyName": "仁木",
+        "PersonalName": "アンナ",
+        "SchoolYear": "2年生",
+        "CharacterAge": "16歳",
+        "Birthday": "3月10日",
+        "FamilyNameRuby": "にき",
+        "PersonalNameRuby": "",
+        "CharacterSSRNew": "",
+        "ProfileIntroduction": "レッドウィンター連邦学園所属、ただし懲戒処分を受けて現在は旧校舎183号特別クラスで謹慎中の生徒。\n183号特別クラス内では学級委員長を務めている。\n\n将来有望なエリート研究者だったが、強引な研究により事故を起こし、183号特別クラス行きになった。\n専門は機械工学で、主任を任されている。\n他者から認められ、褒められることを好み、かつて授与された勲章を今も大切に身に着けている。\n内心では勲章の由来を尋ねられたいと思っている。",
+        "Hobby": "リサイクル、賞状用の額縁作り",
+        "CharacterVoice": "高森奈津美",
+        "BirthDay": "3/10",
+        "Illustrator": "ramuri",
+        "Designer": "ramuri",
+        "CharHeightMetric": "165cm",
+        "CharHeightImperial": null,
+        "StabilityPoint": 984,
+        "AttackPower1": 261,
+        "AttackPower100": 2617,
+        "MaxHP1": 2222,
+        "MaxHP100": 22220,
+        "DefensePower1": 19,
+        "DefensePower100": 118,
+        "HealPower1": 1417,
+        "HealPower100": 4253,
+        "DodgePoint": 790,
+        "AccuracyPoint": 404,
+        "CriticalPoint": 202,
+        "CriticalDamageRate": 20000,
+        "AmmoCount": 6,
+        "AmmoCost": 1,
+        "Range": 650,
+        "SightPoint": 800,
+        "RegenCost": 700,
+        "Skills": {
+            "Normal": {
+                "Effects": [
+                    {
+                        "Type": "Damage",
+                        "Hits": [
+                            10000
+                        ],
+                        "Scale": [
+                            10000
+                        ],
+                        "Block": 1
+                    }
+                ],
+                "Frames": {
+                    "AttackEnterDuration": 45,
+                    "AttackStartDuration": 20,
+                    "AttackEndDuration": 16,
+                    "AttackBurstRoundOverDelay": 20,
+                    "AttackIngDuration": 20,
+                    "AttackReloadDuration": 56
+                }
+            },
+            "Ex": {
+                "Name": "見てください！",
+                "Icon": "COMMON_SKILLICON_TARGET",
+                "Desc": "敵1人に対して、攻撃力の<?1>分のダメージ/\n「勲章」を4個保有時、この攻撃を確定会心に変更",
+                "Parameters": [
+                    [
+                        "1176%",
+                        "1352%",
+                        "1705%",
+                        "1882%",
+                        "2235%"
+                    ]
+                ],
+                "Cost": [
+                    6,
+                    6,
+                    6,
+                    6,
+                    6
+                ],
+                "Effects": []
+            },
+            "Public": {
+                "Name": "これは勲章ものですね！",
+                "Icon": "COMMON_SKILLICON_WEAPONBUFF",
+                "Desc": "味方が敵を8体倒すと、「勲章」を1個獲得(戦闘中に4回のみ)/\n「勲章」は最大4個まで重複、「勲章」1個あたり自身の与えるダメージ量を<?1>増加",
+                "Parameters": [
+                    [
+                        "10%",
+                        "10.5%",
+                        "11%",
+                        "13%",
+                        "13.5%",
+                        "14%",
+                        "16.1%",
+                        "16.6%",
+                        "17.1%",
+                        "19.1%"
+                    ]
+                ],
+                "Effects": []
+            },
+            "Passive": {
+                "Name": "熱処理開始！",
+                "Icon": "COMMON_SKILLICON_WEAPONBUFF",
+                "Desc": "会心値を<?1>増加",
+                "Parameters": [
+                    [
+                        "14%",
+                        "14.7%",
+                        "15.4%",
+                        "18.2%",
+                        "18.9%",
+                        "19.6%",
+                        "22.4%",
+                        "23.1%",
+                        "23.8%",
+                        "26.6%"
+                    ]
+                ],
+                "Effects": []
+            },
+            "WeaponPassive": {
+                "Name": "熱処理開始！+",
+                "Icon": "COMMON_SKILLICON_WEAPONBUFF",
+                "Desc": "攻撃力を<?1>増加/\nさらに会心値を<?2>増加",
+                "Parameters": [
+                    [
+                        "314",
+                        "329",
+                        "345",
+                        "408",
+                        "423",
+                        "439",
+                        "502",
+                        "517",
+                        "533",
+                        "596"
+                    ],
+                    [
+                        "14%",
+                        "14.7%",
+                        "15.4%",
+                        "18.2%",
+                        "18.9%",
+                        "19.6%",
+                        "22.4%",
+                        "23.1%",
+                        "23.8%",
+                        "26.6%"
+                    ]
+                ],
+                "Effects": []
+            },
+            "ExtraPassive": {
+                "Name": "いい感じです！",
+                "Icon": "COMMON_SKILLICON_BULLETTYPEBUFF",
+                "Desc": "50秒毎に、貫通特効を<?1>加算(最大3回まで重複)",
+                "Parameters": [
+                    [
+                        "12.5%",
+                        "13.1%",
+                        "13.8%",
+                        "16.3%",
+                        "16.9%",
+                        "17.5%",
+                        "20%",
+                        "20.7%",
+                        "21.3%",
+                        "23.8%"
+                    ]
+                ],
+                "Effects": []
+            }
+        },
+        "FavorStatType": [
+            "AttackPower",
+            "MaxHP"
+        ],
+        "FavorStatValue": [
+            [
+                3,
+                0
+            ],
+            [
+                4,
+                0
+            ],
+            [
+                5,
+                55
+            ],
+            [
+                6,
+                67
+            ],
+            [
+                2,
+                11
+            ],
+            [
+                2,
+                16
+            ],
+            [
+                4,
+                27
+            ]
+        ],
+        "FavorAlts": [],
+        "MemoryLobby": [
+            6,
+            0,
+            0
+        ],
+        "MemoryLobbyBGM": 0,
+        "FurnitureInteraction": [
+            [],
+            [],
+            []
+        ],
+        "FavorItemTags": [],
+        "FavorItemUniqueTags": [],
+        "IsLimited": [
+            0,
+            0,
+            0
+        ],
+        "Weapon": {
+            "Name": "火薬式ネイルガン",
+            "Desc": "アンナが持つ機械工学技術の粋を結集して作られた。\n\nドリルの代わりに、対象へ穴を開ける目的で使用される。",
+            "AdaptationType": "Indoor",
+            "AdaptationValue": 1,
+            "AttackPower1": 115,
+            "AttackPower100": 1149,
+            "MaxHP1": 639,
+            "MaxHP100": 6391,
+            "HealPower1": 0,
+            "HealPower100": 0,
+            "StatLevelUpType": "Standard"
+        },
+        "Gear": {},
+        "SkillExMaterial": [
+            [
+                3010,
+                110
+            ],
+            [
+                3011,
+                3010,
+                111,
+                230
+            ],
+            [
+                3012,
+                3011,
+                112,
+                231
+            ],
+            [
+                3013,
+                3012,
+                113,
+                232
+            ]
+        ],
+        "SkillExMaterialAmount": [
+            [
+                12,
+                16
+            ],
+            [
+                12,
+                18,
+                17,
+                32
+            ],
+            [
+                12,
+                18,
+                11,
+                24
+            ],
+            [
+                8,
+                18,
+                9,
+                19
+            ]
+        ],
+        "SkillMaterial": [
+            [
+                4010
+            ],
+            [
+                4010
+            ],
+            [
+                4011,
+                4010,
+                110
+            ],
+            [
+                4011,
+                111,
+                230
+            ],
+            [
+                4012,
+                4011,
+                111,
+                230
+            ],
+            [
+                4012,
+                112,
+                231
+            ],
+            [
+                4013,
+                4012,
+                113,
+                232
+            ],
+            [
+                4013,
+                113,
+                232
+            ]
+        ],
+        "SkillMaterialAmount": [
+            [
+                5
+            ],
+            [
+                8
+            ],
+            [
+                5,
+                12,
+                5
+            ],
+            [
+                8,
+                4,
+                14
+            ],
+            [
+                5,
+                12,
+                10,
+                18
+            ],
+            [
+                8,
+                3,
+                17
+            ],
+            [
+                8,
+                12,
+                4,
+                9
+            ],
+            [
+                12,
+                8,
+                13
+            ]
+        ],
+        "PotentialMaterial": 110,
+        "Source": "wikiru",
+        "DataPartial": true
+    },
+    "10152": {
+        "Id": 10152,
+        "IsReleased": [
+            true,
+            false,
+            false
+        ],
+        "DefaultOrder": 276,
+        "PathName": "erina",
+        "DevName": "CH0321",
+        "Name": "エリナ",
+        "Icon": null,
+        "SearchTags": [],
+        "School": "RedWinter",
+        "Club": "Class183",
+        "StarGrade": 3,
+        "SquadType": "Support",
+        "TacticRole": "Supporter",
+        "Summons": [],
+        "Position": "Back",
+        "BulletType": "Sonic",
+        "ArmorType": "LightArmor",
+        "StreetBattleAdaptation": 2,
+        "OutdoorBattleAdaptation": 0,
+        "IndoorBattleAdaptation": 4,
+        "WeaponType": "HG",
+        "WeaponImg": "weapon_icon_ch0321",
+        "Cover": false,
+        "Size": "Medium",
+        "Equipment": [
+            "Shoes",
+            "Badge",
+            "Necklace"
+        ],
+        "CollectionBG": "BG_Redwinter_Collection",
+        "FamilyName": "二木",
+        "PersonalName": "エリナ",
+        "SchoolYear": "2年生",
+        "CharacterAge": "15歳",
+        "Birthday": "2月8日",
+        "FamilyNameRuby": "にき",
+        "PersonalNameRuby": "",
+        "CharacterSSRNew": "",
+        "ProfileIntroduction": "レッドウィンター連邦学園所属、ただし懲戒処分を受けて現在は旧校舎183号特別クラスで謹慎中の生徒。\n183号特別クラス内では副委員長を務めている。\n\nずぼらな性格で、研究中の事故が原因となり183号特別クラス行きになった。\n化学の主任を務めるほど有能な一方、勉強が大嫌いな面倒くさがり屋のトラブルメーカー。\n僻地にある183号からは自由に外出できず、もどかしい日々を送っている。\nそのため、謹慎が解除される日を今か今かと待ち望んでいる。",
+        "Hobby": "料理、ファッション雑誌を拾うこと",
+        "CharacterVoice": "菱川花菜",
+        "BirthDay": "2/8",
+        "Illustrator": "ramuri",
+        "Designer": "ramuri",
+        "CharHeightMetric": "165cm",
+        "CharHeightImperial": null,
+        "StabilityPoint": 1122,
+        "AttackPower1": 235,
+        "AttackPower100": 2354,
+        "MaxHP1": 3057,
+        "MaxHP100": 22852,
+        "DefensePower1": 101,
+        "DefensePower100": 610,
+        "HealPower1": 1644,
+        "HealPower100": 4932,
+        "DodgePoint": 1076,
+        "AccuracyPoint": 765,
+        "CriticalPoint": 255,
+        "CriticalDamageRate": 20000,
+        "AmmoCount": 6,
+        "AmmoCost": 1,
+        "Range": 1000,
+        "SightPoint": 800,
+        "RegenCost": 700,
+        "Skills": {
+            "Normal": {
+                "Effects": [
+                    {
+                        "Type": "Damage",
+                        "Hits": [
+                            10000
+                        ],
+                        "Scale": [
+                            10000
+                        ],
+                        "Block": 1
+                    }
+                ],
+                "Frames": {
+                    "AttackEnterDuration": 45,
+                    "AttackStartDuration": 20,
+                    "AttackEndDuration": 16,
+                    "AttackBurstRoundOverDelay": 20,
+                    "AttackIngDuration": 20,
+                    "AttackReloadDuration": 56
+                }
+            },
+            "Ex": {
+                "Name": "食べてからにしましょ～よ",
+                "Icon": "COMMON_SKILLICON_SHIELD",
+                "Desc": "円形範囲内の味方に対して、治癒力の<?1>分のシールド効果を発動(25秒間) /\nこのシールドが展開されている味方に「特製プリン」を付与/\n「特製プリン」は攻撃力を<?2>増加。「食べてからにしましょ～よ」のシールド消滅10秒後に解除",
+                "Parameters": [
+                    [
+                        "117%",
+                        "135%",
+                        "171%",
+                        "188%",
+                        "224%"
+                    ],
+                    [
+                        "13.9%",
+                        "16%",
+                        "20.2%",
+                        "22.3%",
+                        "26.5%"
+                    ]
+                ],
+                "Cost": [
+                    3,
+                    3,
+                    3,
+                    3,
+                    3
+                ],
+                "Effects": []
+            },
+            "Public": {
+                "Name": "てきとーでいいですってば～",
+                "Icon": "COMMON_SKILLICON_WEAPONBUFF",
+                "Desc": "40秒毎に、スペシャル生徒を除く味方6人の攻撃力を<?1>増加(33秒間)",
+                "Parameters": [
+                    [
+                        "6.7%",
+                        "7.1%",
+                        "7.4%",
+                        "8.8%",
+                        "9.1%",
+                        "9.4%",
+                        "10.8%",
+                        "11.1%",
+                        "11.5%",
+                        "12.8%"
+                    ]
+                ],
+                "Effects": []
+            },
+            "Passive": {
+                "Name": "休憩しましょ～",
+                "Icon": "COMMON_SKILLICON_STATBUFF",
+                "Desc": "治癒力を<?1>増加",
+                "Parameters": [
+                    [
+                        "14%",
+                        "14.7%",
+                        "15.4%",
+                        "18.2%",
+                        "18.9%",
+                        "19.6%",
+                        "22.4%",
+                        "23.1%",
+                        "23.8%",
+                        "26.6%"
+                    ]
+                ],
+                "Effects": []
+            },
+            "WeaponPassive": {
+                "Name": "休憩しましょ～+",
+                "Icon": "COMMON_SKILLICON_STATBUFF",
+                "Desc": "治癒力を<?1>増加/\nさらに治癒力を<?2>増加",
+                "Parameters": [
+                    [
+                        "658",
+                        "691",
+                        "724",
+                        "855",
+                        "888",
+                        "921",
+                        "1053",
+                        "1086",
+                        "1118",
+                        "1250"
+                    ],
+                    [
+                        "14%",
+                        "14.7%",
+                        "15.4%",
+                        "18.2%",
+                        "18.9%",
+                        "19.6%",
+                        "22.4%",
+                        "23.1%",
+                        "23.8%",
+                        "26.6%"
+                    ]
+                ],
+                "Effects": []
+            },
+            "ExtraPassive": {
+                "Name": "ガンガン行きますよ～！",
+                "Icon": "COMMON_SKILLICON_WEAPONBUFF",
+                "Desc": "味方の攻撃力を<?1>増加",
+                "Parameters": [
+                    [
+                        "9.1%",
+                        "9.5%",
+                        "10%",
+                        "11.8%",
+                        "12.3%",
+                        "12.7%",
+                        "14.5%",
+                        "15%",
+                        "15.5%",
+                        "17.3%"
+                    ]
+                ],
+                "Effects": []
+            }
+        },
+        "FavorStatType": [
+            "HealPower",
+            "AttackPower"
+        ],
+        "FavorStatValue": [
+            [
+                5,
+                0
+            ],
+            [
+                7,
+                0
+            ],
+            [
+                10,
+                6
+            ],
+            [
+                12,
+                7
+            ],
+            [
+                3,
+                1
+            ],
+            [
+                5,
+                2
+            ],
+            [
+                7,
+                3
+            ]
+        ],
+        "FavorAlts": [],
+        "MemoryLobby": [],
+        "MemoryLobbyBGM": 0,
+        "FurnitureInteraction": [
+            [],
+            [],
+            []
+        ],
+        "FavorItemTags": [],
+        "FavorItemUniqueTags": [],
+        "IsLimited": [
+            0,
+            0,
+            0
+        ],
+        "Weapon": {
+            "Name": "僻地用護身銃73号",
+            "Desc": "エリナが熊を追い払うために愛用している銃。\n\nいつも熊を怒らせてばかりだが、いつか成功すると信じている。",
+            "AdaptationType": "Indoor",
+            "AdaptationValue": 1,
+            "AttackPower1": 103,
+            "AttackPower100": 1034,
+            "MaxHP1": 665,
+            "MaxHP100": 6652,
+            "HealPower1": 193,
+            "HealPower100": 1931,
+            "StatLevelUpType": "Standard"
+        },
+        "Gear": {},
+        "SkillExMaterial": [
+            [
+                3010,
+                260
+            ],
+            [
+                3011,
+                3010,
+                261,
+                130
+            ],
+            [
+                3012,
+                3011,
+                262,
+                131
+            ],
+            [
+                3013,
+                3012,
+                263,
+                132
+            ]
+        ],
+        "SkillExMaterialAmount": [
+            [
+                12,
+                16
+            ],
+            [
+                12,
+                18,
+                14,
+                29
+            ],
+            [
+                12,
+                18,
+                10,
+                24
+            ],
+            [
+                8,
+                18,
+                8,
+                21
+            ]
+        ],
+        "SkillMaterial": [
+            [
+                4010
+            ],
+            [
+                4010
+            ],
+            [
+                4011,
+                4010,
+                260
+            ],
+            [
+                4011,
+                261,
+                130
+            ],
+            [
+                4012,
+                4011,
+                261,
+                130
+            ],
+            [
+                4012,
+                262,
+                131
+            ],
+            [
+                4013,
+                4012,
+                263,
+                132
+            ],
+            [
+                4013,
+                263,
+                132
+            ]
+        ],
+        "SkillMaterialAmount": [
+            [
+                5
+            ],
+            [
+                8
+            ],
+            [
+                5,
+                12,
+                5
+            ],
+            [
+                8,
+                4,
+                11
+            ],
+            [
+                5,
+                12,
+                11,
+                20
+            ],
+            [
+                8,
+                3,
+                18
+            ],
+            [
+                8,
+                12,
+                4,
+                9
+            ],
+            [
+                12,
+                8,
+                13
+            ]
+        ],
+        "PotentialMaterial": 260,
+        "Source": "wikiru",
+        "DataPartial": true
+    },
+    "20062": {
+        "Id": 20062,
+        "IsReleased": [
+            true,
+            false,
+            false
+        ],
+        "DefaultOrder": 277,
+        "PathName": "kasumi_swimsuit",
+        "DevName": "kasumi_swimsuit",
+        "Name": "カスミ（水着）",
+        "Icon": null,
+        "SearchTags": [],
+        "School": "Gehenna",
+        "Club": "HotSpringsDepartment",
+        "StarGrade": 3,
+        "SquadType": "Support",
+        "TacticRole": "Supporter",
+        "Summons": [],
+        "Position": "Back",
+        "BulletType": "Pierce",
+        "ArmorType": "Unarmed",
+        "StreetBattleAdaptation": 0,
+        "OutdoorBattleAdaptation": 2,
+        "IndoorBattleAdaptation": 4,
+        "WeaponType": "HG",
+        "WeaponImg": "weapon_icon_ch0089",
+        "Cover": false,
+        "Size": "Medium",
+        "Equipment": [
+            "Gloves",
+            "Bag",
+            "Watch"
+        ],
+        "CollectionBG": "BG_Gehenna_Collection",
+        "FamilyName": "鬼怒川",
+        "PersonalName": "カスミ",
+        "SchoolYear": "2年生",
+        "CharacterAge": "16歳",
+        "Birthday": "5月24日",
+        "FamilyNameRuby": "きぬがわ",
+        "PersonalNameRuby": "",
+        "CharacterSSRNew": "",
+        "ProfileIntroduction": "ゲヘナ学園所属、温泉開発部の部長。\n\n季節も場所も関係ない開発至上主義は今日も健在。\n世間からは常軌を逸した人物だと思われているが、その自分のイメージすら武器にして目的を達成してしまう。",
+        "Hobby": "爆破、温泉開発",
+        "CharacterVoice": "上坂すみれ",
+        "BirthDay": "5/24",
+        "Illustrator": "ramuri",
+        "Designer": "ramuri",
+        "CharHeightMetric": "148cm",
+        "CharHeightImperial": null,
+        "StabilityPoint": 1076,
+        "AttackPower1": 244,
+        "AttackPower100": 2447,
+        "MaxHP1": 2932,
+        "MaxHP100": 21920,
+        "DefensePower1": 97,
+        "DefensePower100": 586,
+        "HealPower1": 1708,
+        "HealPower100": 5127,
+        "DodgePoint": 1032,
+        "AccuracyPoint": 796,
+        "CriticalPoint": 265,
+        "CriticalDamageRate": 20000,
+        "AmmoCount": 6,
+        "AmmoCost": 1,
+        "Range": 1000,
+        "SightPoint": 800,
+        "RegenCost": 700,
+        "Skills": {
+            "Normal": {
+                "Effects": [
+                    {
+                        "Type": "Damage",
+                        "Hits": [
+                            10000
+                        ],
+                        "Scale": [
+                            10000
+                        ],
+                        "Block": 1
+                    }
+                ],
+                "Frames": {
+                    "AttackEnterDuration": 45,
+                    "AttackStartDuration": 20,
+                    "AttackEndDuration": 16,
+                    "AttackBurstRoundOverDelay": 20,
+                    "AttackIngDuration": 20,
+                    "AttackReloadDuration": 56
+                }
+            },
+            "Ex": {
+                "Name": "ビート・ザ・ドリルビート",
+                "Icon": "COMMON_SKILLICON_STATDEBUFF",
+                "Desc": "敵1人に対して、攻撃力の<?1>分のダメージ/\n対象が重装甲の場合、攻撃前に被特効ダメージを<?2>加算(28秒間)/\nその後、円形範囲内の敵に攻撃力の<?3>分のダメージ",
+                "Parameters": [
+                    [
+                        "331%",
+                        "380%",
+                        "480%",
+                        "530%",
+                        "629%"
+                    ],
+                    [
+                        "21.6%",
+                        "24.8%",
+                        "31.3%",
+                        "34.5%",
+                        "41%"
+                    ],
+                    [
+                        "86.7%",
+                        "99.7%",
+                        "125%",
+                        "138%",
+                        "164%"
+                    ]
+                ],
+                "Cost": [
+                    3,
+                    3,
+                    3,
+                    3,
+                    3
+                ],
+                "Effects": []
+            },
+            "Public": {
+                "Name": "「特別」なプレゼント",
+                "Icon": "COMMON_SKILLICON_STATDEBUFF",
+                "Desc": "35秒毎に、敵1人に対して攻撃力の<?1>分のダメージ/\n対象が重装甲の場合、攻撃前に被特効ダメージを<?2>加算(27秒間)",
+                "Parameters": [
+                    [
+                        "126%",
+                        "133%",
+                        "139%",
+                        "164%",
+                        "171%",
+                        "177%",
+                        "202%",
+                        "209%",
+                        "215%",
+                        "240%"
+                    ],
+                    [
+                        "10%",
+                        "10.5%",
+                        "11%",
+                        "13.1%",
+                        "13.6%",
+                        "14.1%",
+                        "16.1%",
+                        "16.6%",
+                        "17.1%",
+                        "19.1%"
+                    ]
+                ],
+                "Effects": []
+            },
+            "Passive": {
+                "Name": "温泉フリーク",
+                "Icon": "COMMON_SKILLICON_WEAPONBUFF",
+                "Desc": "攻撃力を<?1>増加",
+                "Parameters": [
+                    [
+                        "14%",
+                        "14.7%",
+                        "15.4%",
+                        "18.2%",
+                        "18.9%",
+                        "19.6%",
+                        "22.4%",
+                        "23.1%",
+                        "23.8%",
+                        "26.6%"
+                    ]
+                ],
+                "Effects": []
+            },
+            "WeaponPassive": {
+                "Name": "温泉フリーク+",
+                "Icon": "COMMON_SKILLICON_WEAPONBUFF",
+                "Desc": "弱体状態持続力を<?1>増加/\nさらに攻撃力を<?2>増加",
+                "Parameters": [
+                    [
+                        "1000",
+                        "1050",
+                        "1100",
+                        "1300",
+                        "1350",
+                        "1400",
+                        "1600",
+                        "1650",
+                        "1700",
+                        "1900"
+                    ],
+                    [
+                        "14%",
+                        "14.7%",
+                        "15.4%",
+                        "18.2%",
+                        "18.9%",
+                        "19.6%",
+                        "22.4%",
+                        "23.1%",
+                        "23.8%",
+                        "26.6%"
+                    ]
+                ],
+                "Effects": []
+            },
+            "ExtraPassive": {
+                "Name": "真面目だねぇ？",
+                "Icon": "COMMON_SKILLICON_BULLETTYPEBUFF",
+                "Desc": "味方の貫通特効を<?1>増加",
+                "Parameters": [
+                    [
+                        "15.9%",
+                        "16.7%",
+                        "17.5%",
+                        "20.7%",
+                        "21.5%",
+                        "22.3%",
+                        "25.5%",
+                        "26.3%",
+                        "27%",
+                        "30.2%"
+                    ]
+                ],
+                "Effects": []
+            }
+        },
+        "FavorStatType": [
+            "AttackPower",
+            "MaxHP"
+        ],
+        "FavorStatValue": [
+            [
+                2,
+                0
+            ],
+            [
+                4,
+                0
+            ],
+            [
+                5,
+                55
+            ],
+            [
+                7,
+                66
+            ],
+            [
+                2,
+                11
+            ],
+            [
+                2,
+                16
+            ],
+            [
+                4,
+                27
+            ]
+        ],
+        "FavorAlts": [],
+        "MemoryLobby": [],
+        "MemoryLobbyBGM": 22,
+        "FurnitureInteraction": [
+            [],
+            [],
+            []
+        ],
+        "FavorItemTags": [],
+        "FavorItemUniqueTags": [],
+        "IsLimited": [
+            0,
+            0,
+            0
+        ],
+        "Weapon": {
+            "Name": "レッド・レクター",
+            "Desc": "カスミが持ち歩いている拳銃。\n\n普段はドリルの音や爆発音に埋もれがちだが、温泉開発部の工事は、この銃声を合図に始まる。",
+            "AdaptationType": "Indoor",
+            "AdaptationValue": 1,
+            "AttackPower1": 108,
+            "AttackPower100": 1075,
+            "MaxHP1": 638,
+            "MaxHP100": 6380,
+            "HealPower1": 201,
+            "HealPower100": 2008,
+            "StatLevelUpType": "Standard"
+        },
+        "Gear": {},
+        "SkillExMaterial": [
+            [
+                3030,
+                150
+            ],
+            [
+                3031,
+                3030,
+                151,
+                250
+            ],
+            [
+                3032,
+                3031,
+                152,
+                251
+            ],
+            [
+                3033,
+                3032,
+                153,
+                252
+            ]
+        ],
+        "SkillExMaterialAmount": [
+            [
+                12,
+                14
+            ],
+            [
+                12,
+                18,
+                14,
+                29
+            ],
+            [
+                12,
+                18,
+                11,
+                25
+            ],
+            [
+                8,
+                18,
+                8,
+                20
+            ]
+        ],
+        "SkillMaterial": [
+            [
+                4030
+            ],
+            [
+                4030
+            ],
+            [
+                4031,
+                4030,
+                150
+            ],
+            [
+                4031,
+                151,
+                250
+            ],
+            [
+                4032,
+                4031,
+                151,
+                250
+            ],
+            [
+                4032,
+                152,
+                251
+            ],
+            [
+                4033,
+                4032,
+                153,
+                252
+            ],
+            [
+                4033,
+                153,
+                252
+            ]
+        ],
+        "SkillMaterialAmount": [
+            [
+                5
+            ],
+            [
+                8
+            ],
+            [
+                5,
+                12,
+                6
+            ],
+            [
+                8,
+                4,
+                14
+            ],
+            [
+                5,
+                12,
+                11,
+                20
+            ],
+            [
+                8,
+                3,
+                18
+            ],
+            [
+                8,
+                12,
+                4,
+                9
+            ],
+            [
+                12,
+                8,
+                13
+            ]
+        ],
+        "PotentialMaterial": 150,
+        "Source": "wikiru",
+        "DataPartial": true
+    },
+    "10153": {
+        "Id": 10153,
+        "IsReleased": [
+            true,
+            false,
+            false
+        ],
+        "DefaultOrder": 278,
+        "PathName": "tsumugi",
+        "DevName": "CH0252",
+        "Name": "ツムギ",
+        "Icon": null,
+        "SearchTags": [],
+        "School": "WildHunt",
+        "Club": "OccultClub",
+        "StarGrade": 3,
+        "SquadType": "Main",
+        "TacticRole": "Tanker",
+        "Summons": [],
+        "Position": "Front",
+        "BulletType": "Pierce",
+        "ArmorType": "Unarmed",
+        "StreetBattleAdaptation": 4,
+        "OutdoorBattleAdaptation": 0,
+        "IndoorBattleAdaptation": 2,
+        "WeaponType": "SMG",
+        "WeaponImg": "weapon_icon_ch0252",
+        "Cover": true,
+        "Size": "Medium",
+        "Equipment": [
+            "Shoes",
+            "Bag",
+            "Necklace"
+        ],
+        "CollectionBG": "BG_WildhuntCampusPlaza_Night_Collection",
+        "FamilyName": "椎名",
+        "PersonalName": "ツムギ",
+        "SchoolYear": "2年生",
+        "CharacterAge": "16歳",
+        "Birthday": "3月11日",
+        "FamilyNameRuby": "しいな",
+        "PersonalNameRuby": "",
+        "CharacterSSRNew": "",
+        "ProfileIntroduction": "ワイルドハント芸術学院所属、 芸術に宿るオカルトを研究するオカルト研究会の副会長。\n\nオカルトを本気で信じているというよりは、みんなと一緒に過ごす時間が楽しくてオカルト研究会に所属している。\n趣味の路上ライブでは、色々な場所を移動しながら音楽を奏でている。",
+        "Hobby": "ぶらり旅、路上ライブ",
+        "CharacterVoice": "高田紗希衣",
+        "BirthDay": "3/11",
+        "Illustrator": "Paruru",
+        "Designer": "owa",
+        "CharHeightMetric": "162cm",
+        "CharHeightImperial": null,
+        "StabilityPoint": 1356,
+        "AttackPower1": 240,
+        "AttackPower100": 2403,
+        "MaxHP1": 2907,
+        "MaxHP100": 48601,
+        "DefensePower1": 174,
+        "DefensePower100": 1047,
+        "HealPower1": 1154,
+        "HealPower100": 3463,
+        "DodgePoint": 232,
+        "AccuracyPoint": 103,
+        "CriticalPoint": 206,
+        "CriticalDamageRate": 20000,
+        "AmmoCount": 20,
+        "AmmoCost": 3,
+        "Range": 350,
+        "SightPoint": 800,
+        "RegenCost": 700,
+        "Skills": {
+            "Normal": {
+                "Effects": [
+                    {
+                        "Type": "Damage",
+                        "Hits": [
+                            1666,
+                            1666,
+                            1667,
+                            1667,
+                            1667,
+                            1667
+                        ],
+                        "Scale": [
+                            10000
+                        ],
+                        "Block": 1
+                    }
+                ],
+                "Frames": {
+                    "AttackEnterDuration": 45,
+                    "AttackStartDuration": 16,
+                    "AttackEndDuration": 16,
+                    "AttackBurstRoundOverDelay": 30,
+                    "AttackIngDuration": 12,
+                    "AttackReloadDuration": 65
+                }
+            },
+            "Ex": {
+                "Name": "ラブ・アンド・ピース！",
+                "Icon": "SKILLICON_CH0252_EXSKILL",
+                "Desc": "円形範囲内の敵に攻撃力の<?1>分のダメージ。混乱状態を付与(<?2>秒間)/\n中型および小型の敵に、攻撃力の<?3>分の追加ダメージ/\n(このスキルのダメージにおいては会心が発動しません)",
+                "Parameters": [
+                    [
+                        "337%",
+                        "387%",
+                        "489%",
+                        "539%",
+                        "640%"
+                    ],
+                    [
+                        "2.9",
+                        "3.1",
+                        "3.9",
+                        "4.1",
+                        "5"
+                    ],
+                    [
+                        "317%",
+                        "365%",
+                        "460%",
+                        "508%",
+                        "603%"
+                    ]
+                ],
+                "Cost": [
+                    3,
+                    3,
+                    3,
+                    3,
+                    3
+                ],
+                "Effects": []
+            },
+            "Public": {
+                "Name": "インスピレーション",
+                "Icon": "COMMON_SKILLICON_HEAL",
+                "Desc": "40秒毎に、治癒力の<?1>分の回復",
+                "Parameters": [
+                    [
+                        "99%",
+                        "104%",
+                        "108%",
+                        "118%",
+                        "123%",
+                        "128%",
+                        "138%",
+                        "143%",
+                        "148%",
+                        "158%"
+                    ]
+                ],
+                "Effects": []
+            },
+            "Passive": {
+                "Name": "デスメタルの精神",
+                "Icon": "COMMON_SKILLICON_STATBUFF",
+                "Desc": "HPを<?1>増加",
+                "Parameters": [
+                    [
+                        "14%",
+                        "14.7%",
+                        "15.4%",
+                        "18.2%",
+                        "18.9%",
+                        "19.6%",
+                        "22.4%",
+                        "23.1%",
+                        "23.8%",
+                        "26.6%"
+                    ]
+                ],
+                "Effects": []
+            },
+            "WeaponPassive": {
+                "Name": "デスメタルの精神+",
+                "Icon": "COMMON_SKILLICON_STATBUFF",
+                "Desc": "HPを<?1>増加/\nさらにHPを<?2>増加",
+                "Parameters": [
+                    [
+                        "4652",
+                        "4884",
+                        "5117",
+                        "6047",
+                        "6280",
+                        "6512",
+                        "7442",
+                        "7675",
+                        "7908",
+                        "8838"
+                    ],
+                    [
+                        "14%",
+                        "14.7%",
+                        "15.4%",
+                        "18.2%",
+                        "18.9%",
+                        "19.6%",
+                        "22.4%",
+                        "23.1%",
+                        "23.8%",
+                        "26.6%"
+                    ]
+                ],
+                "Effects": []
+            },
+            "ExtraPassive": {
+                "Name": "平和！平和！平和！",
+                "Icon": "COMMON_SKILLICON_STATBUFF",
+                "Desc": "命中値を<?1>増加/\nEXスキルの使用時、被ダメージ量を<?2>減少(19秒間)",
+                "Parameters": [
+                    [
+                        "173",
+                        "182",
+                        "191",
+                        "225",
+                        "234",
+                        "242",
+                        "277",
+                        "286",
+                        "294",
+                        "329"
+                    ],
+                    [
+                        "17.7%",
+                        "18.6%",
+                        "19.4%",
+                        "23%",
+                        "23.9%",
+                        "24.8%",
+                        "28.3%",
+                        "29.2%",
+                        "30.1%",
+                        "33.6%"
+                    ]
+                ],
+                "Effects": []
+            }
+        },
+        "FavorStatType": [
+            "MaxHP",
+            "HealPower"
+        ],
+        "FavorStatValue": [
+            [
+                49,
+                0
+            ],
+            [
+                73,
+                0
+            ],
+            [
+                97,
+                8
+            ],
+            [
+                122,
+                10
+            ],
+            [
+                30,
+                2
+            ],
+            [
+                45,
+                2
+            ],
+            [
+                75,
+                4
+            ]
+        ],
+        "FavorAlts": [],
+        "MemoryLobby": [
+            6,
+            0,
+            0
+        ],
+        "MemoryLobbyBGM": 0,
+        "FurnitureInteraction": [
+            [],
+            [],
+            []
+        ],
+        "FavorItemTags": [],
+        "FavorItemUniqueTags": [],
+        "IsLimited": [
+            0,
+            0,
+            0
+        ],
+        "Weapon": {
+            "Name": "ラブ・アンド・ピース",
+            "Desc": "携行性に優れたツムギの折りたたみ式サブマシンガン。\n\n炎の音楽を響かせ、あらゆる場所に平和をもたらす。",
+            "AdaptationType": "Street",
+            "AdaptationValue": 1,
+            "AttackPower1": 106,
+            "AttackPower100": 1056,
+            "MaxHP1": 1377,
+            "MaxHP100": 13772,
+            "HealPower1": 136,
+            "HealPower100": 1358,
+            "StatLevelUpType": "Standard"
+        },
+        "Gear": {},
+        "SkillExMaterial": [
+            [
+                3100,
+                210
+            ],
+            [
+                3101,
+                3100,
+                211,
+                160
+            ],
+            [
+                3102,
+                3101,
+                212,
+                161
+            ],
+            [
+                3103,
+                3102,
+                213,
+                162
+            ]
+        ],
+        "SkillExMaterialAmount": [
+            [
+                12,
+                16
+            ],
+            [
+                12,
+                18,
+                13,
+                31
+            ],
+            [
+                12,
+                18,
+                11,
+                25
+            ],
+            [
+                8,
+                18,
+                8,
+                20
+            ]
+        ],
+        "SkillMaterial": [
+            [
+                4100
+            ],
+            [
+                4100
+            ],
+            [
+                4101,
+                4100,
+                210
+            ],
+            [
+                4101,
+                211,
+                160
+            ],
+            [
+                4102,
+                4101,
+                211,
+                160
+            ],
+            [
+                4102,
+                212,
+                161
+            ],
+            [
+                4103,
+                4102,
+                213,
+                162
+            ],
+            [
+                4103,
+                213,
+                162
+            ]
+        ],
+        "SkillMaterialAmount": [
+            [
+                5
+            ],
+            [
+                8
+            ],
+            [
+                5,
+                12,
+                5
+            ],
+            [
+                8,
+                4,
+                15
+            ],
+            [
+                5,
+                12,
+                10,
+                17
+            ],
+            [
+                8,
+                3,
+                17
+            ],
+            [
+                8,
+                12,
+                4,
+                7
+            ],
+            [
+                12,
+                8,
+                14
+            ]
+        ],
+        "PotentialMaterial": 210,
+        "Source": "wikiru",
+        "DataPartial": true
+    },
+    "20063": {
+        "Id": 20063,
+        "IsReleased": [
+            true,
+            false,
+            false
+        ],
+        "DefaultOrder": 279,
+        "PathName": "hifumi_racing",
+        "DevName": "CH0379",
+        "Name": "ヒフミ（レーシング）",
+        "Icon": null,
+        "SearchTags": [],
+        "School": "Trinity",
+        "Club": "RemedialClass",
+        "StarGrade": 3,
+        "SquadType": "Main",
+        "TacticRole": "DamageDealer",
+        "Summons": [],
+        "Position": "Middle",
+        "BulletType": "Explosion",
+        "ArmorType": "Unarmed",
+        "StreetBattleAdaptation": 2,
+        "OutdoorBattleAdaptation": 0,
+        "IndoorBattleAdaptation": 4,
+        "WeaponType": "AR",
+        "WeaponImg": "weapon_icon_10003",
+        "Cover": false,
+        "Size": "Medium",
+        "Equipment": [
+            "Hat",
+            "Hairpin",
+            "Watch"
+        ],
+        "CollectionBG": "BG_Trinity_Collection",
+        "FamilyName": "阿慈谷",
+        "PersonalName": "ヒフミ",
+        "SchoolYear": "2年生",
+        "CharacterAge": "16歳",
+        "Birthday": "11月27日",
+        "FamilyNameRuby": "あじたに",
+        "PersonalNameRuby": "",
+        "CharacterSSRNew": "",
+        "ProfileIntroduction": "トリニティ総合学園所属、補習授業部の多情多感な少女。今回は大切な友達と一緒に戦車レースに参加している。\n\n再試験を免除してもらうべくゲヘナカップに参加することになった。\n普段は穏やかで目立たないと自負していたヒフミだが、そんな彼女を見つめる観客の視線は何故か熱く……？",
+        "Hobby": "ペロログッズ集め、可愛いもの集め、ショッピング、相談に乗ること",
+        "CharacterVoice": "本渡楓",
+        "BirthDay": "11/27",
+        "Illustrator": "GINGGU",
+        "Designer": "GINGGU",
+        "CharHeightMetric": "158cm",
+        "CharHeightImperial": null,
+        "StabilityPoint": 1260,
+        "AttackPower1": 409,
+        "AttackPower100": 4099,
+        "MaxHP1": 2027,
+        "MaxHP100": 20270,
+        "DefensePower1": 18,
+        "DefensePower100": 108,
+        "HealPower1": 1539,
+        "HealPower100": 4616,
+        "DodgePoint": 720,
+        "AccuracyPoint": 769,
+        "CriticalPoint": 219,
+        "CriticalDamageRate": 20000,
+        "AmmoCount": 15,
+        "AmmoCost": 3,
+        "Range": 650,
+        "SightPoint": 800,
+        "RegenCost": 700,
+        "Skills": {
+            "Normal": {
+                "Effects": [
+                    {
+                        "Type": "Damage",
+                        "Hits": [
+                            3333,
+                            3333,
+                            3334
+                        ],
+                        "Scale": [
+                            10000
+                        ],
+                        "Block": 1
+                    }
+                ],
+                "Frames": {
+                    "AttackEnterDuration": 66,
+                    "AttackStartDuration": 24,
+                    "AttackEndDuration": 16,
+                    "AttackBurstRoundOverDelay": 40,
+                    "AttackIngDuration": 24,
+                    "AttackReloadDuration": 60
+                }
+            },
+            "Ex": {
+                "Name": "クルセイダーちゃん、行きますよ！",
+                "Icon": "COMMON_SKILLICON_TARGET",
+                "Desc": "敵1人に対して、攻撃力の<?1>分のダメージ/\n「サーキットの熱気」を保有している場合、すべて消耗してこの攻撃を強化して、\n消耗した「サーキットの熱気」1個につき、ダメージを0.5倍加算",
+                "Parameters": [
+                    [
+                        "643%",
+                        "739%",
+                        "932%",
+                        "1028%",
+                        "1221%"
+                    ]
+                ],
+                "Cost": [
+                    5,
+                    5,
+                    5,
+                    5,
+                    5
+                ],
+                "Effects": []
+            },
+            "Public": {
+                "Name": "AP弾装填！",
+                "Icon": "COMMON_SKILLICON_STATDEBUFF",
+                "Desc": "32秒毎に、敵1人に対して攻撃力の<?1>分のダメージ/\n対象が軽装備の場合、攻撃前に被特効ダメージ量を<?2>加算 (30秒間)",
+                "Parameters": [
+                    [
+                        "223%",
+                        "234%",
+                        "246%",
+                        "290%",
+                        "302%",
+                        "313%",
+                        "358%",
+                        "369%",
+                        "380%",
+                        "425%"
+                    ],
+                    [
+                        "8.3%",
+                        "8.7%",
+                        "9.1%",
+                        "10.8%",
+                        "11.2%",
+                        "11.6%",
+                        "13.3%",
+                        "13.7%",
+                        "14.1%",
+                        "15.8%"
+                    ]
+                ],
+                "Effects": []
+            },
+            "Passive": {
+                "Name": "レーサーの底力",
+                "Icon": "COMMON_SKILLICON_WEAPONBUFF",
+                "Desc": "会心ダメージ率を<?1>増加",
+                "Parameters": [
+                    [
+                        "14%",
+                        "14.7%",
+                        "15.4%",
+                        "18.2%",
+                        "18.9%",
+                        "19.6%",
+                        "22.4%",
+                        "23.1%",
+                        "23.8%",
+                        "26.6%"
+                    ]
+                ],
+                "Effects": []
+            },
+            "WeaponPassive": {
+                "Name": "レーサーの底力+",
+                "Icon": "COMMON_SKILLICON_WEAPONBUFF",
+                "Desc": "攻撃力を<?1>増加/\nさらに会心ダメージ率を<?2>増加",
+                "Parameters": [
+                    [
+                        "491",
+                        "516",
+                        "540",
+                        "639",
+                        "663",
+                        "688",
+                        "786",
+                        "810",
+                        "835",
+                        "933"
+                    ],
+                    [
+                        "14%",
+                        "14.7%",
+                        "15.4%",
+                        "18.2%",
+                        "18.9%",
+                        "19.6%",
+                        "22.4%",
+                        "23.1%",
+                        "23.8%",
+                        "26.6%"
+                    ]
+                ],
+                "Effects": []
+            },
+            "ExtraPassive": {
+                "Name": "敏腕レーサー",
+                "Icon": "SKILLICON_CH0379_EXTRAPASSIVESKILL",
+                "Desc": "自身を除くストライカーかつアタッカーの味方がEXスキル使用時、その味方に対して会心ダメージ率を<?1>増加(7秒間)/\n「サーキットの熱気」を1個獲得(「サーキットの熱気」は最大4個まで重複)",
+                "Parameters": [
+                    [
+                        "5.7%",
+                        "6%",
+                        "6.3%",
+                        "7.4%",
+                        "7.7%",
+                        "8%",
+                        "9.2%",
+                        "9.4%",
+                        "9.7%",
+                        "10.9%"
+                    ]
+                ],
+                "Effects": []
+            }
+        },
+        "FavorStatType": [
+            "AttackPower",
+            "MaxHP"
+        ],
+        "FavorStatValue": [
+            [
+                4,
+                0
+            ],
+            [
+                6,
+                0
+            ],
+            [
+                8,
+                51
+            ],
+            [
+                10,
+                61
+            ],
+            [
+                2,
+                10
+            ],
+            [
+                4,
+                15
+            ],
+            [
+                6,
+                25
+            ]
+        ],
+        "FavorAlts": [],
+        "MemoryLobby": [
+            6,
+            0,
+            0
+        ],
+        "MemoryLobbyBGM": 0,
+        "FurnitureInteraction": [
+            [],
+            [],
+            []
+        ],
+        "FavorItemTags": [],
+        "FavorItemUniqueTags": [],
+        "IsLimited": [
+            1,
+            1,
+            1
+        ],
+        "Weapon": {
+            "Name": "マイ・ネセシティ",
+            "Desc": "ヒフミが持ち歩いているアサルトライフル。戦車を乗り降りする際に邪魔にならないサイズ。\n\n持ち主が平和志向のため、あまり使われてはいない様子。",
+            "AdaptationType": "Indoor",
+            "AdaptationValue": 1,
+            "AttackPower1": 180,
+            "AttackPower100": 1801,
+            "MaxHP1": 583,
+            "MaxHP100": 5830,
+            "HealPower1": 0,
+            "HealPower100": 0,
+            "StatLevelUpType": "Standard"
+        },
+        "Gear": {},
+        "SkillExMaterial": [
+            [
+                3020,
+                190
+            ],
+            [
+                3021,
+                3020,
+                191,
+                200
+            ],
+            [
+                3022,
+                3021,
+                192,
+                201
+            ],
+            [
+                3023,
+                3022,
+                193,
+                202
+            ]
+        ],
+        "SkillExMaterialAmount": [
+            [
+                12,
+                15
+            ],
+            [
+                12,
+                18,
+                11,
+                30
+            ],
+            [
+                12,
+                18,
+                12,
+                24
+            ],
+            [
+                8,
+                18,
+                9,
+                20
+            ]
+        ],
+        "SkillMaterial": [
+            [
+                4020
+            ],
+            [
+                4020
+            ],
+            [
+                4021,
+                4020,
+                190
+            ],
+            [
+                4021,
+                191,
+                200
+            ],
+            [
+                4022,
+                4021,
+                191,
+                200
+            ],
+            [
+                4022,
+                192,
+                201
+            ],
+            [
+                4023,
+                4022,
+                193,
+                202
+            ],
+            [
+                4023,
+                193,
+                202
+            ]
+        ],
+        "SkillMaterialAmount": [
+            [
+                5
+            ],
+            [
+                8
+            ],
+            [
+                5,
+                12,
+                5
+            ],
+            [
+                8,
+                4,
+                14
+            ],
+            [
+                5,
+                12,
+                10,
+                20
+            ],
+            [
+                8,
+                3,
+                16
+            ],
+            [
+                8,
+                12,
+                4,
+                9
+            ],
+            [
+                12,
+                8,
+                13
+            ]
+        ],
+        "PotentialMaterial": 190,
+        "Source": "wikiru",
+        "DataPartial": true
+    },
+    "26017": {
+        "Id": 26017,
+        "IsReleased": [
+            true,
+            false,
+            false
+        ],
+        "DefaultOrder": 280,
+        "PathName": "rana",
+        "DevName": "CH0322",
+        "Name": "ラナ",
+        "Icon": null,
+        "SearchTags": [],
+        "School": "RedWinter",
+        "Club": "Class183",
+        "StarGrade": 1,
+        "SquadType": "Support",
+        "TacticRole": "Vehicle",
+        "Summons": [],
+        "Position": "Back",
+        "BulletType": "Explosion",
+        "ArmorType": "Unarmed",
+        "StreetBattleAdaptation": 2,
+        "OutdoorBattleAdaptation": 2,
+        "IndoorBattleAdaptation": 2,
+        "WeaponType": "SG",
+        "WeaponImg": "weapon_icon_ch0322",
+        "Cover": false,
+        "Size": "Medium",
+        "Equipment": [
+            "Hat",
+            "Badge",
+            "Watch"
+        ],
+        "CollectionBG": "BG_Redwinter_Collection",
+        "FamilyName": "古畑",
+        "PersonalName": "ラナ",
+        "SchoolYear": "1年生",
+        "CharacterAge": "12歳",
+        "Birthday": "6月13日",
+        "FamilyNameRuby": "ふるはた",
+        "PersonalNameRuby": "",
+        "CharacterSSRNew": "",
+        "ProfileIntroduction": "レッドウィンター連邦学園所属、ただし懲戒処分を受けて現在は旧校舎183号特別クラスで謹慎中の生徒。\n183号特別クラス内では副副委員長を務めている。\n\n入学試験のマークシートで点数を直接入力したため、183号特別クラス行きになった。\n電算管理業務を担当しており、好奇心のままに行動した結果、いろいろとやらかしてしまうことがある。\n友達や先生を何よりも大切に思っている。",
+        "Hobby": "編み物、岩登り",
+        "CharacterVoice": "飯田ヒカル",
+        "BirthDay": "6/13",
+        "Illustrator": "ramuri",
+        "Designer": "ramuri",
+        "CharHeightMetric": "135cm",
+        "CharHeightImperial": null,
+        "StabilityPoint": 2305,
+        "AttackPower1": 225,
+        "AttackPower100": 2764,
+        "MaxHP1": 2014,
+        "MaxHP100": 16887,
+        "DefensePower1": 66,
+        "DefensePower100": 401,
+        "HealPower1": 1366,
+        "HealPower100": 4842,
+        "DodgePoint": 200,
+        "AccuracyPoint": 498,
+        "CriticalPoint": 249,
+        "CriticalDamageRate": 20000,
+        "AmmoCount": 5,
+        "AmmoCost": 1,
+        "Range": 1000,
+        "SightPoint": 800,
+        "RegenCost": 700,
+        "Skills": {
+            "Normal": {
+                "Effects": [
+                    {
+                        "Type": "Damage",
+                        "Hits": [
+                            3334,
+                            3333,
+                            3333
+                        ],
+                        "Scale": [
+                            10000
+                        ],
+                        "Block": 1
+                    }
+                ],
+                "Frames": {
+                    "AttackEnterDuration": 34,
+                    "AttackStartDuration": 11,
+                    "AttackEndDuration": 15,
+                    "AttackBurstRoundOverDelay": 30,
+                    "AttackIngDuration": 22,
+                    "AttackReloadDuration": 60
+                }
+            },
+            "Ex": {
+                "Name": "IPoACスプーフィング",
+                "Icon": "COMMON_SKILLICON_CIRCLE",
+                "Desc": "敵1人に対して、攻撃力の<?1>分のダメージ/\n「子犬号」が戦闘に登場中、「1バイトバースト」にスキルが変更されます。",
+                "Parameters": [
+                    [
+                        "145%",
+                        "189%",
+                        "276%",
+                        "320%",
+                        "407%"
+                    ]
+                ],
+                "Cost": [
+                    5,
+                    5,
+                    5,
+                    5,
+                    5
+                ],
+                "Effects": []
+            },
+            "Public": {
+                "Name": "ウォッチドッグタイマー",
+                "Icon": "SKILLICON_CH0322_PUBLICSKILL",
+                "Desc": "戦闘開始時およびその後、60秒毎に「子犬号」を召喚。子犬号はラナの攻撃力の<?1>分が追加された攻撃力を持ちます。(50秒間)\n(子犬号の通常攻撃は敵1人を中心とした円形範囲内の敵に対して、攻撃力の100%分のダメージ。\n対象の付近に敵がいる場合、最大1人に対して攻撃力の50%分のダメージを与えます。)\n(タクティカルサポートの搭乗物は重複して登場することはできません)",
+                "Parameters": [
+                    [
+                        "9.4%",
+                        "9.9%",
+                        "10.3%",
+                        "12.2%",
+                        "12.7%",
+                        "13.2%",
+                        "15.1%",
+                        "15.5%",
+                        "16%",
+                        "17.9%"
+                    ]
+                ],
+                "Effects": []
+            },
+            "Passive": {
+                "Name": "オーバークロック",
+                "Icon": "COMMON_SKILLICON_WEAPONBUFF",
+                "Desc": "攻撃力を<?1>増加",
+                "Parameters": [
+                    [
+                        "14%",
+                        "14.7%",
+                        "15.4%",
+                        "18.2%",
+                        "18.9%",
+                        "19.6%",
+                        "22.4%",
+                        "23.1%",
+                        "23.8%",
+                        "26.6%"
+                    ]
+                ],
+                "Effects": []
+            },
+            "WeaponPassive": {
+                "Name": "オーバークロック+",
+                "Icon": "COMMON_SKILLICON_WEAPONBUFF",
+                "Desc": "攻撃力を<?1>増加/\nさらに攻撃力を<?2>増加",
+                "Parameters": [
+                    [
+                        "330",
+                        "347",
+                        "363",
+                        "429",
+                        "446",
+                        "462",
+                        "528",
+                        "545",
+                        "561",
+                        "627"
+                    ],
+                    [
+                        "14%",
+                        "14.7%",
+                        "15.4%",
+                        "18.2%",
+                        "18.9%",
+                        "19.6%",
+                        "22.4%",
+                        "23.1%",
+                        "23.8%",
+                        "26.6%"
+                    ]
+                ],
+                "Effects": []
+            },
+            "ExtraPassive": {
+                "Name": "マルチキャスト",
+                "Icon": "COMMON_SKILLICON_WEAPONBUFF",
+                "Desc": "味方の攻撃力を<?1>増加",
+                "Parameters": [
+                    [
+                        "9.1%",
+                        "9.5%",
+                        "10%",
+                        "11.8%",
+                        "12.3%",
+                        "12.7%",
+                        "14.5%",
+                        "15%",
+                        "15.5%",
+                        "17.3%"
+                    ]
+                ],
+                "Effects": []
+            }
+        },
+        "FavorStatType": [
+            "AttackPower",
+            "MaxHP"
+        ],
+        "FavorStatValue": [
+            [
+                3,
+                0
+            ],
+            [
+                4,
+                0
+            ],
+            [
+                5,
+                42
+            ],
+            [
+                7,
+                51
+            ],
+            [
+                2,
+                8
+            ],
+            [
+                2,
+                13
+            ],
+            [
+                4,
+                21
+            ]
+        ],
+        "FavorAlts": [],
+        "MemoryLobby": [
+            2,
+            0,
+            0
+        ],
+        "MemoryLobbyBGM": 0,
+        "FurnitureInteraction": [
+            [],
+            [],
+            []
+        ],
+        "FavorItemTags": [],
+        "FavorItemUniqueTags": [],
+        "IsLimited": [
+            2,
+            2,
+            2
+        ],
+        "Weapon": {
+            "Name": "スペシャルレフリー",
+            "Desc": "ラナが愛用しているショットガン。審判の際に活躍中。\n\nパンチカードを廃棄する時にも使用している様子。",
+            "AdaptationType": "Outdoor",
+            "AdaptationValue": 1,
+            "AttackPower1": 97,
+            "AttackPower100": 970,
+            "MaxHP1": 393,
+            "MaxHP100": 3927,
+            "HealPower1": 151,
+            "HealPower100": 1508,
+            "StatLevelUpType": "Standard"
+        },
+        "Gear": {},
+        "SkillExMaterial": [
+            [
+                3010,
+                290
+            ],
+            [
+                3011,
+                3010,
+                291,
+                140
+            ],
+            [
+                3012,
+                3011,
+                292,
+                141
+            ],
+            [
+                3013,
+                3012,
+                293,
+                142
+            ]
+        ],
+        "SkillExMaterialAmount": [
+            [
+                12,
+                14
+            ],
+            [
+                12,
+                18,
+                15,
+                27
+            ],
+            [
+                12,
+                18,
+                12,
+                25
+            ],
+            [
+                8,
+                18,
+                8,
+                20
+            ]
+        ],
+        "SkillMaterial": [
+            [
+                4010
+            ],
+            [
+                4010
+            ],
+            [
+                4011,
+                4010,
+                290
+            ],
+            [
+                4011,
+                291,
+                140
+            ],
+            [
+                4012,
+                4011,
+                291,
+                140
+            ],
+            [
+                4012,
+                292,
+                141
+            ],
+            [
+                4013,
+                4012,
+                293,
+                142
+            ],
+            [
+                4013,
+                293,
+                142
+            ]
+        ],
+        "SkillMaterialAmount": [
+            [
+                5
+            ],
+            [
+                8
+            ],
+            [
+                5,
+                12,
+                5
+            ],
+            [
+                8,
+                3,
+                12
+            ],
+            [
+                5,
+                12,
+                10,
+                18
+            ],
+            [
+                8,
+                3,
+                15
+            ],
+            [
+                8,
+                12,
+                4,
+                9
+            ],
+            [
+                12,
+                8,
+                13
+            ]
+        ],
+        "PotentialMaterial": 290,
+        "Source": "wikiru",
+        "DataPartial": true
     }
 }
