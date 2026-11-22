@@ -3,6 +3,59 @@
 このリポジトリは [SchaleDB](https://schaledb.com/) の個人フォークです。
 本ファイルは、フォーク側で行ったデータ・画像の更新について記録するものです。
 
+## 2026-11-22 更新（wikiru から新生徒を追加）
+
+ブルアカ攻略 wikiru（`https://bluearchive.wikiru.jp/`）のキャラクター一覧（281行）と突き合わせ、
+本フォーク未登録の **7名** を wikiru の各生徒ページから取り込みました（`tools/wikiru_sync.py`）。
+
+- 生徒数: 274件 → **281件**（全言語。他言語ファイルにも日本語のまま追加）
+
+| Id（仮） | 名前 | ★ | 学校 | 部活 | 攻撃 | 防御 | 武器 | 役割 |
+|---|---|---|---|---|---|---|---|---|
+| 10151 | アンナ | 3 | RedWinter | Class183（183号特別クラス） | Pierce | LightArmor | HG | DamageDealer / Middle |
+| 10152 | エリナ | 3 | RedWinter | Class183 | Sonic | LightArmor | HG | Supporter / Back |
+| 10153 | ツムギ | 3 | WildHunt | OccultClub | Pierce | Unarmed | SMG | Tanker / Front |
+| 20061 | アズサ（レーシング） | 3 | Trinity | RemedialClass | Explosion | Unarmed | AR | Supporter / Back |
+| 20062 | カスミ（水着） | 3 | Gehenna | HotSpringsDepartment | Pierce | Unarmed | HG | Supporter / Back |
+| 20063 | ヒフミ（レーシング） | 3 | Trinity | RemedialClass | Explosion | Unarmed | AR | DamageDealer / Middle |
+| 26017 | ラナ | 1 | RedWinter | Class183 | Explosion | Unarmed | SG | Vehicle / Back |
+
+いずれも `"Source": "wikiru"` / `"DataPartial": true` を持つ**部分データ**です。
+`IsReleased` は `[true, false, false]`（日本のみ）。localization の `Club` に `Class183` を追加しました。
+
+### wikiru から取れたもの / 取れなかったもの
+
+- **取得**: プロフィール（フルネーム・ルビ・学年・年齢・誕生日・身長・趣味・CV・イラスト/デザイン・紹介文）、
+  ステータス（★3 Lv90 の値から Lv1/Lv100 を逆算。既存のコトネで照合し ±1 以内）、地形適性、装備、
+  スキル5種（名前・説明・レベル別数値・EXコスト・アイコン）、固有武器（名前・説明・Lv1/Lv100・★3地形強化）、
+  絆ランクボーナス、スキル育成素材、能力解放素材、メモリアルロビー解放ランク（記載がある生徒のみ）
+- **取得できず空/仮**: `Id`（下記）、スキルの `Effects`（ダメージ計算用の内部値）、通常攻撃（同じ武器種の既存生徒から流用）、
+  `CharacterSSRNew`（加入時セリフ）、贈り物の好み・家具インタラクション、`MemoryLobbyBGM`、
+  エリナとカスミ（水着）のメモロビ解放ランク、弾数・弾コスト（同武器種の中央値）、`Size`（Medium 固定）
+
+### Id について
+
+wikiru には内部 Id が無いため、既存の採番規則に沿って**仮の Id** を振っています
+（新規★3 = 10xxx、衣装違い★3 = 20xxx、★1 = 26xxx）。
+schaledb.com 側に正式データが出たら、**同名の wikiru エントリを削除してから**正式データに置き換えてください（Id が変わる可能性があります）。
+
+### 画像（36ファイル追加、すべて wikiru の添付画像を WebP 変換）
+
+- `images/student/icon` … 一覧のアイコン（120×120 に縮小）= 7件
+- `images/student/portrait` … 生徒ページのメイン立ち絵（高さ 1280px）= 7件
+- `images/student/lobby` … メモリアルロビー画像を 182×144 に中央切り抜き = 7件
+- `images/student/collection` … **立ち絵の頭部付近を切り抜いた仮画像**（wikiru に同等の画像が無いため）= 7件
+- `images/weapon` … `weapon_icon_ch0252` / `ch0320` / `ch0321` / `ch0322` = 4件
+  （衣装違い3名は元生徒の武器アイコンを参照）
+- `images/skill` … 固有スキルアイコン 4件
+
+### 既知の問題（今回の更新以前から）
+
+2026-08-22 のフルデータ同期以降、`data/*/students.min.json` などは schaledb.com の新しい
+**オブジェクト形式（`{"10000": {...}}`）**ですが、本フォークの `js/common.min.js`（v302）は
+**配列形式**を前提にしているため、ローカルで `index.html` を開くと読み込み中のまま止まります
+（`data.students.sort is not a function`）。今回の追加データ自体は既存エントリと同じキー・型であることを確認済みです。
+
 ## 2026-08-31 更新（差分同期）
 
 前回（2026-08-22）以降の schaledb.com ライブデータとの差分を取り込みました。
